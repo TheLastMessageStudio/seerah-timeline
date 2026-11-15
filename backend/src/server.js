@@ -87,12 +87,13 @@ async function loadMembership(accessToken) {
   const memberStatus = selected?.attributes?.patron_status || null;
   const chargeStatus = selected?.attributes?.last_charge_status || null;
   const active = memberStatus === 'active_patron' && Boolean(chosen);
+const premium = active && chosen.rule.premium === true;
   const entitlements = active ? (chosen.rule.entitlements || []) : [];
   return {
     userId: user?.id, memberId: selected?.id || null,
     tierId: chosen?.id || null, tierCode: chosen?.rule.code || null,
     tierName: chosen?.rule.label || chosen?.title || null,
-    entitlements: [...new Set(entitlements)], premium: active,
+    entitlements: [...new Set(entitlements)], premium,
     patronStatus: memberStatus, lastChargeStatus: chargeStatus, validUntil: null,
   };
 }
@@ -105,7 +106,15 @@ async function syncLink(installationId) {
 }
 
 app.get('/health', (_req, res) => res.json({ ok: true, service: 'seerah-patreon-api' }));
-app.get('/v1/patreon/tiers', (_req, res) => res.json({ tiers: Object.entries(allowedTiers).map(([name, t]) => ({ name, amount_cents: t.amount_cents, code: t.code, label: t.label, premium: true })) }));
+app.get('/v1/patreon/tiers', (_req, res) => res.json({
+  tiers: Object.entries(allowedTiers).map(([name, t]) => ({
+    name,
+    amount_cents: t.amount_cents,
+    code: t.code,
+    label: t.label,
+    premium: t.premium === true
+  }))
+}));
 app.post('/v1/patreon/oauth/start', async (req, res) => {
   try {
     const { installation_id: installationId } = req.body || {};
