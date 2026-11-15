@@ -1,0 +1,104 @@
+{
+  "makkah": {
+    "name": "Makkah",
+    "description": "Makkah est le cadre de la naissance du Prophète ﷺ, des premières révélations, de l’appel, des persécutions et de la préparation de l’Hégire. La ville redevient ensuite le centre du pèlerinage après sa conquête."
+  },
+  "jabal_al_nur": {
+    "name": "Jabal al-Nur (grotte de Hira)",
+    "description": "Montagne près de Makkah abritant la grotte de Hira, lieu des retraites et de la première révélation."
+  },
+  "thawr": {
+    "name": "Grotte de Thawr",
+    "description": "Grotte au sud de Makkah où le Prophète ﷺ et Abu Bakr se sont cachés lors de la Hijrah."
+  },
+  "mina": {
+    "name": "Mina et Al-Aqabah",
+    "description": "Lieu des rencontres et des serments avec les gens de Yathrib pendant la saison du pèlerinage."
+  },
+  "taif": {
+    "name": "Taïf",
+    "description": "Taïf est liée au voyage du Prophète ﷺ en quête de soutien, puis au siège qui suit Hunayn. Les récits soulignent que la ville ne fut pas prise lors de cette expédition."
+  },
+  "hudaybiyyah": {
+    "name": "Al-Hudaybiyyah",
+    "description": "Lieu proche de Makkah où fut conclu le traité du même nom."
+  },
+  "quba": {
+    "name": "Quba",
+    "description": "Village aux portes de Madinah, première étape du Prophète ﷺ à son arrivée."
+  },
+  "madinah": {
+    "name": "Madinah (Yathrib)",
+    "description": "Médine devient le centre de la première communauté musulmane après l’Hégire. Les dossiers associés couvrent l’accueil des émigrés, la mosquée, les accords communautaires, la prière, les expéditions et les relations diplomatiques."
+  },
+  "uhud": {
+    "name": "Uhud",
+    "description": "Montagne au nord de Madinah, lieu de la bataille de l'an 3 de l'Hégire."
+  },
+  "badr": {
+    "name": "Badr",
+    "description": "Localité sur la route caravanière entre Madinah et la Syrie, lieu de la première grande bataille."
+  },
+  "abyssinia": {
+    "name": "Abyssinie (Aksoum)",
+    "description": "L’Abyssinie constitue un refuge pour des croyants qui quittent Makkah afin d’échapper aux persécutions. Les récits mettent en avant l’audience auprès du Négus et le rôle de Jaʿfar ibn Abi Talib."
+  },
+  "khaybar": {
+    "name": "Khaybar",
+    "description": "Oasis au nord de Madinah, lieu de l'expédition de l'an 7 de l'Hégire. Position approximative."
+  },
+  "hunayn": {
+    "name": "Hunayn",
+    "description": "Vallée proche de Makkah, lieu de la bataille de l'an 8 de l'Hégire. Position approximative."
+  },
+  "wadi_al_qura": {
+    "name": "Wâdî al-Qurâ",
+    "description": "Région d’oasis au nord de Médine, associée aux campagnes et accords de la période qui suit Khaybar. Position cartographique approximative."
+  },
+  "mutah": {
+    "name": "Muʿtah (Jordanie)",
+    "description": "Région de Muʿtah, en Jordanie, associée à l’expédition de l’an 8 H. Le point cartographique indique le site moderne ; il ne fixe pas les positions exactes des combattants."
+  },
+  "al_abwa": {
+    "name": "Al-Abwâʾ",
+    "description": "Localité de la route historique entre Makkah et Madinah, traditionnellement associée au décès d’Âmina, la mère du Prophète ﷺ. Les sources biographiques situent l’épisode sur le trajet de retour depuis Yathrib. Le point de la carte représente la localité moderne et reste indicatif."
+  },
+  "qiblatayn": {
+    "name": "Mosquée al-Qiblatayn",
+    "description": "Mosquée de Madinah traditionnellement associée au récit du changement de direction de la prière vers la Kaʿba. L’identification commémorative du lieu ne signifie pas que le bâtiment actuel soit celui du VIIe siècle ; la notice sert de repère géographique."
+  },
+  "arafat": {
+    "name": "Plaine d’Arafat",
+    "description": "Grande plaine à l’est de Makkah, étape centrale du pèlerinage. Le wuqûf se déroule dans l’ensemble de la zone d’Arafat : il ne faut pas réduire le rite au fait de monter sur Jabal al-Rahmah. Le repère cartographique indique un point de la plaine."
+  },
+  "dar_al_arqam": {
+    "name": "Dâr al-Arqam",
+    "nameAr": "دار الأرقم",
+    "description": "Maison traditionnellement associée aux réunions des premiers musulmans à Makkah. Son emplacement exact demeure indicatif."
+  },
+  "safa_marwa": {
+    "name": "Al-Safâ et al-Marwa",
+    "nameAr": "الصفا والمروة",
+    "description": "Zone des deux monticules situés dans l’enceinte de la Mosquée sacrée, repère du saʿy lors du pèlerinage."
+  },
+  "masjid_nabawi": {
+    "name": "Mosquée du Prophète",
+    "nameAr": "المسجد النبوي",
+    "description": "Emplacement de la mosquée fondée à Madinah ; l’édifice actuel est le résultat de nombreux agrandissements."
+  },
+  "khandaq": {
+    "name": "Zone du Fossé",
+    "nameAr": "موضع الخندق",
+    "description": "Secteur traditionnellement associé au fossé défensif de Madinah. Le tracé exact est approximatif."
+  },
+  "tabuk": {
+    "name": "Tabuk",
+    "nameAr": "تبوك",
+    "description": "Ville du nord-ouest de l’Arabie, repère régional de l’expédition de Tabuk."
+  },
+  "muzdalifah": {
+    "name": "Muzdalifah",
+    "nameAr": "مزدلفة",
+    "description": "Zone rituelle située entre ʿArafât et Minâ dans le parcours du pèlerinage."
+  }
+}

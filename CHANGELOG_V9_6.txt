@@ -1,0 +1,8 @@
+V9.6 — ajustements du mode DIRECT
+
+- Déplacement des unités accéléré (vitesse de base + environ 47 %).
+- Sélection multiple rétablie : toucher une unité l'ajoute à la sélection ; la retoucher la retire.
+- Les unités nouvellement déployées s'ajoutent à la sélection au lieu de remplacer le groupe.
+- Ajout de deux villes latérales capturables. Une ville devient contrôlée après 5 secondes de présence alliée sans contestation.
+- Une ville contrôlée ouvre une zone de déploiement supplémentaire autour d'elle ; l'adversaire ne peut pas y déployer ses unités.
+- Le placement des cartes tient compte de ces zones et conserve la restriction du territoire ennemi.

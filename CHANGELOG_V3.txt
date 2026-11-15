@@ -1,0 +1,8 @@
+V3 INSTALL
+1. In your Flutter project: DELETE the old lib/ and test/ folders, then copy lib/, test/ and assets/ from this zip.
+2. (optional, for character images) in pubspec.yaml under "flutter:" add:
+     assets:
+       - assets/units/
+   then see assets/units/LISEZMOI.txt.
+3. flutter pub get / dart format lib test / flutter analyze / flutter test / flutter run -d windows
+Tests import package:flutter_application_1; change it if your project has another name.

@@ -1,0 +1,51 @@
+THE LAST MESSAGE — VERSION 6 (TACTICAL REWORK)
+================================================
+
+FOCUS OF THIS BUILD
+-------------------
+This is the first major gameplay pass of the Rebirth update. It prioritizes
+battle depth and the expanded Badr scenario before the wider campaign, mode,
+art and audio work.
+
+1. BADR V1 PRESERVED
+   - The original Badr chapter keeps its original victory condition and story.
+   - The expanded Badr V2 rules are isolated to the separate badr_v2 chapter.
+
+2. BADR V2 IS NOW A MULTI-OBJECTIVE CAMPAIGN
+   - Capturing the well is not enough: hold it uncontested through two full
+     player turn endings. Losing or having it contested resets the progress.
+   - Reach the rain/night phase.
+   - Defeat all three Quraysh champions: Utba, Shayba and al-Walid.
+   - Survive both scripted reserve waves and eliminate every unit released
+     by those waves. The reserve waves are explicitly a gameplay abstraction
+     representing forces already on the battlefield, not a claim of historical
+     reinforcements arriving after the battle began.
+   - Defeat Abu Jahl. His defeat alone no longer ends Badr V2.
+   - The objectives panel displays well-holding and reserve-unit progress.
+   - Premature elimination of the visible enemy force cannot bypass the staged
+     reserve waves in Badr V2.
+
+3. ENEMY TACTICS
+   - Quraysh's AI receives additional positioning incentives to contest the
+     strategic well and keep infantry around Abu Jahl as a protective screen.
+   - The existing AI continues to prioritize high-value targets, terrain,
+     flanking opportunities and the protection of fragile support units.
+
+4. TESTS ADDED
+   - Badr V2 cannot be won by killing Abu Jahl alone.
+   - The well objective requires two uncontested player turn endings.
+
+BUILD STATUS
+------------
+- Source and ZIP structure can be checked in this environment.
+- Flutter/Dart SDK is not installed here, so `flutter test`, Android APK
+  compilation and Windows compilation have NOT been run. Please verify on the
+  target machine before treating this as a release build.
+
+NEXT REBIRTH WORKSTREAMS
+------------------------
+- Further tactical systems: morale, fatigue, defensive stances and clearer
+  formation orders.
+- Expanded hero active abilities and campaign progression.
+- Full Conquest, Survival and Challenge modes.
+- Interface, battlefield animation, audio and platform-specific optimization.

@@ -1,0 +1,38 @@
+THE LAST MESSAGE — VERSION 7
+MENU REWORK & LOCAL RUSH 1v1
+=============================
+
+MENU
+----
+- Rebuilt the main menu around a dark tactical visual identity and gold trim.
+- Added fade/slide entrance animation and interactive animated menu cards.
+- Added responsive card layout for narrow Android and wide Windows screens.
+- Added app-wide animated page transitions.
+
+LOCAL MULTIPLAYER
+-----------------
+- Added a LAN lobby with Host and Join flows.
+- Host creates a TCP room on port 45454; one guest joins using the host IP.
+- Uses the same local Wi-Fi network or a mobile hotspot; no internet relay.
+- Added a dedicated lightweight 1v1 mode on GameMap.rush() (19x14).
+- Four roles per side: Guard, Archer, Cavalry and Scout.
+- 60-second deployment phase and 60-second turn clock.
+- Deployment zones, unit movement, ranged/melee attacks, HP and elimination.
+- Central fort victory objective: hold the fort at the end of two of your turns.
+- Host is authoritative and broadcasts state snapshots to the guest.
+
+RULES
+-----
+- Each unit may move OR attack once during its owner's turn.
+- Guard: 4 HP, 1 move, 1 range, 2 damage.
+- Archer: 2 HP, 1 move, 2 range, 1 damage.
+- Cavalry: 3 HP, 2 move, 1 range, 2 damage.
+- Scout: 2 HP, 2 move, 1 range, 1 damage.
+- The battle ends when a side has no units or controls the central fort for two
+  consecutive own turn-end checks.
+
+VALIDATION
+----------
+- Static source delimiter check and ZIP integrity check performed.
+- Flutter SDK is not available in the build environment; Dart analysis, Flutter
+  tests, Android/Windows builds and real network testing remain to be run.

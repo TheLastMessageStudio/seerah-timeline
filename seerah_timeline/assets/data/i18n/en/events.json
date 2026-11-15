@@ -1,0 +1,1083 @@
+{
+ "birth_prophet": {
+  "title": "Birth of the Prophet Muhammad ﷺ",
+  "dateLabel": "Around 570 CE (the Year of the Elephant)",
+  "summary": "Muhammad ﷺ is born in Makkah, in the Banu Hashim clan of Quraysh, around the year known as the Year of the Elephant.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "Makkah was a religious and commercial centre of the Arabian Peninsula. Monday is mentioned as the day of his birth in a hadith reported by Muslim; the exact month and day are disputed."
+   },
+   {
+    "heading": "Significance",
+    "body": "The starting point of the Sirah."
+   }
+  ],
+  "reliabilityNote": "Distinguish the reliability of the hadith about Monday from the uncertainty about the month and day."
+ },
+ "abdullah_death": {
+  "title": "Death of Abdullah, the Prophet's ﷺ father",
+  "dateLabel": "Before or shortly after the birth",
+  "summary": "Abdullah ibn Abd al-Muttalib dies in Yathrib, according to tradition on his way back from a trading trip; the Prophet ﷺ is an orphan of his father.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "Sources differ on the exact timing: before his son's birth according to the most widespread opinion, or shortly after."
+   },
+   {
+    "heading": "Significance",
+    "body": "He grows up an orphan, which marks his early years."
+   }
+  ]
+ },
+ "halimah_nursing": {
+  "title": "Nursing among the Banu Sa'd",
+  "dateLabel": "Early childhood",
+  "summary": "Following the custom of Makkan families, the child is entrusted to a wet nurse of the Banu Sa'd, Halimah as-Sa'diyyah, and spends his first years in the desert.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "This practice allowed children to grow up in a healthy environment and absorb pure Arabic."
+   },
+   {
+    "heading": "Significance",
+    "body": "It sheds light on the social context of the Prophet's ﷺ childhood."
+   }
+  ]
+ },
+ "chest_opening": {
+  "title": "The purification of the heart",
+  "dateLabel": "Early childhood (among the Banu Sa'd)",
+  "summary": "An account reported in Sahih Muslim from Anas ibn Malik describes the purification of the child's heart by Jibril.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "The episode takes place during his stay with the Banu Sa'd, according to tradition; Halimah, worried, then brings him back to his mother."
+   },
+   {
+    "heading": "Significance",
+    "body": "It is one of the accounts of the Prophet's ﷺ early childhood."
+   }
+  ],
+  "reliabilityNote": "Account reported in Sahih Muslim; the exact date is not specified."
+ },
+ "aminah_death": {
+  "title": "Death of Aminah, the Prophet's ﷺ mother",
+  "dateLabel": "Around 576 CE",
+  "summary": "Aminah dies while her son is still a child, according to tradition at Al-Abwa', on the way back from a trip to Yathrib.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "The child, about six years old according to the accounts, is then taken in by his grandfather."
+   },
+   {
+    "heading": "Significance",
+    "body": "He becomes an orphan of both parents."
+   }
+  ]
+ },
+ "guardianship": {
+  "title": "Guardianship of Abd al-Muttalib, then Abu Talib",
+  "dateLabel": "Around 576–578 CE",
+  "summary": "Abd al-Muttalib takes in his grandson, then dies shortly after; Abu Talib, his paternal uncle, becomes his guardian.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "Abu Talib raises the child in his family and will remain his protector for many years."
+   },
+   {
+    "heading": "Significance",
+    "body": "This guardianship explains the protection the Prophet ﷺ would later enjoy against Quraysh."
+   }
+  ]
+ },
+ "shepherd": {
+  "title": "The Prophet ﷺ as a shepherd",
+  "dateLabel": "Youth (approximate date)",
+  "summary": "In his youth, Muhammad ﷺ tends flocks for people of Makkah.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "Sahih al-Bukhari reports that he did this work, as did other prophets before him according to the hadith."
+   },
+   {
+    "heading": "Significance",
+    "body": "It illustrates the simplicity of his life before the mission."
+   }
+  ]
+ },
+ "syria_trip": {
+  "title": "Journey to Syria with Abu Talib",
+  "dateLabel": "Around 582 CE",
+  "summary": "Still an adolescent, Muhammad ﷺ accompanies Abu Talib on a trading caravan to Syria.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "Tradition reports a meeting with the monk Bahira on this occasion; the account is cited by biographers but its authenticity is debated."
+   },
+   {
+    "heading": "Significance",
+    "body": "This journey illustrates the importance of caravan trade in Makkah."
+   }
+  ],
+  "reliabilityNote": "The Bahira account is reported in the biographical tradition; its reliability is debated by scholars."
+ },
+ "hilf_fudul": {
+  "title": "The Pact of the Fudul (Hilf al-Fudul)",
+  "dateLabel": "Before the revelation (approximate date)",
+  "summary": "Several Makkan clans conclude a pact to defend anyone wronged in the city. Muhammad ﷺ attends it in his youth.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "Tradition reports that he would later mention this pact with esteem."
+   },
+   {
+    "heading": "Significance",
+    "body": "It illustrates the sense of justice that already characterised his conduct."
+   }
+  ]
+ },
+ "marriage_khadijah": {
+  "title": "Marriage to Khadijah",
+  "dateLabel": "Around 595 CE",
+  "summary": "Muhammad ﷺ, known for his integrity, marries Khadijah bint Khuwaylid, a Makkan businesswoman.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "He had led a trading caravan for her. Biographers report that his honesty had earned him the nickname “al-Amin”."
+   },
+   {
+    "heading": "Significance",
+    "body": "Khadijah would be the first to support him at the time of the revelation."
+   }
+  ]
+ },
+ "kaaba_rebuild": {
+  "title": "Rebuilding of the Kaaba and the arbitration over the Black Stone",
+  "dateLabel": "Around 605 CE",
+  "summary": "Quraysh rebuilds the Kaaba. A dispute arises over which clan will set the Black Stone back; Muhammad ﷺ is chosen as arbiter.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "He proposes placing the stone on a cloak lifted together by the clan chiefs, then sets it in place himself."
+   },
+   {
+    "heading": "Significance",
+    "body": "The episode confirms the trust Quraysh placed in him before the revelation."
+   }
+  ]
+ },
+ "hira_retreat": {
+  "title": "Retreats in the Cave of Hira",
+  "dateLabel": "Before 610 CE",
+  "summary": "Before the revelation, the Prophet ﷺ regularly withdraws for several nights to the Cave of Hira, on Jabal al-Nur.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "This account is reported in the hadith of Aisha on the beginning of the revelation (Sahih al-Bukhari)."
+   },
+   {
+    "heading": "Significance",
+    "body": "These retreats immediately precede the first revelation."
+   }
+  ]
+ },
+ "first_revelation": {
+  "title": "The first revelation",
+  "dateLabel": "Around 610 CE",
+  "summary": "In the Cave of Hira, the angel Jibril brings the Prophet ﷺ the first verses of Surah Al-'Alaq.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "Most scholars place the beginning of the revelation in the month of Ramadan; the exact day is disputed. The detailed account is reported in Sahih al-Bukhari."
+   },
+   {
+    "heading": "Significance",
+    "body": "It is the starting point of the prophetic mission."
+   }
+  ],
+  "reliabilityNote": "The account (hadith of Aisha) is distinct from the question of the date, which remains approximate."
+ },
+ "waraqah_meeting": {
+  "title": "Meeting with Waraqa ibn Nawfal",
+  "dateLabel": "Shortly after the first revelation",
+  "summary": "Khadijah takes the Prophet ﷺ to her cousin Waraqa ibn Nawfal, who knew the scriptures.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "According to Aisha's account, Waraqa confirms that what is happening resembles what was revealed to earlier prophets, and dies soon after."
+   },
+   {
+    "heading": "Significance",
+    "body": "This episode shows the first support the Prophet ﷺ received."
+   }
+  ]
+ },
+ "first_believers": {
+  "title": "The first believers",
+  "dateLabel": "Around 610–613 CE",
+  "summary": "Khadijah, Ali, Zayd ibn Harithah and Abu Bakr are among the first to believe in his message.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "Abu Bakr then invites close acquaintances to Islam, among them well-known Companions, according to Ibn Ishaq."
+   },
+   {
+    "heading": "Significance",
+    "body": "These first believers form the core of the nascent community."
+   }
+  ],
+  "reliabilityNote": "The exact order of the first conversions is debated among scholars."
+ },
+ "first_prayers": {
+  "title": "The first prayers",
+  "dateLabel": "Early mission (approximate date)",
+  "summary": "From the early days of the mission, the Prophet ﷺ and the first believers perform prayers, away from sight.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "Ibn Ishaq reports that the Prophet ﷺ and Ali would go to the ravines of Makkah to pray."
+   },
+   {
+    "heading": "Significance",
+    "body": "They precede the obligation of the five daily prayers."
+   }
+  ],
+  "reliabilityNote": "The precise form of prayer before the five daily prayers became obligatory is debated."
+ },
+ "fatrah": {
+  "title": "The pause in revelation and Surah Al-Muddaththir",
+  "dateLabel": "Shortly after 610 CE",
+  "summary": "After the first verses, the revelation is interrupted, then resumes with the opening verses of Surah Al-Muddaththir.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "These verses command him to warn people and to prepare for the mission."
+   },
+   {
+    "heading": "Significance",
+    "body": "They mark the beginning of the call addressed to people."
+   }
+  ]
+ },
+ "secret_preaching": {
+  "title": "The discreet call",
+  "dateLabel": "Around 610–613 CE",
+  "summary": "During a first phase, the Prophet ﷺ discreetly calls his relatives and friends to Islam.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "According to Ibn Ishaq, this phase lasted about three years."
+   },
+   {
+    "heading": "Significance",
+    "body": "It allowed a first core of believers to form."
+   }
+  ]
+ },
+ "dar_arqam": {
+  "title": "The House of al-Arqam",
+  "dateLabel": "Approximate period",
+  "summary": "The first Muslims gather in the house of al-Arqam ibn Abi al-Arqam, near Safa, to learn and pray in shelter.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "It served as a meeting place during the discreet phase of the preaching."
+   },
+   {
+    "heading": "Significance",
+    "body": "It illustrates the organisation of the nascent community."
+   }
+  ]
+ },
+ "warn_kin": {
+  "title": "The command to warn the close kin",
+  "dateLabel": "Around 613 CE",
+  "summary": "A verse commands the Prophet ﷺ to warn his closest relatives.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "He then gathers members of his clan to convey the message."
+   },
+   {
+    "heading": "Significance",
+    "body": "This episode opens the phase of the wider call."
+   }
+  ]
+ },
+ "safa_call": {
+  "title": "The call from Mount Safa",
+  "dateLabel": "Around 613 CE",
+  "summary": "The Prophet ﷺ climbs Mount Safa and calls the people of Quraysh to listen to his message.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "The account is reported in Sahih al-Bukhari, with the hostile reaction of Abu Lahab; Surah Al-Masad is linked to this episode in that narration."
+   },
+   {
+    "heading": "Significance",
+    "body": "It marks the beginning of the public preaching."
+   }
+  ],
+  "reliabilityNote": "The date of the public preaching is debated, independently of the soundness of the account."
+ },
+ "quraysh_accusations": {
+  "title": "The accusations of Quraysh",
+  "dateLabel": "Approximate period",
+  "summary": "Quraysh accuses the Prophet ﷺ of being a sorcerer, a poet or possessed, in order to discredit his message.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "The Quran reports these accusations and answers them."
+   },
+   {
+    "heading": "Significance",
+    "body": "They illustrate the nature of the opposition he faced."
+   }
+  ]
+ },
+ "abu_talib_protection": {
+  "title": "The protection of Abu Talib",
+  "dateLabel": "Approximate period",
+  "summary": "Facing pressure from Quraysh, Abu Talib continues to protect his nephew.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "He refuses to hand him over, although according to the reported accounts he did not embrace Islam."
+   },
+   {
+    "heading": "Significance",
+    "body": "This tribal protection was essential in Makkah."
+   }
+  ]
+ },
+ "weak_persecuted": {
+  "title": "Persecution of the vulnerable believers",
+  "dateLabel": "Around 614–616 CE",
+  "summary": "Believers without tribal protection, such as Bilal, Sumayyah and her family, suffer ill-treatment.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "Abu Bakr frees several persecuted people, including Bilal ibn Rabah, according to tradition."
+   },
+   {
+    "heading": "Significance",
+    "body": "These trials explain the first migrations."
+   }
+  ]
+ },
+ "quraysh_pressure": {
+  "title": "Quraysh's pressure on Abu Talib",
+  "dateLabel": "Approximate period",
+  "summary": "Delegations of Quraysh ask Abu Talib to stop his nephew's preaching, then make him proposals.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "According to Ibn Ishaq, he refuses to give up his protection."
+   },
+   {
+    "heading": "Significance",
+    "body": "The episode illustrates Quraysh's growing opposition."
+   }
+  ]
+ },
+ "compromise_offer": {
+  "title": "Quraysh's compromise offer",
+  "dateLabel": "Approximate period",
+  "summary": "Quraysh proposes an arrangement in which each side would worship the other's deities in turn; the Prophet ﷺ refuses.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "Explanatory accounts link Surah Al-Kafirun to this episode."
+   },
+   {
+    "heading": "Significance",
+    "body": "It shows the firmness of the message on the oneness of God."
+   }
+  ],
+  "reliabilityNote": "The precise link between the surah and the episode rests on explanatory accounts of varying strength."
+ },
+ "uqbah_abu_bakr": {
+  "title": "The assault by 'Uqbah and Abu Bakr's defence",
+  "dateLabel": "Approximate period",
+  "summary": "While the Prophet ﷺ prays near the Kaaba, 'Uqbah ibn Abi Mu'ayt chokes him with his cloak; Abu Bakr intervenes.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "Sahih al-Bukhari reports that Abu Bakr said to him: “Would you kill a man because he says: My Lord is Allah?”"
+   },
+   {
+    "heading": "Significance",
+    "body": "The episode illustrates the violence endured and Abu Bakr's loyalty."
+   }
+  ]
+ },
+ "hamzah_islam": {
+  "title": "Conversion of Hamzah",
+  "dateLabel": "Around 615–616 CE",
+  "summary": "Hamzah, the Prophet's ﷺ uncle, embraces Islam.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "Ibn Ishaq reports that he converted after learning of the mistreatment inflicted on the Prophet ﷺ."
+   },
+   {
+    "heading": "Significance",
+    "body": "His support strengthens the community."
+   }
+  ],
+  "reliabilityNote": "The exact year is debated."
+ },
+ "umar_islam": {
+  "title": "Conversion of Umar ibn al-Khattab",
+  "dateLabel": "Around 616 CE",
+  "summary": "Umar ibn al-Khattab, at first hostile, embraces Islam.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "Several versions of the account circulate in the sources, with varying degrees of reliability."
+   },
+   {
+    "heading": "Significance",
+    "body": "His conversion strengthens the Muslims' position in Makkah."
+   }
+  ],
+  "reliabilityNote": "The details of the conversion account vary according to the transmissions."
+ },
+ "first_habasha": {
+  "title": "First migration to Abyssinia",
+  "dateLabel": "Around 615 CE (5th year of the mission)",
+  "summary": "A small group of Muslims leaves Makkah for Abyssinia to escape persecution.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "Uthman ibn Affan and his wife Ruqayyah, the Prophet's ﷺ daughter, are part of it according to tradition."
+   },
+   {
+    "heading": "Significance",
+    "body": "The first migration in the history of Islam."
+   }
+  ]
+ },
+ "second_habasha": {
+  "title": "Second migration to Abyssinia",
+  "dateLabel": "After the first migration",
+  "summary": "A larger group of Muslims emigrates in turn, notably Ja'far ibn Abi Talib.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "They settle under the protection of the king of Abyssinia."
+   },
+   {
+    "heading": "Significance",
+    "body": "It shows the search for a safe refuge."
+   }
+  ]
+ },
+ "najashi_audience": {
+  "title": "The audience before the Negus",
+  "dateLabel": "Approximate period",
+  "summary": "Quraysh sends emissaries to obtain the extradition of the emigrants. Ja'far answers before the Negus and recites verses of Surah Maryam.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "The Negus refuses to hand them over. This account is transmitted notably from Umm Salama."
+   },
+   {
+    "heading": "Significance",
+    "body": "It confirms the protection granted to the Muslims."
+   }
+  ]
+ },
+ "boycott": {
+  "title": "The boycott of the Banu Hashim and Banu al-Muttalib",
+  "dateLabel": "Around 616/617–619/620 CE",
+  "summary": "Quraysh decides to boycott the clans that protect the Prophet ﷺ, who find themselves confined to Abu Talib's quarter.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "According to tradition, the boycott lasts about three years, then comes to an end."
+   },
+   {
+    "heading": "Significance",
+    "body": "It illustrates the economic and social pressure endured."
+   }
+  ]
+ },
+ "year_sorrow": {
+  "title": "The Year of Sorrow",
+  "dateLabel": "Around 619 CE",
+  "summary": "The Prophet ﷺ loses his uncle Abu Talib and his wife Khadijah within a short time of each other.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "This double bereavement deprives the Prophet ﷺ of two major supporters. The exact order and interval are debated."
+   },
+   {
+    "heading": "Significance",
+    "body": "Quraysh's protection becomes more uncertain."
+   }
+  ]
+ },
+ "tribes_presentation": {
+  "title": "The message presented to the tribes",
+  "dateLabel": "Around 620 CE",
+  "summary": "During the pilgrimage seasons, the Prophet ﷺ presents his message to Arab tribes seeking support.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "Most refuse, but these meetings prepare the ones with the people of Yathrib."
+   },
+   {
+    "heading": "Significance",
+    "body": "They lead to the pledges of Al-Aqabah."
+   }
+  ]
+ },
+ "taif_trip": {
+  "title": "The journey to Ta'if",
+  "dateLabel": "Around 619–620 CE",
+  "summary": "The Prophet ﷺ goes to Ta'if with Zayd ibn Harithah to seek support; the leaders of Thaqif reject him.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "According to tradition, he is driven out of the town. An account reported in Sahih al-Bukhari and Sahih Muslim mentions the angel of the mountains and the Prophet's ﷺ refusal to take revenge."
+   },
+   {
+    "heading": "Significance",
+    "body": "An episode of patience and resilience."
+   }
+  ]
+ },
+ "mutim_protection": {
+  "title": "Return to Makkah under Mut'im's protection",
+  "dateLabel": "After Ta'if",
+  "summary": "On his return, the Prophet ﷺ enters Makkah under the protection of Mut'im ibn 'Adi.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "The biographical tradition reports this tribal protection."
+   },
+   {
+    "heading": "Significance",
+    "body": "It illustrates the importance of the protection system in Makkah."
+   }
+  ]
+ },
+ "isra_miraj": {
+  "title": "Al-Isra wal-Mi'raj",
+  "dateLabel": "Disputed date (before the Hijrah)",
+  "summary": "The night journey from the Sacred Mosque to Al-Aqsa Mosque, followed by the ascension.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "The hadiths reported in the Sahih collections describe the main lines of the ascension and the obligation of the five prayers."
+   },
+   {
+    "heading": "Significance",
+    "body": "The event is central in the Islamic tradition."
+   }
+  ],
+  "reliabilityNote": "The reliability of the accounts is distinct from the dating, which is debated."
+ },
+ "five_prayers": {
+  "title": "The obligation of the five prayers",
+  "dateLabel": "Disputed date (linked to the ascension)",
+  "summary": "According to the accounts of the ascension reported in the Sahih collections, fifty prayers are first prescribed, then reduced to five.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "The account specifies that the five prayers carry the value of fifty."
+   },
+   {
+    "heading": "Significance",
+    "body": "They structure the daily worship of Muslims."
+   }
+  ],
+  "reliabilityNote": "Authentic account reported; the dating of the event remains debated."
+ },
+ "isra_reaction": {
+  "title": "The reaction of Quraysh",
+  "dateLabel": "After the event",
+  "summary": "Quraysh reacts with disbelief to the announcement of the night journey.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "Tradition also reports Abu Bakr's confirmation."
+   },
+   {
+    "heading": "Significance",
+    "body": "It illustrates the trial of faith in Makkah."
+   }
+  ],
+  "reliabilityNote": "Some details of the account are debated by scholars."
+ },
+ "khazraj_meeting": {
+  "title": "Meeting with the Khazraj at Al-Aqabah",
+  "dateLabel": "Around 620/621 CE",
+  "summary": "During the pilgrimage, the Prophet ﷺ meets a group from the Khazraj tribe of Yathrib at Al-Aqabah, near Mina.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "According to Ibn Ishaq, they embrace Islam and promise to spread the message."
+   },
+   {
+    "heading": "Significance",
+    "body": "The first link with Yathrib."
+   }
+  ]
+ },
+ "first_aqabah": {
+  "title": "The First Pledge of Al-Aqabah",
+  "dateLabel": "Around 621 CE",
+  "summary": "Twelve men from Yathrib pledge themselves to the Prophet ﷺ.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "The content of the pledge is reported in Sahih al-Bukhari from 'Ubadah ibn as-Samit."
+   },
+   {
+    "heading": "Significance",
+    "body": "It opens the way to a Muslim presence in Yathrib."
+   }
+  ]
+ },
+ "musab_madinah": {
+  "title": "The mission of Mus'ab ibn Umayr",
+  "dateLabel": "Around 621–622 CE",
+  "summary": "Mus'ab ibn Umayr is sent to Yathrib to teach the Quran and Islam.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "He wins over many people there according to tradition."
+   },
+   {
+    "heading": "Significance",
+    "body": "He prepares the welcome of the Muslims of Makkah."
+   }
+  ]
+ },
+ "second_aqabah": {
+  "title": "The Second Pledge of Al-Aqabah",
+  "dateLabel": "Around 622 CE",
+  "summary": "Dozens of men and two women from Yathrib pledge to protect the Prophet ﷺ.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "According to tradition, twelve representatives are appointed."
+   },
+   {
+    "heading": "Significance",
+    "body": "It directly prepares the Hijrah."
+   }
+  ]
+ },
+ "companions_migrate": {
+  "title": "Migration of the Companions to Yathrib",
+  "dateLabel": "622 CE",
+  "summary": "After the second pledge, the Muslims leave Makkah in small groups for Yathrib.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "The departure is discreet to avoid opposition from Quraysh."
+   },
+   {
+    "heading": "Significance",
+    "body": "The community re-forms in Yathrib."
+   }
+  ]
+ },
+ "dar_nadwa_plot": {
+  "title": "The plot at Dar an-Nadwa",
+  "dateLabel": "622 CE",
+  "summary": "Quraysh decides to act against the Prophet ﷺ by gathering representatives of each clan.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "Tradition reports that Ali sleeps in the Prophet's ﷺ bed that night."
+   },
+   {
+    "heading": "Significance",
+    "body": "This episode precipitates the Hijrah."
+   }
+  ]
+ },
+ "thawr_cave": {
+  "title": "The Cave of Thawr",
+  "dateLabel": "622 CE",
+  "summary": "The Prophet ﷺ and Abu Bakr hide for three nights in the Cave of Thawr before continuing their journey.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "The Quran mentions the episode; Sahih al-Bukhari also reports details of the journey."
+   },
+   {
+    "heading": "Significance",
+    "body": "This episode illustrates the trust and friendship of the two Companions."
+   }
+  ]
+ },
+ "suraqah": {
+  "title": "The pursuit by Suraqah ibn Malik",
+  "dateLabel": "622 CE",
+  "summary": "On the road to Madinah, Suraqah ibn Malik pursues the Prophet ﷺ to obtain the reward promised by Quraysh.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "Sahih al-Bukhari reports that his mount's legs sink into the ground; he gives up and turns back."
+   },
+   {
+    "heading": "Significance",
+    "body": "This episode has remained famous in the account of the Hijrah."
+   }
+  ]
+ },
+ "quba_arrival": {
+  "title": "Arrival at Quba",
+  "dateLabel": "622 CE (Rabi' al-awwal)",
+  "summary": "The Prophet ﷺ stays at Quba, on the outskirts of Madinah, where the Quba Mosque is founded.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "Sources differ on the exact length of the stay."
+   },
+   {
+    "heading": "Significance",
+    "body": "The first mosque of the migrated community."
+   }
+  ]
+ },
+ "arrive_madinah": {
+  "title": "Arrival in Madinah",
+  "dateLabel": "622 CE (year 1 of the Hijrah)",
+  "summary": "The Prophet ﷺ enters Madinah and settles at the house of Abu Ayyub al-Ansari.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "Tradition reports that his camel stops at the site of the future mosque. The year of the Hijrah is agreed upon; the precise day of the month is debated."
+   },
+   {
+    "heading": "Significance",
+    "body": "The beginning of the Madinah period and of the Hijri calendar."
+   }
+  ]
+ },
+ "masjid_nabawi": {
+  "title": "Construction of the Prophet's ﷺ Mosque",
+  "dateLabel": "Year 1 AH (622–623)",
+  "summary": "The Prophet ﷺ has his mosque built, on land acquired from two orphans.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "The account is reported in Sahih al-Bukhari."
+   },
+   {
+    "heading": "Significance",
+    "body": "It becomes the centre of community life."
+   }
+  ]
+ },
+ "muakhat": {
+  "title": "The brotherhood between Muhajirun and Ansar",
+  "dateLabel": "Year 1 AH",
+  "summary": "The Prophet ﷺ pairs emigrants from Makkah with residents of Madinah.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "Sahih al-Bukhari reports the example of Abd ar-Rahman ibn Awf and Sa'd ibn ar-Rabi'."
+   },
+   {
+    "heading": "Significance",
+    "body": "It strengthens community solidarity."
+   }
+  ]
+ },
+ "madinah_charter": {
+  "title": "The Charter of Madinah (Sahifa)",
+  "dateLabel": "Year 1–2 AH",
+  "summary": "A text organises relations between Muslims, tribes and communities in Madinah.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "It is transmitted by Ibn Ishaq, but its form and date are debated."
+   },
+   {
+    "heading": "Significance",
+    "body": "It is important for understanding the initial political organisation."
+   }
+  ],
+  "reliabilityNote": "The transmission and form of the text are debated."
+ },
+ "adhan": {
+  "title": "The institution of the adhan",
+  "dateLabel": "Year 1 AH",
+  "summary": "The call to prayer is instituted in Madinah; Bilal is the first muezzin.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "Accounts of the precise circumstances vary according to the sources."
+   },
+   {
+    "heading": "Significance",
+    "body": "It structures the community's collective rhythm."
+   }
+  ]
+ },
+ "qibla_change": {
+  "title": "The change of qibla",
+  "dateLabel": "Year 2 AH (around 624)",
+  "summary": "The direction of prayer changes from Jerusalem to the Kaaba.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "The verses concerned appear in Surah Al-Baqarah. The exact month is debated."
+   },
+   {
+    "heading": "Significance",
+    "body": "A key moment in the community's identity."
+   }
+  ]
+ },
+ "ramadan_fasting": {
+  "title": "The obligation of fasting in Ramadan",
+  "dateLabel": "Year 2 AH (around 624)",
+  "summary": "Fasting during the month of Ramadan is prescribed in Madinah.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "The verses concerned appear in Surah Al-Baqarah."
+   },
+   {
+    "heading": "Significance",
+    "body": "It becomes one of the pillars of practice."
+   }
+  ]
+ },
+ "badr": {
+  "title": "The Battle of Badr",
+  "dateLabel": "17 Ramadan 2 AH (March 624)",
+  "summary": "The first major battle between the Muslims and Quraysh, near Badr.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "Tradition reports a little over three hundred Muslims facing about a thousand men of Quraysh."
+   },
+   {
+    "heading": "Significance",
+    "body": "It strengthens the Muslims' position in Madinah."
+   }
+  ]
+ },
+ "uhud": {
+  "title": "The Battle of Uhud",
+  "dateLabel": "Shawwal 3 AH (March 625)",
+  "summary": "A battle near Mount Uhud, marked by the loss of several Companions, including Hamzah.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "It is mentioned in Surah Al-Imran."
+   },
+   {
+    "heading": "Significance",
+    "body": "It leaves lessons on discipline and trial."
+   }
+  ]
+ },
+ "khandaq": {
+  "title": "The Battle of the Trench (Al-Khandaq)",
+  "dateLabel": "5 AH (627) — year debated",
+  "summary": "Madinah is besieged by a coalition; a trench is dug to defend the city.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "Some historians place the event in 4 AH. Surah Al-Ahzab refers to it."
+   },
+   {
+    "heading": "Significance",
+    "body": "The episode strengthens the community's cohesion."
+   }
+  ]
+ },
+ "ridwan": {
+  "title": "The Pledge of Ridwan",
+  "dateLabel": "6 AH (around 628)",
+  "summary": "At Hudaybiyyah, the Companions pledge themselves to the Prophet ﷺ under a tree, after the rumour of the death of Uthman, sent as an envoy.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "The Quran mentions the approval granted to the believers who gave this pledge."
+   },
+   {
+    "heading": "Significance",
+    "body": "It precedes the conclusion of the Treaty of Hudaybiyyah."
+   }
+  ]
+ },
+ "hudaybiyyah": {
+  "title": "The Treaty of Hudaybiyyah",
+  "dateLabel": "Dhu al-Qa'da 6 AH (March 628)",
+  "summary": "An agreement is concluded with Quraysh near Makkah: the pilgrimage is postponed by one year.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "It is mentioned in Surah Al-Fath."
+   },
+   {
+    "heading": "Significance",
+    "body": "It opens a period of relative peace."
+   }
+  ]
+ },
+ "letters_rulers": {
+  "title": "The letters to rulers",
+  "dateLabel": "6–7 AH (around 628–629)",
+  "summary": "The Prophet ﷺ sends letters to neighbouring rulers, including Heraclius, calling them to Islam.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "Sahih al-Bukhari reports Heraclius's exchange with Abu Sufyan about this letter."
+   },
+   {
+    "heading": "Significance",
+    "body": "They show the opening of the call beyond the peninsula."
+   }
+  ],
+  "reliabilityNote": "The exact text of some letters varies according to the sources."
+ },
+ "khaybar": {
+  "title": "The expedition to Khaybar",
+  "dateLabel": "7 AH (around 628–629)",
+  "summary": "An expedition against the oasis of Khaybar, north of Madinah.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "Sahih al-Bukhari reports that the inhabitants were kept on their lands in exchange for a share of the harvest."
+   },
+   {
+    "heading": "Significance",
+    "body": "It consolidates Madinah's position to the north."
+   }
+  ]
+ },
+ "mutah": {
+  "title": "The Battle of Mu'tah",
+  "dateLabel": "8 AH (around 629)",
+  "summary": "Three commanders appointed in succession, Zayd, Ja'far and then Abdullah ibn Rawahah, fall as martyrs; Khalid ibn al-Walid then takes command.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "The account is reported in Sahih al-Bukhari."
+   },
+   {
+    "heading": "Significance",
+    "body": "The first military encounter in the north of the peninsula."
+   }
+  ]
+ },
+ "fath_makkah": {
+  "title": "The conquest of Makkah",
+  "dateLabel": "Ramadan 8 AH (January 630)",
+  "summary": "The Prophet ﷺ enters Makkah with his Companions; the Kaaba is purified.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "Tradition reports a general pardon granted to the inhabitants."
+   },
+   {
+    "heading": "Significance",
+    "body": "It marks a major turning point of the Sirah."
+   }
+  ]
+ },
+ "hunayn": {
+  "title": "The Battle of Hunayn",
+  "dateLabel": "Shawwal 8 AH (around 630)",
+  "summary": "After the conquest of Makkah, a coalition of tribes confronts the Muslims at Hunayn.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "The Quran mentions an initial setback followed by the support granted to the believers."
+   },
+   {
+    "heading": "Significance",
+    "body": "It follows immediately after the conquest of Makkah."
+   }
+  ]
+ },
+ "tabuk": {
+  "title": "The expedition to Tabuk",
+  "dateLabel": "Rajab 9 AH (around 630)",
+  "summary": "The Prophet ﷺ leads a large expedition to the north in difficult conditions; the Muslims return without major confrontation.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "Sahih al-Bukhari also reports the account of Ka'b ibn Malik, who stayed behind with two other Companions."
+   },
+   {
+    "heading": "Significance",
+    "body": "It marks a test of sincerity and effort."
+   }
+  ]
+ },
+ "najashi_funeral": {
+  "title": "The funeral prayer for the Negus",
+  "dateLabel": "9 AH (disputed date)",
+  "summary": "The Prophet ﷺ announces the death of the Negus and prays for him in absentia.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "The account is reported in Sahih al-Bukhari and Sahih Muslim."
+   },
+   {
+    "heading": "Significance",
+    "body": "It recalls the ties formed with Abyssinia."
+   }
+  ],
+  "reliabilityNote": "The account is sound; the date of the event is debated."
+ },
+ "delegations": {
+  "title": "The Year of Delegations",
+  "dateLabel": "9 AH (around 630–631)",
+  "summary": "Many Arab tribes send delegations to Madinah.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "This period follows the conquest of Makkah, according to the biographical tradition."
+   },
+   {
+    "heading": "Significance",
+    "body": "It illustrates the rapid spread of Islam across the peninsula."
+   }
+  ]
+ },
+ "farewell_hajj": {
+  "title": "The Farewell Pilgrimage",
+  "dateLabel": "10 AH (632)",
+  "summary": "The only pilgrimage the Prophet ﷺ performed after the Hijrah, with a great sermon at 'Arafah.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "The account is reported in Sahih Muslim from Jabir ibn 'Abdillah."
+   },
+   {
+    "heading": "Significance",
+    "body": "It sums up the essential teachings passed on to the community."
+   }
+  ]
+ },
+ "death_prophet": {
+  "title": "Death of the Prophet ﷺ",
+  "dateLabel": "Rabi' al-awwal 11 AH (632)",
+  "summary": "The Prophet ﷺ dies in Madinah in the house of Aisha.",
+  "content": [
+   {
+    "heading": "Context and account",
+    "body": "The year is agreed upon; the exact day of the month is debated. Abu Bakr is then chosen as caliph."
+   },
+   {
+    "heading": "Significance",
+    "body": "The end of the Sirah and the beginning of the era of the caliphs."
+   }
+  ]
+ }
+}

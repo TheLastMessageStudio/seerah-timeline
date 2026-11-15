@@ -1,0 +1,54 @@
+V9.2 — Uhud en phases + mode "La Tour"
+
+UHUD (nouvelle trame)
+ 1. Tours 1-5 : le combat se passe bien (Talha, Sibaa, Hamza...).
+ 2. Tour 6 : Quraysh se brise et FUIT vers son camp (a l'ouest).
+    Objectif : poursuivre jusqu'au camp mecquois (zone du butin).
+ 3. Fin de poursuite (vous atteignez le camp ennemi, ou tour 11 au plus tard) :
+    Khalid sort de l'abri et charge par l'arriere.
+    Colline vide = charge complete ; un archer sur la colline = Khalid affaibli (-2 PV).
+ 4. Objectif "revenir au camp" : au moins 4 unites pres de la tente.
+ 5. Puis rumeur de la mort du Prophete, Mus'ab, Ubayy, defenseurs, Ka'b,
+    Abu Sufyan (evenements decales : declenches N tours apres la fin de la poursuite).
+ 6. Tenir le camp jusqu'au tour 28 = victoire. Tenir la citadelle ennemie ne gagne plus.
+ Objectifs : Talha, Sibaa, poursuite, colline (optionnel), retour au camp, Khalid, refuge.
+
+LA TOUR (menu : "LA TOUR")
+ - Etages de plus en plus durs (armee plus grande, PV/attaque/defense de l'IA qui montent).
+ - Chef tous les 5 etages = point de reprise + carte de heros.
+ - Or et XP croissants ; meilleur etage sauvegarde (cle 'tower' du profil).
+ - Bouton "Etage suivant" apres une victoire.
+
+Fichiers : lib/story/tower.dart, lib/ui/tower_screen.dart (nouveaux) ; game.dart, ai.dart,
+uhud.dart, story.dart, battle_screen.dart, profile.dart, strings.dart, menu_screen.dart.
+Tests ajoutes : fuite au tour 6, fin de poursuite, colline, retour au camp, tour.
+
+MENU PRINCIPAL (style Clash Royale)
+ - Plein ecran, sans scroll : barre du haut (niveau, XP, or, reglages), titre + embleme,
+   gros bouton COMBAT, boutons HISTOIRE / LA TOUR, barre de navigation en bas
+   (Boutique, Collection, Duel local, Regles, Ecran).
+
+CARTE RUSH / TOUR / DUEL LOCAL : maintenant VERTICALE (14x19) —
+ vous en bas, l'ennemi en haut, la riviere au milieu.
+
+MODE "DIRECT" (prototype temps reel, bouton violet du menu)
+ - Pas de tours : les unites marchent seules vers le point touche et se battent
+   automatiquement au contact (archers a distance, tour de base qui tire).
+ - Controles : toucher une unite (ou glisser pour en entourer plusieurs), toucher la carte
+   pour deplacer, toucher un ennemi pour l'attaquer ; boutons Tous / Melee / Archers /
+   Cavaliers / Charge ! ; pause et vitesse x0.5 / x1 / x2.
+ - Victoire : detruire la base ennemie (40 PV) ou tuer l'armee ; limite 6 minutes.
+ - Reglages d'equilibrage : lib/live/live_game.dart (classe LiveTuning).
+ - Fichiers : lib/live/live_game.dart, lib/ui/live_screen.dart.
+
+MODE DIRECT v2 (parties longues)
+ - Carte plus longue (27 lignes) : defilement vertical, la vue commence sur ta base.
+ - Unites 2,2x plus solides, plus lentes, attaques plus espacees, bases a 120 PV.
+ - Cartes a poser comme Clash Royale : energie (max 10, +1 / 2,6 s), main de 4 cartes,
+   cout par carte ; on choisit la carte puis on touche son territoire (bas de la carte).
+ - 3 unites par camp deja sur la carte au depart, a des distances differentes.
+ - Preparation de 20 s : on pose des cartes et on donne des ordres, personne ne bouge.
+ - Une unite morte revient dans la main apres 12 s ; on peut la re-poser (cycle infini).
+ - L'IA pose aussi des cartes au fil de la partie.
+ - Match en BO3 (premier a 2 manches), manche max 4 min (sinon PV de base).
+ - Tout se regle dans LiveTuning (lib/live/live_game.dart).

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "muhammad",
+    "nameAr": "محمد ﷺ",
+    "free": true
+  },
+  {
+    "id": "khadijah",
+    "nameAr": "خديجة بنت خويلد",
+    "free": true
+  },
+  {
+    "id": "abu_bakr",
+    "nameAr": "أبو بكر الصديق",
+    "free": true
+  },
+  {
+    "id": "abu_talib",
+    "nameAr": "أبو طالب",
+    "free": true
+  },
+  {
+    "id": "aminah",
+    "nameAr": "آمنة بنت وهب",
+    "free": true
+  },
+  {
+    "id": "abdullah",
+    "nameAr": "عبد الله بن عبد المطلب",
+    "free": true
+  },
+  {
+    "id": "abd_al_muttalib",
+    "nameAr": "عبد المطلب",
+    "free": true
+  },
+  {
+    "id": "halimah",
+    "nameAr": "حليمة السعدية",
+    "free": true
+  },
+  {
+    "id": "ali",
+    "nameAr": "علي بن أبي طالب",
+    "free": false
+  },
+  {
+    "id": "bilal",
+    "nameAr": "بلال بن رباح",
+    "free": false
+  },
+  {
+    "id": "hamzah",
+    "nameAr": "حمزة بن عبد المطلب",
+    "free": false
+  },
+  {
+    "id": "umar",
+    "nameAr": "عمر بن الخطاب",
+    "free": false
+  },
+  {
+    "id": "uthman",
+    "nameAr": "عثمان بن عفان",
+    "free": false
+  },
+  {
+    "id": "zayd",
+    "nameAr": "زيد بن حارثة",
+    "free": false
+  },
+  {
+    "id": "jafar",
+    "nameAr": "جعفر بن أبي طالب",
+    "free": false
+  },
+  {
+    "id": "najashi",
+    "nameAr": "النجاشي (أصحمة)",
+    "free": false
+  },
+  {
+    "id": "musab",
+    "nameAr": "مصعب بن عمير",
+    "free": false
+  },
+  {
+    "id": "abu_ayyub",
+    "nameAr": "أبو أيوب الأنصاري",
+    "free": false
+  },
+  {
+    "id": "abu_lahab",
+    "nameAr": "أبو لهب",
+    "free": false
+  },
+  {
+    "id": "waraqah",
+    "nameAr": "ورقة بن نوفل",
+    "free": false
+  },
+  {
+    "id": "sumayyah",
+    "nameAr": "سمية بنت خياط",
+    "free": false
+  },
+  {
+    "id": "aisha",
+    "nameAr": "عائشة بنت أبي بكر",
+    "free": false
+  },
+  {
+    "id": "hashim",
+    "nameAr": "هاشم",
+    "free": false
+  },
+  {
+    "id": "abd_manaf",
+    "nameAr": "عبد مناف",
+    "free": false
+  },
+  {
+    "id": "qusayy",
+    "nameAr": "قصي بن كلاب",
+    "free": false
+  },
+  {
+    "id": "kilab",
+    "nameAr": "كلاب بن مرة",
+    "free": false
+  },
+  {
+    "id": "murrah",
+    "nameAr": "مرة بن كعب",
+    "free": false
+  },
+  {
+    "id": "kab",
+    "nameAr": "كعب بن لؤي",
+    "free": false
+  },
+  {
+    "id": "luayy",
+    "nameAr": "لؤي بن غالب",
+    "free": false
+  },
+  {
+    "id": "ghalib",
+    "nameAr": "غالب بن فهر",
+    "free": false
+  },
+  {
+    "id": "fihr",
+    "nameAr": "فهر بن مالك",
+    "free": false
+  },
+  {
+    "id": "malik_ancestor",
+    "nameAr": "مالك بن النضر",
+    "free": false
+  },
+  {
+    "id": "al_nadr",
+    "nameAr": "النضر بن كنانة",
+    "free": false
+  },
+  {
+    "id": "kinana",
+    "nameAr": "كنانة بن خزيمة",
+    "free": false
+  },
+  {
+    "id": "khuzayma",
+    "nameAr": "خزيمة بن مدركة",
+    "free": false
+  },
+  {
+    "id": "mudrika",
+    "nameAr": "مدركة بن إلياس",
+    "free": false
+  },
+  {
+    "id": "ilyas",
+    "nameAr": "إلياس بن مضر",
+    "free": false
+  },
+  {
+    "id": "mudar",
+    "nameAr": "مضر بن نزار",
+    "free": false
+  },
+  {
+    "id": "nizar",
+    "nameAr": "نزار بن معد",
+    "free": false
+  },
+  {
+    "id": "maadd",
+    "nameAr": "معد بن عدنان",
+    "free": false
+  },
+  {
+    "id": "adnan",
+    "nameAr": "عدنان",
+    "free": false
+  },
+  {
+    "id": "fatimah_bint_asad",
+    "nameAr": "فاطمة بنت أسد",
+    "free": false
+  },
+  {
+    "id": "al_abbas",
+    "nameAr": "العباس بن عبد المطلب",
+    "free": false
+  },
+  {
+    "id": "safiyyah_bint_abd_al_muttalib",
+    "nameAr": "صفية بنت عبد المطلب",
+    "free": false
+  },
+  {
+    "id": "al_harith",
+    "nameAr": "الحارث بن عبد المطلب",
+    "free": false
+  },
+  {
+    "id": "qasim",
+    "nameAr": "القاسم بن محمد",
+    "free": false
+  },
+  {
+    "id": "zaynab_bint_muhammad",
+    "nameAr": "زينب بنت محمد",
+    "free": false
+  },
+  {
+    "id": "ruqayyah",
+    "nameAr": "رقية بنت محمد",
+    "free": false
+  },
+  {
+    "id": "umm_kulthum",
+    "nameAr": "أم كلثوم بنت محمد",
+    "free": false
+  },
+  {
+    "id": "fatimah_bint_muhammad",
+    "nameAr": "فاطمة بنت محمد",
+    "free": false
+  },
+  {
+    "id": "abdullah_ibn_muhammad",
+    "nameAr": "عبد الله بن محمد",
+    "free": false
+  },
+  {
+    "id": "ibrahim",
+    "nameAr": "إبراهيم بن محمد",
+    "free": false
+  },
+  {
+    "id": "hasan",
+    "nameAr": "الحسن بن علي",
+    "free": false
+  },
+  {
+    "id": "husayn",
+    "nameAr": "الحسين بن علي",
+    "free": false
+  },
+  {
+    "id": "umama",
+    "nameAr": "أمامة بنت أبي العاص",
+    "free": false
+  },
+  {
+    "id": "abu_al_as",
+    "nameAr": "أبو العاص بن الربيع",
+    "free": false
+  },
+  {
+    "id": "sawda",
+    "nameAr": "سودة بنت زمعة",
+    "free": false
+  },
+  {
+    "id": "hafsa",
+    "nameAr": "حفصة بنت عمر",
+    "free": false
+  },
+  {
+    "id": "umm_salama",
+    "nameAr": "أم سلمة",
+    "free": false
+  },
+  {
+    "id": "zaynab_bint_jahsh",
+    "nameAr": "زينب بنت جحش",
+    "free": false
+  },
+  {
+    "id": "juwayriya",
+    "nameAr": "جويرية بنت الحارث",
+    "free": false
+  },
+  {
+    "id": "safiyya_bint_huyayy",
+    "nameAr": "صفية بنت حيي",
+    "free": false
+  },
+  {
+    "id": "umm_habiba",
+    "nameAr": "أم حبيبة",
+    "free": false
+  },
+  {
+    "id": "maymuna",
+    "nameAr": "ميمونة بنت الحارث",
+    "free": false
+  },
+  {
+    "id": "mariya_al_qibtiyya",
+    "nameAr": "مارية القبطية",
+    "free": false
+  },
+  {
+    "id": "zaynab_bint_khuzayma",
+    "nameAr": "زينب بنت خزيمة",
+    "free": false
+  },
+  {
+    "id": "umayma_bint_abd_al_muttalib",
+    "nameAr": "أميمة بنت عبد المطلب",
+    "free": false
+  },
+  {
+    "id": "abu_sufyan",
+    "nameAr": "أبو سفيان بن حرب",
+    "free": false
+  }
+]

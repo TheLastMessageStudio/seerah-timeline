@@ -1,0 +1,241 @@
+[
+  {
+    "week": 1,
+    "releaseDate": "2026-11-16",
+    "titleFr": "Lot éditorial 01",
+    "titleEn": "Editorial batch 01",
+    "titleAr": "الدفعة التحريرية 01",
+    "eventIds": [
+      "guardianship",
+      "shepherd",
+      "syria_trip",
+      "hilf_fudul",
+      "marriage_khadijah"
+    ],
+    "status": "planned",
+    "eventsPerWeek": 5
+  },
+  {
+    "week": 2,
+    "releaseDate": "2026-11-23",
+    "titleFr": "Lot éditorial 02",
+    "titleEn": "Editorial batch 02",
+    "titleAr": "الدفعة التحريرية 02",
+    "eventIds": [
+      "kaaba_rebuild",
+      "hira_retreat",
+      "first_revelation",
+      "waraqah_meeting",
+      "first_believers"
+    ],
+    "status": "planned",
+    "eventsPerWeek": 5
+  },
+  {
+    "week": 3,
+    "releaseDate": "2026-11-30",
+    "titleFr": "Lot éditorial 03",
+    "titleEn": "Editorial batch 03",
+    "titleAr": "الدفعة التحريرية 03",
+    "eventIds": [
+      "first_prayers",
+      "fatrah",
+      "secret_preaching",
+      "dar_arqam",
+      "warn_kin"
+    ],
+    "status": "planned",
+    "eventsPerWeek": 5
+  },
+  {
+    "week": 4,
+    "releaseDate": "2026-12-07",
+    "titleFr": "Lot éditorial 04",
+    "titleEn": "Editorial batch 04",
+    "titleAr": "الدفعة التحريرية 04",
+    "eventIds": [
+      "safa_call",
+      "quraysh_accusations",
+      "abu_talib_protection",
+      "weak_persecuted",
+      "quraysh_pressure"
+    ],
+    "status": "planned",
+    "eventsPerWeek": 5
+  },
+  {
+    "week": 5,
+    "releaseDate": "2026-12-14",
+    "titleFr": "Lot éditorial 05",
+    "titleEn": "Editorial batch 05",
+    "titleAr": "الدفعة التحريرية 05",
+    "eventIds": [
+      "compromise_offer",
+      "uqbah_abu_bakr",
+      "hamzah_islam",
+      "umar_islam",
+      "first_habasha"
+    ],
+    "status": "planned",
+    "eventsPerWeek": 5
+  },
+  {
+    "week": 6,
+    "releaseDate": "2026-12-21",
+    "titleFr": "Lot éditorial 06",
+    "titleEn": "Editorial batch 06",
+    "titleAr": "الدفعة التحريرية 06",
+    "eventIds": [
+      "second_habasha",
+      "najashi_audience",
+      "boycott",
+      "year_sorrow",
+      "tribes_presentation"
+    ],
+    "status": "planned",
+    "eventsPerWeek": 5
+  },
+  {
+    "week": 7,
+    "releaseDate": "2026-12-28",
+    "titleFr": "Lot éditorial 07",
+    "titleEn": "Editorial batch 07",
+    "titleAr": "الدفعة التحريرية 07",
+    "eventIds": [
+      "taif_trip",
+      "mutim_protection",
+      "isra_miraj",
+      "five_prayers",
+      "isra_reaction"
+    ],
+    "status": "planned",
+    "eventsPerWeek": 5
+  },
+  {
+    "week": 8,
+    "releaseDate": "2027-01-04",
+    "titleFr": "Lot éditorial 08",
+    "titleEn": "Editorial batch 08",
+    "titleAr": "الدفعة التحريرية 08",
+    "eventIds": [
+      "khazraj_meeting",
+      "first_aqabah",
+      "musab_madinah",
+      "second_aqabah",
+      "companions_migrate"
+    ],
+    "status": "planned",
+    "eventsPerWeek": 5
+  },
+  {
+    "week": 9,
+    "releaseDate": "2027-01-11",
+    "titleFr": "Lot éditorial 09",
+    "titleEn": "Editorial batch 09",
+    "titleAr": "الدفعة التحريرية 09",
+    "eventIds": [
+      "dar_nadwa_plot",
+      "thawr_cave",
+      "suraqah",
+      "quba_arrival",
+      "arrive_madinah"
+    ],
+    "status": "planned",
+    "eventsPerWeek": 5
+  },
+  {
+    "week": 10,
+    "releaseDate": "2027-01-18",
+    "titleFr": "Lot éditorial 10",
+    "titleEn": "Editorial batch 10",
+    "titleAr": "الدفعة التحريرية 10",
+    "eventIds": [
+      "masjid_nabawi",
+      "muakhat",
+      "madinah_charter",
+      "adhan",
+      "qibla_change"
+    ],
+    "status": "planned",
+    "eventsPerWeek": 5
+  },
+  {
+    "week": 11,
+    "releaseDate": "2027-01-25",
+    "titleFr": "Lot éditorial 11",
+    "titleEn": "Editorial batch 11",
+    "titleAr": "الدفعة التحريرية 11",
+    "eventIds": [
+      "ramadan_fasting",
+      "badr",
+      "banu_qaynuqa",
+      "uhud",
+      "banu_nadir"
+    ],
+    "status": "planned",
+    "eventsPerWeek": 5
+  },
+  {
+    "week": 12,
+    "releaseDate": "2027-02-01",
+    "titleFr": "Lot éditorial 12",
+    "titleEn": "Editorial batch 12",
+    "titleAr": "الدفعة التحريرية 12",
+    "eventIds": [
+      "khandaq",
+      "banu_qurayza",
+      "banu_mustaliq",
+      "dhat_riqa",
+      "ridwan"
+    ],
+    "status": "planned",
+    "eventsPerWeek": 5
+  },
+  {
+    "week": 13,
+    "releaseDate": "2027-02-08",
+    "titleFr": "Lot éditorial 13",
+    "titleEn": "Editorial batch 13",
+    "titleAr": "الدفعة التحريرية 13",
+    "eventIds": [
+      "hudaybiyyah",
+      "letters_rulers",
+      "khaybar",
+      "wadi_al_qura",
+      "mutah"
+    ],
+    "status": "planned",
+    "eventsPerWeek": 5
+  },
+  {
+    "week": 14,
+    "releaseDate": "2027-02-15",
+    "titleFr": "Lot éditorial 14",
+    "titleEn": "Editorial batch 14",
+    "titleAr": "الدفعة التحريرية 14",
+    "eventIds": [
+      "fath_makkah",
+      "hunayn",
+      "siege_taif",
+      "tabuk",
+      "najashi_funeral"
+    ],
+    "status": "planned",
+    "eventsPerWeek": 5
+  },
+  {
+    "week": 15,
+    "releaseDate": "2027-02-22",
+    "titleFr": "Lot éditorial 15",
+    "titleEn": "Editorial batch 15",
+    "titleAr": "الدفعة التحريرية 15",
+    "eventIds": [
+      "delegations",
+      "delegation_thaqif",
+      "farewell_hajj",
+      "death_prophet"
+    ],
+    "status": "planned",
+    "eventsPerWeek": 5
+  }
+]

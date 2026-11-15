@@ -1,0 +1,203 @@
+[
+  {
+    "id": "dossier_ibn_hisham_context",
+    "bookId": "ibn_hisham",
+    "title": "Comment lire la Sîra d’Ibn Hishâm",
+    "titleAr": "كيفية قراءة سيرة ابن هشام",
+    "text": "Ibn Hishâm transmet et remanie une tradition biographique attribuée à Ibn Ishâq. Pour travailler avec cette œuvre, il faut distinguer le récit narratif, les chaînes de transmission lorsqu’elles sont données, les vers attribués aux acteurs et les ajouts ou suppressions opérés par le transmetteur. Une date précise ou un détail isolé ne doit pas être présenté comme unanimement établi. Ce dossier est une synthèse de lecture, non une transcription de l’édition Wüstenfeld. Référence de travail : édition Ferdinand Wüstenfeld, 1858–1860 ; pagination à vérifier dans l’exemplaire utilisé.",
+    "chapterId": "method",
+    "chapterTitle": "Dossier de lecture · synthèse éditoriale",
+    "chapterTitleAr": "ملف قراءة · خلاصة تحريرية",
+    "volume": null,
+    "pageStart": null,
+    "pageEnd": null,
+    "eventIds": [
+      "birth_prophet",
+      "abdullah_death",
+      "marriage_khadijah"
+    ],
+    "titleEn": "How to read Ibn Hisham’s Sirah",
+    "textEn": "Ibn Hisham transmits and reshapes a biographical tradition attributed to Ibn Ishaq. Read the narrative separately from any chains of transmission, attributed poetry and editorial choices. A precise date or isolated detail should not be presented as universally established. This is an editorial reading note, not a transcription of the Wüstenfeld edition. Working reference: Ferdinand Wüstenfeld edition, 1858–1860; pagination must be checked in the copy used.",
+    "textAr": "ينقل ابن هشام ويعيد صياغة رواية سيرية منسوبة إلى ابن إسحاق. وينبغي التمييز بين السرد وأسانيد الأخبار إن وجدت، والأشعار المنسوبة، والاختيارات التحريرية. ولا يصح عرض تاريخ دقيق أو تفصيل منفرد على أنه محل اتفاق. هذه ملاحظة قراءة تحريرية وليست نسخًا لطبعة فستنفلد. المرجع العملي: طبعة فرديناند فستنفلد 1858–1860، مع ضرورة مقابلة الصفحات في النسخة المعتمدة.",
+    "chapterTitleEn": "Study dossier · editorial synthesis"
+  },
+  {
+    "id": "dossier_ibn_hisham_mecca",
+    "bookId": "ibn_hisham",
+    "title": "La période mecquoise : thèmes à suivre",
+    "titleAr": "المرحلة المكية: محاور للمتابعة",
+    "text": "La lecture de la période mecquoise gagne à suivre quatre fils : la parenté et les protections sociales, l’annonce du monothéisme, la formation du premier groupe de croyants et les pressions exercées sur eux. Les épisodes doivent être comparés aux textes coraniques pertinents et aux recueils de hadith lorsque ceux-ci rapportent le même fait. Les biographies postérieures organisent parfois les événements de façon plus précise que ne le permettent les témoignages les plus anciens.",
+    "chapterId": "mecca",
+    "chapterTitle": "Dossier de lecture · synthèse éditoriale",
+    "chapterTitleAr": "ملف قراءة · خلاصة تحريرية",
+    "volume": null,
+    "pageStart": null,
+    "pageEnd": null,
+    "eventIds": [
+      "first_revelation",
+      "first_believers",
+      "secret_preaching",
+      "quraysh_accusations"
+    ],
+    "titleEn": "The Meccan period: themes to follow",
+    "textEn": "Read the Meccan period through four connected themes: family ties and social protection, the proclamation of monotheism, the formation of the first community, and the pressure placed upon it. Compare each episode with relevant Qur’anic passages and hadith reports where the same event appears. Later biographies sometimes arrange events more precisely than the earliest evidence allows.",
+    "textAr": "يمكن قراءة المرحلة المكية عبر أربعة محاور مترابطة: القرابة والحماية الاجتماعية، والدعوة إلى التوحيد، وتكوّن الجماعة الأولى، والضغوط التي تعرضت لها. وتُقارن كل واقعة بالآيات ذات الصلة وروايات الحديث إن ورد فيها الخبر نفسه. وقد ترتب كتب السيرة المتأخرة الأحداث بدقة زمنية أكبر مما تسمح به أقدم الشواهد.",
+    "chapterTitleEn": "Study dossier · editorial synthesis"
+  },
+  {
+    "id": "dossier_waqidi_maghaazi",
+    "bookId": "waqidi_maghazi",
+    "title": "Lire le Kitâb al-Maghâzî",
+    "titleAr": "قراءة كتاب المغازي",
+    "text": "Al-Wâqidî (mort en 207 H / 823) est une source ancienne majeure pour l’étude des expéditions. Son ouvrage conserve de nombreux récits, itinéraires, noms et détails logistiques. Son statut critique est discuté dans la tradition du hadith : ses récits ne doivent donc pas être cités comme preuve indépendante sans comparaison. Un scan de l’édition de Calcutta de 1855 est répertorié sur Wikimedia Commons comme domaine public en Inde ; vérifier les règles applicables au territoire de diffusion et la qualité du scan. Ce texte est une note éditoriale, pas le texte intégral.",
+    "chapterId": "method",
+    "chapterTitle": "Dossier de lecture · synthèse éditoriale",
+    "chapterTitleAr": "ملف قراءة · خلاصة تحريرية",
+    "volume": null,
+    "pageStart": null,
+    "pageEnd": null,
+    "eventIds": [
+      "badr",
+      "uhud",
+      "khandaq",
+      "khaybar"
+    ],
+    "titleEn": "Reading the Kitab al-Maghazi",
+    "textEn": "Al-Waqidi (d. 207 AH / 823 CE) is an early and important source for the study of the campaigns. His work preserves reports about routes, names and logistics. His reliability is critically disputed in hadith scholarship, so his reports should not be used as independent proof without comparison. A scan of the 1855 Calcutta edition is listed on Wikimedia Commons as public domain in India; check the rules that apply in the distribution territory and the scan quality. This is a research note, not the complete text.",
+    "textAr": "يُعد الواقدي (ت 207هـ / 823م) مصدرًا مبكرًا مهمًا لدراسة المغازي، ويحفظ كتابه أخبارًا عن الطرق والأسماء والتفاصيل اللوجستية. غير أن منزلته النقدية محل خلاف في علم الحديث؛ لذلك لا تُجعل رواياته دليلًا مستقلًا دون المقارنة. وتوجد صورة لطبعة كلكتا 1855 على ويكيميديا كومنز مع بيان الملكية العامة في الهند؛ وينبغي التحقق من أحكام بلد التوزيع وجودة النسخة. هذه مذكرة بحثية وليست النص الكامل.",
+    "chapterTitleEn": "Study dossier · editorial synthesis"
+  },
+  {
+    "id": "dossier_waqidi_badr",
+    "bookId": "waqidi_maghazi",
+    "title": "Badr : confronter les récits",
+    "titleAr": "بدر: مقارنة الروايات",
+    "text": "Pour étudier Badr, relever séparément les dates, effectifs, itinéraires, points d’eau, prises de décision et listes de participants. Comparer chaque détail aux versions conservées dans les recueils de hadith et aux autres chroniques. Les chiffres d’effectifs et certains détails tactiques varient selon les récits. La photographie moderne du site de Badr aide à visualiser le paysage actuel, mais ne prouve pas à elle seule la localisation exacte de chaque position en 624.",
+    "chapterId": "badr",
+    "chapterTitle": "Dossier de lecture · synthèse éditoriale",
+    "chapterTitleAr": "ملف قراءة · خلاصة تحريرية",
+    "volume": null,
+    "pageStart": null,
+    "pageEnd": null,
+    "eventIds": [
+      "badr"
+    ],
+    "titleEn": "Badr: compare the reports",
+    "textEn": "For Badr, record dates, numbers, routes, water sources, decisions and participant lists separately. Compare each detail with hadith collections and other chronicles. Reported troop numbers and some tactical details vary. A modern photograph of Badr helps visualise today’s landscape, but it cannot by itself prove the exact positions used in 624.",
+    "textAr": "في دراسة بدر تُسجل التواريخ والأعداد والطرق ومصادر المياه والقرارات وأسماء المشاركين كلٌّ على حدة. ثم تقارن التفاصيل بكتب الحديث والمصادر التاريخية الأخرى. وتختلف الروايات في أعداد المقاتلين وبعض التفاصيل العسكرية. وتساعد الصورة الحديثة لبدر على تصور المشهد الحالي، لكنها لا تثبت وحدها مواضع الصفوف في سنة 624م.",
+    "chapterTitleEn": "Study dossier · editorial synthesis"
+  },
+  {
+    "id": "dossier_ibn_sad_bios",
+    "bookId": "ibn_sad_tabaqat",
+    "title": "Les notices biographiques chez Ibn Saʿd",
+    "titleAr": "التراجم في طبقات ابن سعد",
+    "text": "Al-Tabaqât al-Kubrâ est une compilation biographique. Elle est utile pour identifier les personnes, leurs liens familiaux, leurs appartenances et les traditions transmises à leur sujet. Une notice biographique ne constitue pas automatiquement une preuve indépendante de chaque événement raconté. Pour chaque information, conserver le nom du transmetteur, la formulation du texte et l’édition consultée. Aucun numéro de page n’est indiqué ici tant que l’édition n’est pas fixée.",
+    "chapterId": "bios",
+    "chapterTitle": "Dossier de lecture · synthèse éditoriale",
+    "chapterTitleAr": "ملف قراءة · خلاصة تحريرية",
+    "volume": null,
+    "pageStart": null,
+    "pageEnd": null,
+    "eventIds": [
+      "guardianship",
+      "first_believers",
+      "hamzah_islam",
+      "umar_islam"
+    ],
+    "titleEn": "Biographical entries in Ibn Sa’d",
+    "textEn": "Al-Tabaqat al-Kubra is a biographical compilation. It is useful for identifying people, family links, affiliations and reports about them. A biographical entry does not automatically provide independent proof for every event it recounts. Record the transmitter, wording and edition for each item. No page number is supplied until an edition is fixed.",
+    "textAr": "الطبقات الكبرى مصنف في التراجم. ويفيد في التعرف إلى الأشخاص وصلاتهم الأسرية وانتماءاتهم والأخبار المتعلقة بهم. لكن الترجمة لا تُعد تلقائيًا دليلًا مستقلًا على كل واقعة تذكرها. وينبغي تسجيل الراوي واللفظ والطبعة لكل معلومة. ولا يذكر رقم صفحة قبل تحديد الطبعة.",
+    "chapterTitleEn": "Study dossier · editorial synthesis"
+  },
+  {
+    "id": "dossier_tabari_chronology",
+    "bookId": "tabari_tarikh",
+    "title": "Chronologie et variantes chez al-Tabarî",
+    "titleAr": "التسلسل الزمني واختلاف الروايات عند الطبري",
+    "text": "Le Târîkh d’al-Tabarî rassemble souvent plusieurs versions d’un même événement, parfois avec leurs chaînes de transmission. Il faut préserver cette pluralité au lieu de fusionner les récits en une seule narration artificiellement certaine. Une bonne fiche indique quelle version est rapportée, qui la transmet et comment elle se compare aux autres sources. Les dates de l’hégire et les conversions en calendrier grégorien doivent être signalées comme calculées lorsqu’elles le sont.",
+    "chapterId": "chronology",
+    "chapterTitle": "Dossier de lecture · synthèse éditoriale",
+    "chapterTitleAr": "ملف قراءة · خلاصة تحريرية",
+    "volume": null,
+    "pageStart": null,
+    "pageEnd": null,
+    "eventIds": [
+      "thawr_cave",
+      "badr",
+      "uhud",
+      "hudaybiyyah"
+    ],
+    "titleEn": "Chronology and variants in al-Tabari",
+    "textEn": "Al-Tabari’s History often preserves several versions of the same event, sometimes with their chains of transmission. Preserve this plurality rather than merging reports into one artificially certain narrative. A good entry states which version is being reported, who transmits it and how it compares with other accounts. Hijri-to-Gregorian conversions should be marked as calculated when applicable.",
+    "textAr": "يحفظ تاريخ الطبري في مواضع كثيرة أكثر من رواية للحدث الواحد، وأحيانًا يورد أسانيدها. وينبغي إبقاء هذا التعدد بدل دمج الأخبار في سرد واحد يوحي بيقين مصطنع. وتوضح البطاقة الجيدة الرواية المعتمدة وناقلها ومقارنتها بغيرها. كما ينبغي وصف تحويل التاريخ الهجري إلى الميلادي بأنه حسابي متى كان كذلك.",
+    "chapterTitleEn": "Study dossier · editorial synthesis"
+  },
+  {
+    "id": "dossier_bayhaqi_dalail",
+    "bookId": "bayhaqi_dalail",
+    "title": "Lire les Dalâ’il al-Nubuwwa",
+    "titleAr": "قراءة دلائل النبوة",
+    "text": "Les Dalâ’il al-Nubuwwa d’al-Bayhaqî rassemblent des récits mobilisés dans la littérature sur les signes de la prophétie. L’ouvrage doit être étudié en tenant compte de son objectif thématique et de l’évaluation des transmissions. Distinguer le fait historique rapporté, l’interprétation théologique proposée et le degré d’authenticité attribué au récit par les spécialistes. Cette synthèse ne remplace pas l’examen du texte arabe et de son édition.",
+    "chapterId": "dalail",
+    "chapterTitle": "Dossier de lecture · synthèse éditoriale",
+    "chapterTitleAr": "ملف قراءة · خلاصة تحريرية",
+    "volume": null,
+    "pageStart": null,
+    "pageEnd": null,
+    "eventIds": [
+      "first_revelation",
+      "isra_miraj"
+    ],
+    "titleEn": "Reading Dala’il al-Nubuwwa",
+    "textEn": "Al-Bayhaqi’s Dala’il al-Nubuwwa gathers reports used in literature about signs of prophethood. Read it with attention to its thematic purpose and the evaluation of its transmissions. Distinguish the reported historical event, the theological interpretation and the grading assigned by hadith specialists. This note does not replace examination of the Arabic text and its edition.",
+    "textAr": "يجمع دلائل النبوة للبيهقي أخبارًا استُعملت في المصنفات المتعلقة بعلامات النبوة. وينبغي قراءته مع مراعاة غرضه الموضوعي وتقويم أسانيده. ويجب التمييز بين الواقعة التاريخية المنقولة والتفسير العقدي ودرجة الرواية عند أهل الحديث. ولا تغني هذه المذكرة عن فحص النص العربي وطبقته.",
+    "chapterTitleEn": "Study dossier · editorial synthesis"
+  },
+  {
+    "id": "dossier_raheeq_method",
+    "bookId": "raheeq_makhtum",
+    "title": "Utiliser Ar-Rahîq al-Makhtûm",
+    "titleAr": "كيفية استخدام الرحيق المختوم",
+    "text": "Ar-Rahîq al-Makhtûm est une synthèse contemporaine de la Sîra. Elle peut servir de parcours de lecture et de repérage, mais elle ne doit pas être confondue avec une source ancienne. Son texte intégral n’est pas reproduit ici : l’ouvrage est moderne et sa licence de redistribution doit être vérifiée. Les fiches de l’application doivent remonter aux sources anciennes citées et indiquer séparément les choix de synthèse.",
+    "chapterId": "modern_synthesis",
+    "chapterTitle": "Dossier de lecture · synthèse éditoriale",
+    "chapterTitleAr": "ملف قراءة · خلاصة تحريرية",
+    "volume": null,
+    "pageStart": null,
+    "pageEnd": null,
+    "eventIds": [
+      "birth_prophet",
+      "thawr_cave",
+      "badr",
+      "farewell_hajj"
+    ],
+    "titleEn": "Using The Sealed Nectar",
+    "textEn": "The Sealed Nectar is a modern synthesis of the Sirah. It can provide a reading path and help locate topics, but it is not an early source. Its complete text is not reproduced here: the work is modern and redistribution rights must be checked. App entries should trace claims back to the older sources it cites and separately identify editorial synthesis.",
+    "textAr": "الرحيق المختوم خلاصة معاصرة للسيرة. ويمكن الاستفادة منه في ترتيب القراءة وتحديد الموضوعات، لكنه ليس مصدرًا قديمًا. ولا يُعاد نشر نصه الكامل هنا لأن الكتاب حديث ويلزم التحقق من حقوق إعادة التوزيع. وينبغي أن تعيد بطاقات التطبيق الأقوال إلى المصادر القديمة التي يستشهد بها، مع تمييز الخلاصة التحريرية على حدة.",
+    "chapterTitleEn": "Study dossier · editorial synthesis"
+  },
+  {
+    "id": "dossier_baladhuri_genealogy",
+    "bookId": "baladhuri_ansab",
+    "title": "Lire Ansâb al-Ashrâf",
+    "titleEn": "Reading Ansab al-Ashraf",
+    "titleAr": "قراءة أنساب الأشراف",
+    "text": "Ansâb al-Ashrâf d’al-Baladhuri est une source de généalogie et d’histoire. Elle aide à étudier les lignages, les alliances et les notices de personnages, mais ses récits doivent être comparés à d’autres sources. Il faut distinguer la généalogie transmise, les récits politiques et les traditions relatives aux événements. Aucune page n’est attribuée ici tant que l’édition n’est pas identifiée.",
+    "textEn": "Al-Baladhuri’s Ansab al-Ashraf is a work of genealogy and history. It helps study lineages, alliances and biographical notices, but its reports should be compared with other sources. Distinguish transmitted genealogies, political narratives and traditions about events. No page number is assigned until an edition is identified.",
+    "textAr": "أنساب الأشراف للبلاذري مصدر في الأنساب والتاريخ. ويفيد في دراسة السلالات والتحالفات وتراجم الشخصيات، لكن ينبغي مقارنة أخباره بالمصادر الأخرى. ويجب التمييز بين الأنساب المنقولة والأخبار السياسية والروايات المتعلقة بالأحداث. ولا يذكر رقم صفحة قبل تحديد الطبعة.",
+    "chapterId": "genealogy",
+    "chapterTitle": "Dossier de lecture · synthèse éditoriale",
+    "chapterTitleEn": "Study dossier · editorial synthesis",
+    "chapterTitleAr": "ملف قراءة · خلاصة تحريرية",
+    "volume": null,
+    "pageStart": null,
+    "pageEnd": null,
+    "eventIds": [
+      "birth_prophet",
+      "abdullah_death",
+      "guardianship",
+      "badr"
+    ]
+  }
+]

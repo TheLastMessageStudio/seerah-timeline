@@ -1,0 +1,50 @@
+{
+ "birth": {
+  "title": "Naissance et enfance",
+  "intro": "De la naissance du Prophète ﷺ à son enfance auprès de ses tuteurs."
+ },
+ "youth": {
+  "title": "Jeunesse et vie avant la révélation",
+  "intro": "Les années de jeunesse, le commerce, le mariage et la réputation d'honnêteté."
+ },
+ "revelation": {
+  "title": "Première révélation",
+  "intro": "Les retraites de Hira, les premiers versets et les premiers croyants."
+ },
+ "preaching": {
+  "title": "Début de la prédication",
+  "intro": "De l'appel discret à l'appel public à Makkah."
+ },
+ "persecution": {
+  "title": "Persécutions et épreuves",
+  "intro": "La pression de Quraysh sur les croyants et leurs protecteurs."
+ },
+ "abyssinia": {
+  "title": "Migration vers l'Abyssinie",
+  "intro": "Les deux migrations vers le royaume du Négus."
+ },
+ "hard_years": {
+  "title": "Années difficiles à Makkah",
+  "intro": "Le boycott, la perte de soutiens et la recherche d'appuis."
+ },
+ "taif": {
+  "title": "Voyage à Taïf",
+  "intro": "La recherche d'un soutien hors de Makkah."
+ },
+ "isra": {
+  "title": "Al-Isra wal-Mi'raj",
+  "intro": "Le voyage nocturne et l'ascension."
+ },
+ "aqabah": {
+  "title": "Les engagements d'Al-Aqabah",
+  "intro": "Les rencontres et serments avec les gens de Yathrib."
+ },
+ "hijrah": {
+  "title": "La Hijrah",
+  "intro": "La migration de Makkah vers Madinah."
+ },
+ "madinah": {
+  "title": "Période de Madinah",
+  "intro": "De l'installation à Madinah jusqu'au décès du Prophète ﷺ."
+ }
+}

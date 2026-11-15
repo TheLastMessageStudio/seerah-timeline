@@ -1,0 +1,113 @@
+{
+  "ibn_hisham": {
+    "description": "Récit classique de la vie du Prophète ﷺ, transmis par Ibn Hishâm à partir de la tradition d’Ibn Ishâq.",
+    "edition": "Ferdinand Wüstenfeld, Göttingen, 1858–1860 : texte en deux parties (1858 et 1859), puis introduction, notes et index (1860). Scan à collationner avec la pagination imprimée.",
+    "rightsNote": "Le fac-similé Wikisource est signalé comme domaine public ; la Qatar National Library indique « No Known Copyright » pour cette édition. L’OCR Internet Archive est très dégradé et ne sera pas intégré sans correction page par page."
+  },
+  "bukhari": {
+    "title": "Sahih al-Bukhari",
+    "description": "Collection complète en arabe, importable hors ligne. Vérifier les variantes et références dans une édition imprimée.",
+    "edition": "Texte arabe intégral consultable en ligne ; 97 livres selon l’organisation courante. Les numéros varient selon les éditions et les systèmes de comptage.",
+    "rightsNote": "Données structurées et texte arabe annoncés sous CC0 1.0 par Open Hadith Data. L’import exclut les traductions anglaises, soumises à des conditions distinctes."
+  },
+  "muslim": {
+    "title": "Sahih Muslim",
+    "description": "Collection complète en arabe, importable hors ligne. Vérifier les variantes et références dans une édition imprimée.",
+    "edition": "Collection complète consultable en ligne ; 57 livres dans l’organisation courante. Attention : la numérotation varie sensiblement selon les éditions et les sites.",
+    "rightsNote": "Données structurées et texte arabe annoncés sous CC0 1.0 par Open Hadith Data. L’import exclut les traductions anglaises, soumises à des conditions distinctes."
+  },
+  "abu_dawud": {
+    "title": "Sunan Abi Dawud",
+    "description": "Collection de hadiths en arabe. Le corpus complet est importable dans l’application ; références et variantes doivent être confrontées aux éditions imprimées."
+  },
+  "tirmidhi": {
+    "title": "Jami at-Tirmidhi",
+    "description": "Collection de hadiths en arabe. Le corpus complet est importable dans l’application ; références et variantes doivent être confrontées aux éditions imprimées."
+  },
+  "nasai": {
+    "title": "Sunan an-Nasa’i",
+    "description": "Collection de hadiths en arabe. Le corpus complet est importable dans l’application ; références et variantes doivent être confrontées aux éditions imprimées."
+  },
+  "ibn_majah": {
+    "title": "Sunan Ibn Majah",
+    "description": "Collection de hadiths en arabe. Le corpus complet est importable dans l’application ; références et variantes doivent être confrontées aux éditions imprimées."
+  },
+  "malik": {
+    "title": "Muwatta Malik",
+    "description": "Collection de hadiths en arabe. Le corpus complet est importable dans l’application ; références et variantes doivent être confrontées aux éditions imprimées."
+  },
+  "ahmad": {
+    "title": "Musnad Ahmad",
+    "description": "Collection de hadiths en arabe. Le corpus complet est importable dans l’application ; références et variantes doivent être confrontées aux éditions imprimées."
+  },
+  "darimi": {
+    "title": "Sunan al-Darimi",
+    "description": "Collection de hadiths en arabe. Le corpus complet est importable dans l’application ; références et variantes doivent être confrontées aux éditions imprimées."
+  },
+  "adab_al_mufrad": {
+    "title": "Al-Adab al-Mufrad",
+    "description": "Collection de hadiths en arabe. Le corpus complet est importable dans l’application ; références et variantes doivent être confrontées aux éditions imprimées."
+  },
+  "riyad_as_salihin": {
+    "title": "Riyad as-Salihin",
+    "description": "Collection de hadiths en arabe. Le corpus complet est importable dans l’application ; références et variantes doivent être confrontées aux éditions imprimées."
+  },
+  "bulugh_al_maram": {
+    "title": "Bulugh al-Maram",
+    "description": "Collection de hadiths en arabe. Le corpus complet est importable dans l’application ; références et variantes doivent être confrontées aux éditions imprimées."
+  },
+  "shamail": {
+    "title": "Ash-Shama’il al-Muhammadiyah",
+    "description": "Collection de hadiths en arabe. Le corpus complet est importable dans l’application ; références et variantes doivent être confrontées aux éditions imprimées."
+  },
+  "mishkat": {
+    "title": "Mishkat al-Masabih",
+    "description": "Collection de hadiths en arabe. Le corpus complet est importable dans l’application ; références et variantes doivent être confrontées aux éditions imprimées."
+  },
+  "nawawi40": {
+    "title": "Forty Hadith of al-Nawawi",
+    "description": "Collection de hadiths en arabe. Le corpus complet est importable dans l’application ; références et variantes doivent être confrontées aux éditions imprimées."
+  },
+  "hadith_qudsi40": {
+    "title": "Forty Hadith Qudsi",
+    "description": "Collection de hadiths en arabe. Le corpus complet est importable dans l’application ; références et variantes doivent être confrontées aux éditions imprimées."
+  },
+  "shah_waliullah40": {
+    "title": "Forty Hadith of Shah Waliullah",
+    "description": "Collection de hadiths en arabe. Le corpus complet est importable dans l’application ; références et variantes doivent être confrontées aux éditions imprimées."
+  },
+  "quran_ar": {
+    "title": "Le Coran · texte arabe",
+    "description": "Texte arabe complet, lecture Hafs. La traduction française n’est pas incluse dans cet import."
+  },
+  "waqidi_maghazi": {
+    "title": "Le Kitâb al-Maghâzî",
+    "author": "Al-Wâqidî",
+    "description": "Récit classique des campagnes et expéditions de la période prophétique."
+  },
+  "ibn_sad_tabaqat": {
+    "title": "Al-Tabaqât al-Kubrâ",
+    "author": "Ibn Saʿd",
+    "description": "Grande compilation biographique consacrée aux premières générations musulmanes."
+  },
+  "tabari_tarikh": {
+    "title": "Târîkh al-Rusul wa al-Mulûk",
+    "author": "Al-Tabarî",
+    "description": "Chronique historique couvrant les prophètes et les premiers siècles de l’islam."
+  },
+  "baladhuri_ansab": {
+    "title": "Ansâb al-Ashrâf",
+    "author": "Al-Balâdhurî",
+    "description": "Dossier de lecture disponible sur les généalogies, alliances et notices historiques ; le texte intégral n’est pas intégré."
+  },
+  "bayhaqi_dalail": {
+    "title": "Dalâ’il al-Nubuwwa",
+    "author": "Al-Bayhaqî",
+    "description": "Compilation classique de récits relatifs à la mission prophétique."
+  },
+  "raheeq_makhtum": {
+    "title": "Ar-Rahîq al-Makhtûm",
+    "author": "Safi al-Rahman al-Mubarakpuri",
+    "description": "Biographie contemporaine du Prophète ﷺ."
+  }
+}

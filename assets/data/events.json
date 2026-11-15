@@ -1,0 +1,1863 @@
+[
+  {
+    "id": "birth_prophet",
+    "periodId": "birth",
+    "titleAr": "المولد النبوي",
+    "datePrecision": "approximate",
+    "sortOrder": 10,
+    "personIds": [
+      "muhammad",
+      "aminah",
+      "abdullah",
+      "abd_al_muttalib"
+    ],
+    "placeIds": [
+      "makkah"
+    ],
+    "sourceIds": [
+      "ibn_hisham",
+      "zad_maad",
+      "muslim"
+    ],
+    "references": [
+      "Sahih Muslim 1162e — atteste le lundi, sans fixer le mois, le quantième ou l’année.",
+      "Ibn Hisham, al-Sīra al-Nabawiyya — tradition biographique sur la naissance ; pagination à collationner dans l’édition retenue.",
+      "Ebrahim Noor, Sīrah of Muhammad, Part 3, 2nd ed. (2023), p. 8 — synthèse moderne ; rappelle le désaccord sur le jour exact."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "abdullah_death",
+    "periodId": "birth",
+    "titleAr": "وفاة عبد الله والد النبي",
+    "datePrecision": "disputed",
+    "sortOrder": 20,
+    "personIds": [
+      "abdullah",
+      "muhammad"
+    ],
+    "placeIds": [
+      "makkah",
+      "madinah"
+    ],
+    "sourceIds": [
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sīra al-Nabawiyya — récit biographique du décès ; pagination à collationner.",
+      "Ebrahim Noor, Sīrah of Muhammad, Part 3, 2nd ed. (2023), p. 6 — synthèse moderne situant le décès à Yathrib pendant la grossesse d’Amina."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "halimah_nursing",
+    "periodId": "birth",
+    "titleAr": "الرضاعة في بني سعد",
+    "datePrecision": "approximate",
+    "sortOrder": 30,
+    "personIds": [
+      "halimah",
+      "muhammad"
+    ],
+    "placeIds": [
+      "makkah"
+    ],
+    "sourceIds": [
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sīra al-Nabawiyya — récit de Halima et des Banû Saʿd ; pagination à collationner.",
+      "Ebrahim Noor, Sīrah of Muhammad, Part 3, 2nd ed. (2023), pp. 14–16 — synthèse moderne sur la coutume des nourrices et le séjour chez les Banû Saʿd."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "chest_opening",
+    "periodId": "birth",
+    "titleAr": "شق الصدر",
+    "datePrecision": "approximate",
+    "sortOrder": 40,
+    "personIds": [
+      "muhammad",
+      "halimah"
+    ],
+    "placeIds": [
+      "makkah"
+    ],
+    "sourceIds": [
+      "muslim",
+      "ibn_hisham"
+    ],
+    "references": [
+      "Sahih Muslim 162c (Livre de la foi, hadith 318 selon Sunnah.com) — récit d’Anas ibn Malik ; l’âge et le lieu ne sont pas précisés dans le hadith.",
+      "Ibn Hisham, al-Sīra al-Nabawiyya — contexte du séjour chez les Banû Saʿd ; pagination à collationner."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "aminah_death",
+    "periodId": "birth",
+    "titleAr": "وفاة آمنة بنت وهب",
+    "datePrecision": "approximate",
+    "sortOrder": 50,
+    "personIds": [
+      "aminah",
+      "muhammad",
+      "abd_al_muttalib"
+    ],
+    "placeIds": [
+      "makkah",
+      "al_abwa"
+    ],
+    "sourceIds": [
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sīra al-Nabawiyya — récit biographique du décès à al-Abwaʾ ; pagination à collationner.",
+      "Ebrahim Noor, Sīrah of Muhammad, Part 3, 2nd ed. (2023), pp. 21–22 — synthèse moderne du voyage à Yathrib, du décès et du retour avec Umm Ayman."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "guardianship",
+    "periodId": "birth",
+    "titleAr": "كفالة عبد المطلب وأبي طالب",
+    "datePrecision": "approximate",
+    "sortOrder": 60,
+    "personIds": [
+      "abd_al_muttalib",
+      "abu_talib",
+      "muhammad"
+    ],
+    "placeIds": [
+      "makkah"
+    ],
+    "sourceIds": [
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sira al-Nabawiyya, I, 179 — transfert de tutelle (référence d’édition citée par Islam Museum ; à collationner sur l’exemplaire choisi).",
+      "Safi al-Rahman al-Mubarakpuri, al-Raheeq al-Makhtum, p. 58 — synthèse moderne sur la mort d’Abd al-Muttalib et la tutelle d’Abu Talib."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "shepherd",
+    "periodId": "youth",
+    "titleAr": "رعي الغنم",
+    "datePrecision": "approximate",
+    "sortOrder": 70,
+    "personIds": [
+      "muhammad"
+    ],
+    "placeIds": [
+      "makkah"
+    ],
+    "sourceIds": [
+      "bukhari"
+    ],
+    "references": [
+      "Sahih al-Bukhari 2262, Kitab al-Ijarah, chapitre « To shepherd sheep for Qirat » — texte arabe et traduction consultables."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "syria_trip",
+    "periodId": "youth",
+    "titleAr": "الرحلة إلى الشام",
+    "datePrecision": "approximate",
+    "sortOrder": 80,
+    "personIds": [
+      "abu_talib",
+      "muhammad"
+    ],
+    "placeIds": [
+      "makkah"
+    ],
+    "sourceIds": [
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sira al-Nabawiyya — récit de la caravane et de Bahira ; variantes et critique à consulter.",
+      "Anthony S., Muhammad and the Empires of Faith — discussion moderne des traditions relatives aux voyages et à Bahira ; ne pas traiter le récit comme unanimement établi."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "hilf_fudul",
+    "periodId": "youth",
+    "titleAr": "حلف الفضول",
+    "datePrecision": "approximate",
+    "sortOrder": 90,
+    "personIds": [
+      "muhammad"
+    ],
+    "placeIds": [
+      "makkah"
+    ],
+    "sourceIds": [
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sira al-Nabawiyya, I, 133–135 — pacte de Hilf al-Fudul (pagination d’une édition citée, à vérifier dans l’édition retenue).",
+      "Safi al-Rahman al-Mubarakpuri, al-Raheeq al-Makhtum, pp. 59–60 — synthèse moderne."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "marriage_khadijah",
+    "periodId": "youth",
+    "titleAr": "الزواج من خديجة",
+    "datePrecision": "approximate",
+    "sortOrder": 100,
+    "personIds": [
+      "khadijah",
+      "muhammad"
+    ],
+    "placeIds": [
+      "makkah"
+    ],
+    "sourceIds": [
+      "ibn_hisham",
+      "zad_maad",
+      "bukhari"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sira al-Nabawiyya, I, 187–191 — voyage commercial et mariage (pagination à vérifier dans l’édition retenue).",
+      "Safi al-Rahman al-Mubarakpuri, al-Raheeq al-Makhtum, pp. 60–61 — synthèse moderne ; détails d’âge et de contrat à attribuer à cette version.",
+      "Sahih al-Bukhari 3816 — confirme le mariage avec Khadîja et son souvenir ; ne fixe pas la date du mariage."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "kaaba_rebuild",
+    "periodId": "youth",
+    "titleAr": "بناء الكعبة وتحكيم الحجر الأسود",
+    "datePrecision": "approximate",
+    "sortOrder": 110,
+    "personIds": [
+      "muhammad"
+    ],
+    "placeIds": [
+      "makkah"
+    ],
+    "sourceIds": [
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "hira_retreat",
+    "periodId": "revelation",
+    "titleAr": "التحنث في غار حراء",
+    "datePrecision": "approximate",
+    "sortOrder": 120,
+    "personIds": [
+      "muhammad",
+      "khadijah"
+    ],
+    "placeIds": [
+      "jabal_al_nur",
+      "makkah"
+    ],
+    "sourceIds": [
+      "bukhari"
+    ],
+    "references": [
+      "Sahih al-Bukhari 3 — le récit de la première révélation décrit les retraites à Hirâʾ avant l’événement."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "first_revelation",
+    "periodId": "revelation",
+    "titleAr": "بداية الوحي",
+    "datePrecision": "approximate",
+    "sortOrder": 130,
+    "personIds": [
+      "muhammad",
+      "khadijah"
+    ],
+    "placeIds": [
+      "jabal_al_nur",
+      "makkah"
+    ],
+    "sourceIds": [
+      "coran",
+      "bukhari"
+    ],
+    "references": [
+      "Sahih al-Bukhari 3 — début de la révélation dans la grotte de Hira.",
+      "Coran 96:1–5 — premiers versets de la sourate Al-'Alaq."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "waraqah_meeting",
+    "periodId": "revelation",
+    "titleAr": "لقاء ورقة بن نوفل",
+    "datePrecision": "approximate",
+    "sortOrder": 140,
+    "personIds": [
+      "khadijah",
+      "waraqah",
+      "muhammad"
+    ],
+    "placeIds": [
+      "makkah"
+    ],
+    "sourceIds": [
+      "bukhari"
+    ],
+    "references": [
+      "Sahih al-Bukhari 3 — récit de la première révélation, incluant la rencontre avec Waraqa ibn Nawfal."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "first_believers",
+    "periodId": "revelation",
+    "titleAr": "السابقون الأولون",
+    "datePrecision": "approximate",
+    "sortOrder": 150,
+    "personIds": [
+      "khadijah",
+      "ali",
+      "zayd",
+      "abu_bakr"
+    ],
+    "placeIds": [
+      "makkah",
+      "dar_al_arqam"
+    ],
+    "sourceIds": [
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "first_prayers",
+    "periodId": "revelation",
+    "titleAr": "أولى الصلوات",
+    "datePrecision": "approximate",
+    "sortOrder": 160,
+    "personIds": [
+      "muhammad",
+      "ali",
+      "khadijah"
+    ],
+    "placeIds": [
+      "makkah"
+    ],
+    "sourceIds": [
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "fatrah",
+    "periodId": "revelation",
+    "titleAr": "فترة الوحي ونزول المدثر",
+    "datePrecision": "approximate",
+    "sortOrder": 170,
+    "personIds": [
+      "muhammad"
+    ],
+    "placeIds": [
+      "makkah"
+    ],
+    "sourceIds": [
+      "coran",
+      "bukhari"
+    ],
+    "references": [
+      "Coran 74:1-7",
+      "Sahih al-Bukhari 4 — récit de la période de pause de la révélation et de la reprise avec Al-Muddaththir."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "secret_preaching",
+    "periodId": "preaching",
+    "titleAr": "الدعوة السرية",
+    "datePrecision": "approximate",
+    "sortOrder": 180,
+    "personIds": [
+      "muhammad",
+      "abu_bakr"
+    ],
+    "placeIds": [
+      "makkah",
+      "dar_al_arqam"
+    ],
+    "sourceIds": [
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "dar_arqam",
+    "periodId": "preaching",
+    "titleAr": "دار الأرقم",
+    "datePrecision": "approximate",
+    "sortOrder": 190,
+    "personIds": [
+      "muhammad"
+    ],
+    "placeIds": [
+      "makkah",
+      "dar_al_arqam"
+    ],
+    "sourceIds": [
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "warn_kin",
+    "periodId": "preaching",
+    "titleAr": "الأمر بإنذار الأقربين",
+    "datePrecision": "approximate",
+    "sortOrder": 200,
+    "personIds": [
+      "muhammad",
+      "abu_lahab"
+    ],
+    "placeIds": [
+      "makkah"
+    ],
+    "sourceIds": [
+      "coran",
+      "ibn_hisham"
+    ],
+    "references": [
+      "Coran 26:214 — commande d’avertir les proches ; le verset seul ne date pas la scène.",
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "safa_call",
+    "periodId": "preaching",
+    "titleAr": "الصعود على الصفا",
+    "datePrecision": "disputed",
+    "sortOrder": 210,
+    "personIds": [
+      "muhammad",
+      "abu_lahab"
+    ],
+    "placeIds": [
+      "makkah",
+      "safa_marwa"
+    ],
+    "sourceIds": [
+      "bukhari",
+      "coran"
+    ],
+    "references": [
+      "Coran 111",
+      "Sahih al-Bukhari 4770 — appel sur al-Safâ après la révélation de 26:214 ; portée limitée au récit du hadith."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "quraysh_accusations",
+    "periodId": "preaching",
+    "titleAr": "اتهامات قريش",
+    "datePrecision": "approximate",
+    "sortOrder": 220,
+    "personIds": [
+      "muhammad"
+    ],
+    "placeIds": [
+      "makkah"
+    ],
+    "sourceIds": [
+      "coran",
+      "ibn_hisham"
+    ],
+    "references": [
+      "Coran 38:4 — rapporte une accusation de sorcellerie et de mensonge ; ne couvre pas chaque épisode de la fiche.",
+      "Coran 15:6",
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "abu_talib_protection",
+    "periodId": "preaching",
+    "titleAr": "حماية أبي طالب",
+    "datePrecision": "approximate",
+    "sortOrder": 230,
+    "personIds": [
+      "abu_talib",
+      "muhammad"
+    ],
+    "placeIds": [
+      "makkah"
+    ],
+    "sourceIds": [
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "weak_persecuted",
+    "periodId": "persecution",
+    "titleAr": "تعذيب المستضعفين",
+    "datePrecision": "approximate",
+    "sortOrder": 240,
+    "personIds": [
+      "bilal",
+      "sumayyah",
+      "abu_bakr"
+    ],
+    "placeIds": [
+      "makkah"
+    ],
+    "sourceIds": [
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "quraysh_pressure",
+    "periodId": "persecution",
+    "titleAr": "ضغوط قريش على أبي طالب",
+    "datePrecision": "approximate",
+    "sortOrder": 250,
+    "personIds": [
+      "abu_talib",
+      "muhammad"
+    ],
+    "placeIds": [
+      "makkah"
+    ],
+    "sourceIds": [
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "compromise_offer",
+    "periodId": "persecution",
+    "titleAr": "عرض قريش للمساومة",
+    "datePrecision": "approximate",
+    "sortOrder": 260,
+    "personIds": [
+      "muhammad"
+    ],
+    "placeIds": [
+      "makkah"
+    ],
+    "sourceIds": [
+      "coran",
+      "ibn_hisham"
+    ],
+    "references": [
+      "Coran 109",
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification.",
+      "Coran 109:1–6 — atteste le refus du compromis cultuel, sans prouver à lui seul la scène de négociation rapportée par la Sîra."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "uqbah_abu_bakr",
+    "periodId": "persecution",
+    "titleAr": "اعتداء عقبة بن أبي معيط ودفاع أبي بكر",
+    "datePrecision": "approximate",
+    "sortOrder": 270,
+    "personIds": [
+      "abu_bakr",
+      "muhammad"
+    ],
+    "placeIds": [
+      "makkah"
+    ],
+    "sourceIds": [
+      "bukhari"
+    ],
+    "references": [
+      "Coran 40:28",
+      "Sahih al-Bukhari 3678 — agression d’ʿUqba ibn Abî Muʿayt pendant la prière et intervention d’Abû Bakr."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "hamzah_islam",
+    "periodId": "persecution",
+    "titleAr": "إسلام حمزة",
+    "datePrecision": "disputed",
+    "sortOrder": 280,
+    "personIds": [
+      "hamzah",
+      "muhammad"
+    ],
+    "placeIds": [
+      "makkah"
+    ],
+    "sourceIds": [
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "umar_islam",
+    "periodId": "persecution",
+    "titleAr": "إسلام عمر بن الخطاب",
+    "datePrecision": "disputed",
+    "sortOrder": 290,
+    "personIds": [
+      "umar",
+      "muhammad"
+    ],
+    "placeIds": [
+      "makkah"
+    ],
+    "sourceIds": [
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "first_habasha",
+    "periodId": "abyssinia",
+    "titleAr": "الهجرة الأولى إلى الحبشة",
+    "datePrecision": "approximate",
+    "sortOrder": 300,
+    "personIds": [
+      "uthman"
+    ],
+    "placeIds": [
+      "abyssinia",
+      "makkah"
+    ],
+    "sourceIds": [
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "second_habasha",
+    "periodId": "abyssinia",
+    "titleAr": "الهجرة الثانية إلى الحبشة",
+    "datePrecision": "approximate",
+    "sortOrder": 310,
+    "personIds": [
+      "jafar"
+    ],
+    "placeIds": [
+      "abyssinia"
+    ],
+    "sourceIds": [
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "najashi_audience",
+    "periodId": "abyssinia",
+    "titleAr": "بين يدي النجاشي",
+    "datePrecision": "approximate",
+    "sortOrder": 320,
+    "personIds": [
+      "jafar",
+      "najashi"
+    ],
+    "placeIds": [
+      "abyssinia"
+    ],
+    "sourceIds": [
+      "ibn_hisham"
+    ],
+    "references": [
+      "Coran 19",
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "boycott",
+    "periodId": "hard_years",
+    "titleAr": "مقاطعة قريش وشعب أبي طالب",
+    "datePrecision": "approximate",
+    "sortOrder": 330,
+    "personIds": [
+      "abu_talib",
+      "muhammad"
+    ],
+    "placeIds": [
+      "makkah"
+    ],
+    "sourceIds": [
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "year_sorrow",
+    "periodId": "hard_years",
+    "titleAr": "عام الحزن",
+    "datePrecision": "approximate",
+    "sortOrder": 340,
+    "personIds": [
+      "abu_talib",
+      "khadijah",
+      "muhammad"
+    ],
+    "placeIds": [
+      "makkah"
+    ],
+    "sourceIds": [
+      "ibn_hisham",
+      "zad_maad"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification.",
+      "Ibn al-Qayyim, Zād al-Maʿād — synthèse biographique à consulter ; volume et page non attribués sans contrôle d’édition."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "tribes_presentation",
+    "periodId": "hard_years",
+    "titleAr": "عرض الدعوة على القبائل",
+    "datePrecision": "approximate",
+    "sortOrder": 350,
+    "personIds": [
+      "muhammad"
+    ],
+    "placeIds": [
+      "mina",
+      "makkah"
+    ],
+    "sourceIds": [
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "taif_trip",
+    "periodId": "taif",
+    "titleAr": "رحلة الطائف",
+    "datePrecision": "approximate",
+    "sortOrder": 360,
+    "personIds": [
+      "muhammad",
+      "zayd"
+    ],
+    "placeIds": [
+      "taif",
+      "makkah"
+    ],
+    "sourceIds": [
+      "bukhari",
+      "muslim",
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification.",
+      "Sahih al-Bukhari 3231 — récit du jour d’al-ʿAqaba et de l’ange des montagnes ; l’identification à Taïf dépend du contexte."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "mutim_protection",
+    "periodId": "taif",
+    "titleAr": "العودة في جوار المطعم بن عدي",
+    "datePrecision": "approximate",
+    "sortOrder": 370,
+    "personIds": [
+      "muhammad"
+    ],
+    "placeIds": [
+      "makkah"
+    ],
+    "sourceIds": [
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "isra_miraj",
+    "periodId": "isra",
+    "titleAr": "الإسراء والمعراج",
+    "datePrecision": "disputed",
+    "sortOrder": 380,
+    "personIds": [
+      "muhammad"
+    ],
+    "placeIds": [
+      "makkah"
+    ],
+    "sourceIds": [
+      "coran",
+      "bukhari",
+      "muslim"
+    ],
+    "references": [
+      "Coran 17:1",
+      "Coran 53:13-18"
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "five_prayers",
+    "periodId": "isra",
+    "titleAr": "فرض الصلوات الخمس",
+    "datePrecision": "disputed",
+    "sortOrder": 390,
+    "personIds": [
+      "muhammad"
+    ],
+    "placeIds": [
+      "makkah"
+    ],
+    "sourceIds": [
+      "bukhari",
+      "muslim"
+    ],
+    "references": [
+      "Sahih al-Bukhari et Sahih Muslim — récits de l’al-Isrāʾ wa-l-Miʿrāj et de la prescription des prières ; numéro à préciser selon l’édition retenue.",
+      "Sahih al-Bukhari 349 — prescription des prières lors de l’Isrâʾ, cinquante puis cinq prières."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "isra_reaction",
+    "periodId": "isra",
+    "titleAr": "موقف قريش من الإسراء",
+    "datePrecision": "disputed",
+    "sortOrder": 400,
+    "personIds": [
+      "abu_bakr",
+      "muhammad"
+    ],
+    "placeIds": [
+      "makkah"
+    ],
+    "sourceIds": [
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "khazraj_meeting",
+    "periodId": "aqabah",
+    "titleAr": "لقاء الخزرج في العقبة",
+    "datePrecision": "approximate",
+    "sortOrder": 410,
+    "personIds": [
+      "muhammad"
+    ],
+    "placeIds": [
+      "mina",
+      "makkah"
+    ],
+    "sourceIds": [
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "first_aqabah",
+    "periodId": "aqabah",
+    "titleAr": "بيعة العقبة الأولى",
+    "datePrecision": "approximate",
+    "sortOrder": 420,
+    "personIds": [
+      "muhammad"
+    ],
+    "placeIds": [
+      "mina",
+      "makkah"
+    ],
+    "sourceIds": [
+      "bukhari",
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification.",
+      "Sahih al-Bukhari 3893 — atteste une bayʿa à al-ʿAqaba, sans distinguer explicitement le premier serment du second."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "musab_madinah",
+    "periodId": "aqabah",
+    "titleAr": "مصعب بن عمير في المدينة",
+    "datePrecision": "approximate",
+    "sortOrder": 430,
+    "personIds": [
+      "musab"
+    ],
+    "placeIds": [
+      "madinah"
+    ],
+    "sourceIds": [
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "second_aqabah",
+    "periodId": "aqabah",
+    "titleAr": "بيعة العقبة الثانية",
+    "datePrecision": "approximate",
+    "sortOrder": 440,
+    "personIds": [
+      "muhammad"
+    ],
+    "placeIds": [
+      "mina",
+      "makkah"
+    ],
+    "sourceIds": [
+      "ibn_hisham",
+      "bukhari"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification.",
+      "Sahih al-Bukhari 3892 — rapporte une bayʿa nocturne à al-ʿAqaba ; détails et attribution au second serment à recouper."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "companions_migrate",
+    "periodId": "hijrah",
+    "titleAr": "هجرة الصحابة إلى المدينة",
+    "datePrecision": "approximate",
+    "sortOrder": 450,
+    "personIds": [
+      "umar"
+    ],
+    "placeIds": [
+      "makkah",
+      "madinah"
+    ],
+    "sourceIds": [
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "dar_nadwa_plot",
+    "periodId": "hijrah",
+    "titleAr": "مؤامرة دار الندوة",
+    "datePrecision": "approximate",
+    "sortOrder": 460,
+    "personIds": [
+      "ali",
+      "muhammad"
+    ],
+    "placeIds": [
+      "makkah"
+    ],
+    "sourceIds": [
+      "coran",
+      "ibn_hisham"
+    ],
+    "references": [
+      "Coran 8:30 — évoque le complot visant à retenir, tuer ou expulser le Prophète ﷺ ; Dar al-Nadwa n’est pas nommée dans le verset.",
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "thawr_cave",
+    "periodId": "hijrah",
+    "titleAr": "غار ثور",
+    "datePrecision": "approximate",
+    "sortOrder": 470,
+    "personIds": [
+      "abu_bakr",
+      "muhammad"
+    ],
+    "placeIds": [
+      "thawr",
+      "makkah"
+    ],
+    "sourceIds": [
+      "coran",
+      "bukhari"
+    ],
+    "references": [
+      "Coran 9:40"
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "suraqah",
+    "periodId": "hijrah",
+    "titleAr": "سراقة بن مالك",
+    "datePrecision": "approximate",
+    "sortOrder": 480,
+    "personIds": [
+      "abu_bakr",
+      "muhammad"
+    ],
+    "placeIds": [],
+    "sourceIds": [
+      "bukhari"
+    ],
+    "references": [
+      "Sahih al-Bukhari 3908 — poursuite du Prophète ﷺ par Suraqa pendant la migration vers Médine."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "quba_arrival",
+    "periodId": "hijrah",
+    "titleAr": "النزول بقباء",
+    "datePrecision": "approximate",
+    "sortOrder": 490,
+    "personIds": [
+      "muhammad"
+    ],
+    "placeIds": [
+      "quba",
+      "madinah"
+    ],
+    "sourceIds": [
+      "bukhari",
+      "ibn_hisham"
+    ],
+    "references": [
+      "Coran 9:108",
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification.",
+      "Sahih al-Bukhari 3932 — séjour initial dans le secteur des Banû ʿAmr ibn ʿAwf, identifié à Qubâʾ dans la tradition."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "arrive_madinah",
+    "periodId": "hijrah",
+    "titleAr": "الوصول إلى المدينة",
+    "datePrecision": "exact",
+    "sortOrder": 500,
+    "personIds": [
+      "muhammad",
+      "abu_ayyub"
+    ],
+    "placeIds": [
+      "madinah",
+      "quba",
+      "masjid_nabawi"
+    ],
+    "sourceIds": [
+      "bukhari",
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "masjid_nabawi",
+    "periodId": "madinah",
+    "titleAr": "بناء المسجد النبوي",
+    "datePrecision": "approximate",
+    "sortOrder": 510,
+    "personIds": [
+      "muhammad"
+    ],
+    "placeIds": [
+      "madinah",
+      "masjid_nabawi"
+    ],
+    "sourceIds": [
+      "bukhari"
+    ],
+    "references": [
+      "Sahih al-Bukhari 3932 — construction de la mosquée de Médine après l’arrivée du Prophète ﷺ."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "muakhat",
+    "periodId": "madinah",
+    "titleAr": "المؤاخاة",
+    "datePrecision": "approximate",
+    "sortOrder": 520,
+    "personIds": [
+      "muhammad"
+    ],
+    "placeIds": [
+      "madinah"
+    ],
+    "sourceIds": [
+      "bukhari",
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification.",
+      "Sahih al-Bukhari 3780 — exemple précis de fraternisation entre ʿAbd al-Rahmân ibn ʿAwf et Saʿd ibn al-Rabîʿ."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "madinah_charter",
+    "periodId": "madinah",
+    "titleAr": "وثيقة المدينة",
+    "datePrecision": "approximate",
+    "sortOrder": 530,
+    "personIds": [
+      "muhammad"
+    ],
+    "placeIds": [
+      "madinah"
+    ],
+    "sourceIds": [
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "adhan",
+    "periodId": "madinah",
+    "titleAr": "الأذان",
+    "datePrecision": "approximate",
+    "sortOrder": 540,
+    "personIds": [
+      "bilal"
+    ],
+    "placeIds": [
+      "madinah"
+    ],
+    "sourceIds": [
+      "bukhari",
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification.",
+      "Sahih al-Bukhari 604 — établissement de l’appel à la prière à Médine et ordre donné à Bilâl ; sans date précise."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "qibla_change",
+    "periodId": "madinah",
+    "titleAr": "تحويل القبلة",
+    "datePrecision": "approximate",
+    "sortOrder": 550,
+    "personIds": [
+      "muhammad"
+    ],
+    "placeIds": [
+      "madinah",
+      "qiblatayn"
+    ],
+    "sourceIds": [
+      "coran",
+      "bukhari"
+    ],
+    "references": [
+      "Coran 2:142-150",
+      "Coran 2:144 — ordre de se tourner vers la Mosquée sacrée ; la chronologie détaillée demande un recoupement distinct."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "ramadan_fasting",
+    "periodId": "madinah",
+    "titleAr": "فرض صيام رمضان",
+    "datePrecision": "approximate",
+    "sortOrder": 560,
+    "personIds": [
+      "muhammad"
+    ],
+    "placeIds": [
+      "madinah"
+    ],
+    "sourceIds": [
+      "coran"
+    ],
+    "references": [
+      "Coran 2:183-185",
+      "Coran 2:183–185 ; Sahih al-Bukhari 2001 — prescription du jeûne et statut de ʿÂshûrâʾ ; l’année n’est pas fixée par ces textes seuls."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "badr",
+    "periodId": "madinah",
+    "titleAr": "غزوة بدر",
+    "datePrecision": "exact",
+    "sortOrder": 570,
+    "personIds": [
+      "muhammad",
+      "abu_sufyan"
+    ],
+    "placeIds": [
+      "badr"
+    ],
+    "sourceIds": [
+      "coran",
+      "bukhari",
+      "ibn_hisham"
+    ],
+    "references": [
+      "Coran 8:5-19",
+      "Coran 3:123",
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "banu_qaynuqa",
+    "periodId": "madinah",
+    "titleAr": "بنو قينقاع",
+    "datePrecision": "approximate",
+    "sortOrder": 575,
+    "personIds": [
+      "muhammad",
+      "abu_bakr",
+      "umar"
+    ],
+    "placeIds": [
+      "madinah"
+    ],
+    "sourceIds": [
+      "ibn_hisham",
+      "zad_maad"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sirah al-Nabawiyyah; details and chapter/page references require edition-by-edition collation.",
+      "Qur’anic passages are cited only where they explicitly support the point; narrative details are not inferred from them."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "uhud",
+    "periodId": "madinah",
+    "titleAr": "غزوة أحد",
+    "datePrecision": "exact",
+    "sortOrder": 580,
+    "personIds": [
+      "hamzah",
+      "musab",
+      "abu_sufyan"
+    ],
+    "placeIds": [
+      "uhud",
+      "madinah"
+    ],
+    "sourceIds": [
+      "coran",
+      "bukhari",
+      "ibn_hisham"
+    ],
+    "references": [
+      "Coran 3:121-175",
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "banu_nadir",
+    "periodId": "madinah",
+    "titleAr": "بنو النضير",
+    "datePrecision": "approximate",
+    "sortOrder": 585,
+    "personIds": [
+      "muhammad"
+    ],
+    "placeIds": [
+      "madinah"
+    ],
+    "sourceIds": [
+      "ibn_hisham",
+      "zad_maad",
+      "coran"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sirah al-Nabawiyyah; details and chapter/page references require edition-by-edition collation.",
+      "Qur’anic passages are cited only where they explicitly support the point; narrative details are not inferred from them.",
+      "Coran 59:2 — expulsion de gens du Livre ; l’identification aux Banû Nadîr vient du tafsîr et des sources historiques."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "khandaq",
+    "periodId": "madinah",
+    "titleAr": "غزوة الخندق",
+    "datePrecision": "disputed",
+    "sortOrder": 590,
+    "personIds": [
+      "muhammad",
+      "abu_sufyan"
+    ],
+    "placeIds": [
+      "madinah",
+      "khandaq"
+    ],
+    "sourceIds": [
+      "coran",
+      "ibn_hisham"
+    ],
+    "references": [
+      "Coran 33:9-27",
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "banu_qurayza",
+    "periodId": "madinah",
+    "titleAr": "بنو قريظة",
+    "datePrecision": "approximate",
+    "sortOrder": 592,
+    "personIds": [
+      "muhammad"
+    ],
+    "placeIds": [
+      "madinah"
+    ],
+    "sourceIds": [
+      "ibn_hisham",
+      "zad_maad",
+      "coran"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sirah al-Nabawiyyah; details and chapter/page references require edition-by-edition collation.",
+      "Qur’anic passages are cited only where they explicitly support the point; narrative details are not inferred from them.",
+      "Coran 33:26 — gens du Livre ayant soutenu les coalisés ; l’identification aux Banû Qurayza relève du tafsîr."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "banu_mustaliq",
+    "periodId": "madinah",
+    "titleAr": "بنو المصطلق",
+    "datePrecision": "disputed",
+    "sortOrder": 594,
+    "personIds": [
+      "muhammad",
+      "juwayriya"
+    ],
+    "placeIds": [
+      "madinah"
+    ],
+    "sourceIds": [
+      "ibn_hisham",
+      "zad_maad",
+      "bukhari"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sirah al-Nabawiyyah; details and chapter/page references require edition-by-edition collation.",
+      "Qur’anic passages are cited only where they explicitly support the point; narrative details are not inferred from them.",
+      "Sahih al-Bukhari 4141 — récit de l’Ifk pendant une expédition ; le hadith ne nomme pas les Banû al-Mustaliq dans ce passage."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "dhat_riqa",
+    "periodId": "madinah",
+    "titleAr": "ذات الرقاع",
+    "datePrecision": "disputed",
+    "sortOrder": 596,
+    "personIds": [
+      "muhammad"
+    ],
+    "placeIds": [],
+    "sourceIds": [
+      "ibn_hisham",
+      "zad_maad",
+      "muslim"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sirah al-Nabawiyyah; details and chapter/page references require edition-by-edition collation.",
+      "Qur’anic passages are cited only where they explicitly support the point; narrative details are not inferred from them.",
+      "Sahih Muslim 1816 — expédition de Dhât ar-Riqâʿ et origine du nom dans le récit d’Abû Mûsâ."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "ridwan",
+    "periodId": "madinah",
+    "titleAr": "بيعة الرضوان",
+    "datePrecision": "approximate",
+    "sortOrder": 600,
+    "personIds": [
+      "uthman",
+      "muhammad"
+    ],
+    "placeIds": [
+      "hudaybiyyah"
+    ],
+    "sourceIds": [
+      "coran",
+      "bukhari",
+      "ibn_hisham"
+    ],
+    "references": [
+      "Coran 48:18",
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "hudaybiyyah",
+    "periodId": "madinah",
+    "titleAr": "صلح الحديبية",
+    "datePrecision": "exact",
+    "sortOrder": 610,
+    "personIds": [
+      "muhammad",
+      "umar"
+    ],
+    "placeIds": [
+      "hudaybiyyah",
+      "makkah"
+    ],
+    "sourceIds": [
+      "coran",
+      "bukhari"
+    ],
+    "references": [
+      "Coran 48"
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "letters_rulers",
+    "periodId": "madinah",
+    "titleAr": "رسائل النبي إلى الملوك",
+    "datePrecision": "approximate",
+    "sortOrder": 620,
+    "personIds": [
+      "muhammad",
+      "abu_sufyan"
+    ],
+    "placeIds": [
+      "madinah"
+    ],
+    "sourceIds": [
+      "bukhari",
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification.",
+      "Sahih al-Bukhari 7 — lettre du Prophète ﷺ à Héraclius ; ne documente que cette lettre."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "khaybar",
+    "periodId": "madinah",
+    "titleAr": "غزوة خيبر",
+    "datePrecision": "approximate",
+    "sortOrder": 630,
+    "personIds": [
+      "muhammad"
+    ],
+    "placeIds": [
+      "khaybar"
+    ],
+    "sourceIds": [
+      "bukhari",
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "wadi_al_qura",
+    "periodId": "madinah",
+    "titleAr": "وادي القرى",
+    "datePrecision": "approximate",
+    "sortOrder": 635,
+    "personIds": [
+      "muhammad",
+      "ali"
+    ],
+    "placeIds": [
+      "wadi_al_qura"
+    ],
+    "sourceIds": [
+      "ibn_hisham",
+      "zad_maad"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sirah al-Nabawiyyah; details and chapter/page references require edition-by-edition collation.",
+      "Qur’anic passages are cited only where they explicitly support the point; narrative details are not inferred from them."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "mutah",
+    "periodId": "madinah",
+    "titleAr": "غزوة مؤتة",
+    "datePrecision": "approximate",
+    "sortOrder": 640,
+    "personIds": [
+      "zayd",
+      "jafar"
+    ],
+    "placeIds": [
+      "mutah"
+    ],
+    "sourceIds": [
+      "bukhari",
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "fath_makkah",
+    "periodId": "madinah",
+    "titleAr": "فتح مكة",
+    "datePrecision": "exact",
+    "sortOrder": 650,
+    "personIds": [
+      "muhammad",
+      "bilal",
+      "abu_sufyan"
+    ],
+    "placeIds": [
+      "makkah"
+    ],
+    "sourceIds": [
+      "coran",
+      "bukhari",
+      "ibn_hisham"
+    ],
+    "references": [
+      "Coran 110",
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "hunayn",
+    "periodId": "madinah",
+    "titleAr": "غزوة حنين",
+    "datePrecision": "exact",
+    "sortOrder": 660,
+    "personIds": [
+      "muhammad",
+      "abu_sufyan"
+    ],
+    "placeIds": [
+      "hunayn"
+    ],
+    "sourceIds": [
+      "coran",
+      "bukhari",
+      "ibn_hisham"
+    ],
+    "references": [
+      "Coran 9:25-26",
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "siege_taif",
+    "periodId": "taif",
+    "titleAr": "حصار الطائف",
+    "datePrecision": "approximate",
+    "sortOrder": 665,
+    "personIds": [
+      "muhammad",
+      "abu_bakr",
+      "umar",
+      "abu_sufyan"
+    ],
+    "placeIds": [
+      "taif",
+      "hunayn"
+    ],
+    "sourceIds": [
+      "ibn_hisham",
+      "zad_maad",
+      "bukhari"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sirah al-Nabawiyyah; details and chapter/page references require edition-by-edition collation.",
+      "Qur’anic passages are cited only where they explicitly support the point; narrative details are not inferred from them.",
+      "Sahih al-Bukhari 4324 — une voie du récit d’Umm Salama précise que le Prophète ﷺ assiégeait Tâ’if à ce moment."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "tabuk",
+    "periodId": "madinah",
+    "titleAr": "غزوة تبوك",
+    "datePrecision": "approximate",
+    "sortOrder": 670,
+    "personIds": [
+      "muhammad"
+    ],
+    "placeIds": [
+      "madinah",
+      "tabuk"
+    ],
+    "sourceIds": [
+      "coran",
+      "bukhari"
+    ],
+    "references": [
+      "Coran 9:38-42"
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "najashi_funeral",
+    "periodId": "madinah",
+    "titleAr": "الصلاة على النجاشي",
+    "datePrecision": "disputed",
+    "sortOrder": 680,
+    "personIds": [
+      "najashi",
+      "muhammad"
+    ],
+    "placeIds": [
+      "madinah",
+      "abyssinia"
+    ],
+    "sourceIds": [
+      "bukhari",
+      "muslim"
+    ],
+    "references": [
+      "Sahih al-Bukhari 1245 — prière funéraire accomplie pour le Négus en son absence."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "delegations",
+    "periodId": "madinah",
+    "titleAr": "عام الوفود",
+    "datePrecision": "approximate",
+    "sortOrder": 690,
+    "personIds": [
+      "muhammad"
+    ],
+    "placeIds": [
+      "madinah"
+    ],
+    "sourceIds": [
+      "ibn_hisham"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "delegation_thaqif",
+    "periodId": "madinah",
+    "titleAr": "وفد ثقيف",
+    "datePrecision": "approximate",
+    "sortOrder": 695,
+    "personIds": [
+      "muhammad"
+    ],
+    "placeIds": [
+      "madinah",
+      "taif"
+    ],
+    "sourceIds": [
+      "ibn_hisham",
+      "zad_maad"
+    ],
+    "references": [
+      "Ibn Hisham, al-Sirah al-Nabawiyyah; details and chapter/page references require edition-by-edition collation.",
+      "Qur’anic passages are cited only where they explicitly support the point; narrative details are not inferred from them."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "farewell_hajj",
+    "periodId": "madinah",
+    "titleAr": "حجة الوداع",
+    "datePrecision": "exact",
+    "sortOrder": 700,
+    "personIds": [
+      "muhammad"
+    ],
+    "placeIds": [
+      "makkah",
+      "arafat",
+      "muzdalifah"
+    ],
+    "sourceIds": [
+      "muslim",
+      "coran"
+    ],
+    "references": [
+      "Coran 5:3"
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  },
+  {
+    "id": "death_prophet",
+    "periodId": "madinah",
+    "titleAr": "وفاة النبي",
+    "datePrecision": "disputed",
+    "sortOrder": 710,
+    "personIds": [
+      "aisha",
+      "abu_bakr",
+      "muhammad"
+    ],
+    "placeIds": [
+      "madinah"
+    ],
+    "sourceIds": [
+      "bukhari",
+      "ibn_hisham"
+    ],
+    "references": [
+      "Sahih al-Bukhari 5217 — décès dans la demeure de ʿAisha.",
+      "Ibn Hisham, al-Sīrah al-Nabawiyyah, récit biographique correspondant — chapitre et pagination à collationner sur le fac-similé Wüstenfeld ; aucune page n’est attribuée sans vérification."
+    ],
+    "status": "published",
+    "verificationStatus": "needs_corroboration"
+  }
+]

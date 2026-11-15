@@ -1,0 +1,11 @@
+V9.7 — SARIYYA (ex-mode DIRECT)
+- Nouveau nom : SARIYYA (سرية, détachement militaire de l'époque du Prophète ﷺ). Logo : médaillon, étoile à 8 branches, forteresse à dômes, fanions, porte en arc outrepassé, croissant (lib/ui/logo.dart).
+- Sélection comme avant : un clic = cette troupe seule ; plusieurs = on les entoure d'un cadre.
+- Caméra : minimap (toucher/glisser) ou molette.
+- Catégories de sélection : Aucun, Tous, Héros, Mêlée, Archers, Cavaliers, À l'écran, Blessés, Inactifs.
+- Consignes : Tenir la position, Escorter (toucher l'allié), Poursuite / Sans poursuite, Charge.
+- Formations : Libre, Ligne, Colonne, Carré (archers placés derrière la mêlée).
+- LA TOUR : onglet Direct avec 2 tours différentes (Sahra / Hisn), mêmes étages, boss, checkpoints, récompenses.
+- Difficulté nettement relevée (IA par niveaux : contre-picks, défense, raids, archers qui reculent, focus). Lobby : Facile / Normal / Difficile / Maître.
+- 4 villages capturables (zones de pose), correction du bug v9.6 (\n littéraux) et de la capture jamais appelée.
+- Non compilé ici : lancer flutter test puis flutter run et renvoyer les erreurs éventuelles.

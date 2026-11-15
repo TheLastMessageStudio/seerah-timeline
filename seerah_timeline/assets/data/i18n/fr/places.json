@@ -1,0 +1,54 @@
+{
+ "makkah": {
+  "name": "Makkah",
+  "description": "Ville natale du Prophète ﷺ, centre religieux et commercial gardé par Quraysh."
+ },
+ "jabal_al_nur": {
+  "name": "Jabal al-Nur (grotte de Hira)",
+  "description": "Montagne près de Makkah abritant la grotte de Hira, lieu des retraites et de la première révélation."
+ },
+ "thawr": {
+  "name": "Grotte de Thawr",
+  "description": "Grotte au sud de Makkah où le Prophète ﷺ et Abu Bakr se sont cachés lors de la Hijrah."
+ },
+ "mina": {
+  "name": "Mina et Al-Aqabah",
+  "description": "Lieu des rencontres et des serments avec les gens de Yathrib pendant la saison du pèlerinage."
+ },
+ "taif": {
+  "name": "Taïf",
+  "description": "Ville des Thaqif, à l'est de Makkah, où le Prophète ﷺ s'est rendu pour chercher du soutien."
+ },
+ "hudaybiyyah": {
+  "name": "Al-Hudaybiyyah",
+  "description": "Lieu proche de Makkah où fut conclu le traité du même nom."
+ },
+ "quba": {
+  "name": "Quba",
+  "description": "Village aux portes de Madinah, première étape du Prophète ﷺ à son arrivée."
+ },
+ "madinah": {
+  "name": "Madinah (Yathrib)",
+  "description": "Ville de la Hijrah, appelée Yathrib avant l'arrivée du Prophète ﷺ."
+ },
+ "uhud": {
+  "name": "Uhud",
+  "description": "Montagne au nord de Madinah, lieu de la bataille de l'an 3 de l'Hégire."
+ },
+ "badr": {
+  "name": "Badr",
+  "description": "Localité sur la route caravanière entre Madinah et la Syrie, lieu de la première grande bataille."
+ },
+ "abyssinia": {
+  "name": "Abyssinie (Aksoum)",
+  "description": "Royaume chrétien de la Corne de l'Afrique, terre d'accueil des musulmans émigrés. Position approximative."
+ },
+ "khaybar": {
+  "name": "Khaybar",
+  "description": "Oasis au nord de Madinah, lieu de l'expédition de l'an 7 de l'Hégire. Position approximative."
+ },
+ "hunayn": {
+  "name": "Hunayn",
+  "description": "Vallée proche de Makkah, lieu de la bataille de l'an 8 de l'Hégire. Position approximative."
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "muhammad": {
+  "name": "Muhammad ﷺ",
+  "role": "Prophète et messager d'Allah",
+  "bio": "Fils d'Abdullah et d'Aminah, du clan des Banu Hashim de Quraysh. Cette application retrace sa vie de sa naissance à son décès."
+ },
+ "khadijah": {
+  "name": "Khadijah bint Khuwaylid",
+  "role": "Première épouse du Prophète ﷺ",
+  "bio": "Commerçante respectée de Makkah. Elle épouse Muhammad ﷺ avant la révélation et le soutient dès les premiers instants de la mission. Elle meurt peu avant l'Hégire."
+ },
+ "abu_bakr": {
+  "name": "Abu Bakr as-Siddiq",
+  "role": "Compagnon proche, premier calife",
+  "bio": "Compagnon de longue date du Prophète ﷺ. Il l'accompagne lors de la Hijrah, notamment dans la grotte de Thawr, et devient le premier calife après son décès."
+ },
+ "abu_talib": {
+  "name": "Abu Talib",
+  "role": "Oncle et protecteur",
+  "bio": "Oncle paternel du Prophète ﷺ, qui l'a pris en charge après la mort d'Abd al-Muttalib puis l'a protégé face à Quraysh. D'après les récits rapportés, il est mort sans avoir embrassé l'islam."
+ },
+ "aminah": {
+  "name": "Aminah bint Wahb",
+  "role": "Mère du Prophète ﷺ",
+  "bio": "Elle meurt alors que son fils est encore enfant, d'après la tradition au retour d'un voyage à Yathrib."
+ },
+ "abdullah": {
+  "name": "Abdullah ibn Abd al-Muttalib",
+  "role": "Père du Prophète ﷺ",
+  "bio": "Il meurt avant la naissance de son fils ou peu après, selon les récits."
+ },
+ "abd_al_muttalib": {
+  "name": "Abd al-Muttalib",
+  "role": "Grand-père et tuteur",
+  "bio": "Chef respecté de Makkah, il prend en charge son petit-fils après la mort d'Aminah, puis meurt quelques années plus tard."
+ },
+ "halimah": {
+  "name": "Halimah as-Sa'diyyah",
+  "role": "Nourrice",
+  "bio": "Femme des Banu Sa'd qui allaite le Prophète ﷺ et l'élève ses premières années selon la coutume des Qurayshites."
+ },
+ "ali": {
+  "name": "Ali ibn Abi Talib",
+  "role": "Cousin, compagnon, quatrième calife",
+  "bio": "Cousin du Prophète ﷺ, élevé dans sa maison. Il compte parmi les tout premiers croyants et dort dans le lit du Prophète ﷺ la nuit du complot de Quraysh."
+ },
+ "bilal": {
+  "name": "Bilal ibn Rabah",
+  "role": "Compagnon, premier muezzin",
+  "bio": "Esclave affranchi d'origine abyssine, torturé pour sa foi à Makkah, puis libéré par Abu Bakr. Il devient le premier muezzin de l'islam."
+ },
+ "hamzah": {
+  "name": "Hamzah ibn Abd al-Muttalib",
+  "role": "Oncle et compagnon",
+  "bio": "Oncle du Prophète ﷺ, il embrasse l'islam à Makkah et renforce la communauté. Il tombe en martyr à Uhud."
+ },
+ "umar": {
+  "name": "Umar ibn al-Khattab",
+  "role": "Compagnon, deuxième calife",
+  "bio": "Il embrasse l'islam à Makkah, selon la tradition vers la sixième année de la mission, et devient plus tard le deuxième calife."
+ },
+ "uthman": {
+  "name": "Uthman ibn Affan",
+  "role": "Compagnon, troisième calife",
+  "bio": "Converti des premiers temps. Il migre vers l'Abyssinie avec Ruqayyah, fille du Prophète ﷺ, et devient plus tard le troisième calife."
+ },
+ "zayd": {
+  "name": "Zayd ibn Harithah",
+  "role": "Compagnon",
+  "bio": "Serviteur affranchi de la maison du Prophète ﷺ, compté parmi les premiers croyants. Il l'accompagne notamment à Taïf."
+ },
+ "jafar": {
+  "name": "Ja'far ibn Abi Talib",
+  "role": "Compagnon, porte-parole en Abyssinie",
+  "bio": "Cousin du Prophète ﷺ. Il s'exprime devant le Négus au nom des musulmans émigrés."
+ },
+ "najashi": {
+  "name": "An-Najashi (Ashama)",
+  "role": "Roi d'Abyssinie",
+  "bio": "Souverain chrétien du royaume d'Aksoum qui accorde sa protection aux musulmans émigrés."
+ },
+ "musab": {
+  "name": "Mus'ab ibn Umayr",
+  "role": "Compagnon, envoyé à Yathrib",
+  "bio": "Envoyé enseigner le Coran aux gens de Yathrib après le premier serment d'Al-Aqabah. Il tombe en martyr à Uhud."
+ },
+ "abu_ayyub": {
+  "name": "Abu Ayyub al-Ansari",
+  "role": "Compagnon des Ansar",
+  "bio": "Hôte du Prophète ﷺ à son arrivée à Madinah."
+ },
+ "abu_lahab": {
+  "name": "Abu Lahab",
+  "role": "Oncle opposant",
+  "bio": "Oncle du Prophète ﷺ qui s'oppose ouvertement à son message. La sourate Al-Masad (111) le concerne."
+ },
+ "waraqah": {
+  "name": "Waraqa ibn Nawfal",
+  "role": "Cousin de Khadijah",
+  "bio": "Homme versé dans les écritures chrétiennes qui, d'après le récit de la première révélation, confirme les paroles de Khadijah."
+ },
+ "sumayyah": {
+  "name": "Sumayyah bint Khayyat",
+  "role": "Compagnonne",
+  "bio": "Compagnonne de la première heure, persécutée avec sa famille à Makkah. La tradition la compte parmi les premiers martyrs de l'islam."
+ },
+ "aisha": {
+  "name": "Aisha bint Abi Bakr",
+  "role": "Épouse du Prophète ﷺ",
+  "bio": "Fille d'Abu Bakr et épouse du Prophète ﷺ. Le Prophète ﷺ est décédé dans sa demeure."
+ }
+}

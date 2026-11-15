@@ -1,0 +1,50 @@
+{
+ "birth": {
+  "title": "Birth and childhood",
+  "intro": "From the Prophet's ﷺ birth to his childhood with his guardians."
+ },
+ "youth": {
+  "title": "Youth and life before the revelation",
+  "intro": "The years of youth, trade, marriage and a reputation for honesty."
+ },
+ "revelation": {
+  "title": "The first revelation",
+  "intro": "The retreats at Hira, the first verses and the first believers."
+ },
+ "preaching": {
+  "title": "Beginning of the preaching",
+  "intro": "From the discreet call to the public call in Makkah."
+ },
+ "persecution": {
+  "title": "Persecution and trials",
+  "intro": "Quraysh's pressure on the believers and their protectors."
+ },
+ "abyssinia": {
+  "title": "Migration to Abyssinia",
+  "intro": "The two migrations to the Negus's kingdom."
+ },
+ "hard_years": {
+  "title": "Difficult years in Makkah",
+  "intro": "The boycott, the loss of supporters and the search for allies."
+ },
+ "taif": {
+  "title": "Journey to Ta'if",
+  "intro": "The search for support outside Makkah."
+ },
+ "isra": {
+  "title": "Al-Isra wal-Mi'raj",
+  "intro": "The night journey and the ascension."
+ },
+ "aqabah": {
+  "title": "The pledges of Al-Aqabah",
+  "intro": "The meetings and pledges with the people of Yathrib."
+ },
+ "hijrah": {
+  "title": "The Hijrah",
+  "intro": "The migration from Makkah to Madinah."
+ },
+ "madinah": {
+  "title": "The Madinah period",
+  "intro": "From the settlement in Madinah to the Prophet's ﷺ death."
+ }
+}

@@ -1,0 +1,8 @@
+V9.1
+- Pions : tuiles de carte (verte avec croix = vos troupes, rouge avec losange = ennemi), bordure doree pour les heros, icone de role, fanion si ordre de marche.
+- Decors (cartes sans image de fond) : sable texture, massifs rocheux fusionnes, collines arrondies, buissons, camps avec rempart de perles et tentes blanches. Les cartes avec image (Badr, Uhud) gardent leur fond et recoivent les nouveaux camps.
+- Uhud : nouvelle carte (image fournie, nettoyee), armees placees comme sur l'image (Quraysh en face, Ikrima au nord, Abu Sufyan au centre, Khalid au sud-est).
+- Khalid et son escorte attendent a l'abri : impossible de les attaquer de face. Un de vos soldats qui passe par la montagne (pente sud) leve la protection. Colline vide apres le tour 8 (ou tenue jusqu'au 11) : ils chargent.
+- Ordre de marche : bouton "Marcher vers..." sur une unite, puis touchez une case lointaine. L'unite avance seule a chaque debut de tour, s'arrete si un ennemi est a 5 cases ou moins.
+- Moteur : StoryStart (positions fixes), Unit.hold/guarded/dest, Game.setDestination/isGuarded/releaseHeld/wakeHeld, StoryBeat.release, GameMap.bgCamps.
+Non compile par l'auteur : lancer `flutter test` puis `flutter run`.

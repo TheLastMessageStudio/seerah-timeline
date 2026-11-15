@@ -1,0 +1,9 @@
+V9 - Chapitre 3 : Uhud (La colline des archers)
+- Nouvelle carte (lib/story/uhud.dart + uhud_image.dart) : fond historique nettoye (symboles, textes, fleches retires), grille 34x24 lue sur l'image.
+- 7 nouvelles unites d'histoire : Abu Sufyan, Talha ibn Abi Talha, Sibaa, Wahshi, Ikrima, Ubayy ibn Khalaf, Abdullah ibn Jubayr.
+- Scenario sur 28 tours : defi de Talha, Hamza et Wahshi, rupture de Quraysh (tour 6), ordre des archers (tour 7), rumeur de la mort du Prophete (tour 12), Ubayy, les defenseurs, Ka'b ibn Malik, Abu Sufyan (tour 21).
+- Choix des archers : colline vide a partir du tour 8 -> Khalid et Ikrima attaquent par l'arriere ; colline tenue jusqu'au tour 11 -> attaque frontale.
+- Victoire : tenir le camp jusqu'au tour 28 (ou detruire/capturer). Objectifs : porte-etendard, colline, charge de Khalid, camp.
+- Moteur : StoryBeat.spawnRear / hurtEnemy ; StoryChapter.surviveToWin / rearSpawn / watchCells ; Game._uhudTick ; objectifs hill/standard/flank/refuge.
+- Tests : groupe 'story: Uhud' dans test/game_test.dart.
+Non compile par l'auteur de ce correctif : lancer `flutter test` puis `flutter run`.

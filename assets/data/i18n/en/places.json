@@ -1,0 +1,104 @@
+{
+  "makkah": {
+    "name": "Makkah",
+    "description": "Makkah is the setting for the Prophet’s ﷺ birth, the first revelations, the call, the persecutions and the preparation for the Hijrah. It later becomes the centre of pilgrimage again after the conquest."
+  },
+  "jabal_al_nur": {
+    "name": "Jabal al-Nur (Cave of Hira)",
+    "description": "Mountain near Makkah housing the Cave of Hira, the site of his retreats and of the first revelation."
+  },
+  "thawr": {
+    "name": "Cave of Thawr",
+    "description": "Cave south of Makkah where the Prophet ﷺ and Abu Bakr hid during the Hijrah."
+  },
+  "mina": {
+    "name": "Mina and Al-Aqabah",
+    "description": "Site of the meetings and pledges with the people of Yathrib during the pilgrimage season."
+  },
+  "taif": {
+    "name": "Ta'if",
+    "description": "Taif is associated with the Prophet’s ﷺ journey seeking support and with the siege after Hunayn. The reports emphasize that the town was not taken during that expedition."
+  },
+  "hudaybiyyah": {
+    "name": "Al-Hudaybiyyah",
+    "description": "Place near Makkah where the treaty of the same name was concluded."
+  },
+  "quba": {
+    "name": "Quba",
+    "description": "Village on the outskirts of Madinah, the Prophet's ﷺ first stop on arrival."
+  },
+  "madinah": {
+    "name": "Madinah (Yathrib)",
+    "description": "After the Hijrah, Madinah became the centre of the first Muslim community. Related topics include the welcome of the emigrants, the mosque, communal agreements, prayer, expeditions and diplomacy."
+  },
+  "uhud": {
+    "name": "Uhud",
+    "description": "Mountain north of Madinah, site of the battle of year 3 AH."
+  },
+  "badr": {
+    "name": "Badr",
+    "description": "Locality on the caravan route between Madinah and Syria, site of the first major battle."
+  },
+  "abyssinia": {
+    "name": "Abyssinia (Aksum)",
+    "description": "Abyssinia offered refuge to believers who left Makkah to escape persecution. The accounts highlight the audience before the Negus and the role of Jaʿfar ibn Abi Talib."
+  },
+  "khaybar": {
+    "name": "Khaybar",
+    "description": "Oasis north of Madinah, site of the expedition of year 7 AH. Approximate position."
+  },
+  "hunayn": {
+    "name": "Hunayn",
+    "description": "Valley near Makkah, site of the battle of year 8 AH. Approximate position."
+  },
+  "wadi_al_qura": {
+    "name": "Wadi al-Qura",
+    "description": "An oasis region north of Madinah, associated with campaigns and agreements after Khaybar. Approximate map position."
+  },
+  "mutah": {
+    "name": "Muʿtah (Jordan)",
+    "description": "The Muʿtah region in Jordan, associated with the expedition of 8 AH. The map point identifies the modern locality, not the exact positions of the combatants."
+  },
+  "al_abwa": {
+    "name": "Al-Abwa",
+    "description": "A settlement on the historic route between Makkah and Madinah, traditionally associated with the death of Aminah, the Prophet’s ﷺ mother. Biographical accounts place the episode on her return journey from Yathrib. The map pin marks the modern locality and is indicative."
+  },
+  "qiblatayn": {
+    "name": "Al-Qiblatayn Mosque",
+    "description": "A mosque in Madinah traditionally associated with reports about the change of prayer direction towards the Kaʿba. This commemorative identification does not mean that the present building is the seventh-century structure; the entry is a geographic reference."
+  },
+  "arafat": {
+    "name": "Plain of Arafat",
+    "description": "A broad plain east of Makkah and a central station of the pilgrimage. The standing (wuquf) takes place across the Arafat area; it should not be reduced to climbing Jabal al-Rahmah. The map pin marks one point within the plain."
+  },
+  "dar_al_arqam": {
+    "name": "Dar al-Arqam",
+    "nameAr": "دار الأرقم",
+    "description": "House traditionally associated with the gatherings of the first Muslims in Makkah. Its exact location remains indicative."
+  },
+  "safa_marwa": {
+    "name": "Al-Safa and al-Marwa",
+    "nameAr": "الصفا والمروة",
+    "description": "Area of the two hills within the Sacred Mosque, a landmark for the saʿy during pilgrimage."
+  },
+  "masjid_nabawi": {
+    "name": "Prophet’s Mosque",
+    "nameAr": "المسجد النبوي",
+    "description": "Site of the mosque established in Madinah; the present building reflects many later expansions."
+  },
+  "khandaq": {
+    "name": "Trench area",
+    "nameAr": "موضع الخندق",
+    "description": "Area traditionally associated with the defensive trench at Madinah. The exact historical line is approximate."
+  },
+  "tabuk": {
+    "name": "Tabuk",
+    "nameAr": "تبوك",
+    "description": "City in north-west Arabia and regional reference point for the Tabuk expedition."
+  },
+  "muzdalifah": {
+    "name": "Muzdalifah",
+    "nameAr": "مزدلفة",
+    "description": "Ritual area between ʿArafat and Mina on the pilgrimage route."
+  }
+}

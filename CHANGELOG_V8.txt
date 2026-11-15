@@ -1,0 +1,21 @@
+THE LAST MESSAGE — V8 FOUNDATION
+
+Priority brief from the player:
+- Historical story chapters first.
+- More dynamic combat, less like chess.
+- Main menu redesigned around the supplied reference image.
+- Sound effects in menus and battles; absolutely no music.
+- Other systems remain secondary. Preserve existing content, especially Badr V1 and local 1v1.
+
+Implemented in this V8 foundation:
+- Rebuilt the main menu with a dark plum/black palette, geometric diamond navigation, central Play control, player level/progress, verse panel, animated glow/pulse, and page transitions.
+- Added a settings screen with sound effects on/off, language toggle, and an explicit no-music notice.
+- Added short generated WAV sound effects (tap, movement, attack, impact, victory) and wired them to menu actions, battle movement/attacks, battle event feedback, and battle completion.
+- No background music player, playlist, or music assets are included.
+- Increased unit movement interpolation time and eased motion; selected units gently scale up; damage/heal text animates with a scale/fade effect.
+- Expanded the story selection screen with historical outlines for Uhud, the Trench, Khaybar, the Conquest of Mecca, and Yarmouk. They remain visibly marked as in preparation / locked, not falsely represented as playable scenarios. Badr V1 and Badr V2 remain playable as before.
+
+Important validation limits:
+- Flutter/Dart SDK is not installed in this build environment; `flutter analyze`, `flutter test`, and Android/Windows compilation were not run here.
+- Run `flutter pub get` to resolve the added `audioplayers` dependency, then `flutter analyze`, `flutter test`, and `flutter run`.
+- Audio is effect-only. No music is started at any time.

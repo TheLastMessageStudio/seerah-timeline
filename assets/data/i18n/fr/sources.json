@@ -1,0 +1,22 @@
+{
+ "coran": {
+  "title": "Coran",
+  "description": "Texte révélé : référence pour les événements et éléments explicitement mentionnés."
+ },
+ "bukhari": {
+  "title": "Sahih al-Bukhari",
+  "description": "Recueil de hadiths authentiques, référence pour les récits rapportés avec chaîne de transmission."
+ },
+ "muslim": {
+  "title": "Sahih Muslim",
+  "description": "Recueil de hadiths authentiques."
+ },
+ "ibn_hisham": {
+  "title": "Ibn Hisham — As-Sîrah an-Nabawiyyah",
+  "description": "Tradition biographique de la Sîrah, d'après Ibn Ishaq."
+ },
+ "zad_maad": {
+  "title": "Ibn al-Qayyim — Zad al-Ma'ad",
+  "description": "Synthèse biographique et historique de la vie du Prophète ﷺ."
+ }
+}

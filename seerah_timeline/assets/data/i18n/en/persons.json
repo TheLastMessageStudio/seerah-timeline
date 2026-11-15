@@ -1,0 +1,112 @@
+{
+ "muhammad": {
+  "name": "Muhammad ﷺ",
+  "role": "Prophet and messenger of Allah",
+  "bio": "Son of Abdullah and Aminah, of the Banu Hashim clan of Quraysh. This application traces his life from his birth to his death."
+ },
+ "khadijah": {
+  "name": "Khadijah bint Khuwaylid",
+  "role": "First wife of the Prophet ﷺ",
+  "bio": "A respected businesswoman of Makkah. She married Muhammad ﷺ before the revelation and supported him from the first moments of the mission. She died shortly before the Hijrah."
+ },
+ "abu_bakr": {
+  "name": "Abu Bakr as-Siddiq",
+  "role": "Close Companion, first caliph",
+  "bio": "A longtime Companion of the Prophet ﷺ. He accompanied him on the Hijrah, notably in the Cave of Thawr, and became the first caliph after his death."
+ },
+ "abu_talib": {
+  "name": "Abu Talib",
+  "role": "Uncle and protector",
+  "bio": "The Prophet's ﷺ paternal uncle, who took him in after the death of Abd al-Muttalib and then protected him against Quraysh. According to the reported accounts, he died without having embraced Islam."
+ },
+ "aminah": {
+  "name": "Aminah bint Wahb",
+  "role": "Mother of the Prophet ﷺ",
+  "bio": "She died while her son was still a child, according to tradition on the way back from a trip to Yathrib."
+ },
+ "abdullah": {
+  "name": "Abdullah ibn Abd al-Muttalib",
+  "role": "Father of the Prophet ﷺ",
+  "bio": "He died before the birth of his son or shortly after, according to the accounts."
+ },
+ "abd_al_muttalib": {
+  "name": "Abd al-Muttalib",
+  "role": "Grandfather and guardian",
+  "bio": "A respected chief of Makkah, he took in his grandson after Aminah's death, then died a few years later."
+ },
+ "halimah": {
+  "name": "Halimah as-Sa'diyyah",
+  "role": "Wet nurse",
+  "bio": "A woman of the Banu Sa'd who nursed the Prophet ﷺ and raised him in his first years, following the custom of the Qurayshis."
+ },
+ "ali": {
+  "name": "Ali ibn Abi Talib",
+  "role": "Cousin, Companion, fourth caliph",
+  "bio": "The Prophet's ﷺ cousin, raised in his household. He is counted among the very first believers and slept in the Prophet's ﷺ bed on the night of Quraysh's plot."
+ },
+ "bilal": {
+  "name": "Bilal ibn Rabah",
+  "role": "Companion, first muezzin",
+  "bio": "A freed slave of Abyssinian origin, tortured for his faith in Makkah, then freed by Abu Bakr. He became the first muezzin of Islam."
+ },
+ "hamzah": {
+  "name": "Hamzah ibn Abd al-Muttalib",
+  "role": "Uncle and Companion",
+  "bio": "The Prophet's ﷺ uncle, he embraced Islam in Makkah and strengthened the community. He fell as a martyr at Uhud."
+ },
+ "umar": {
+  "name": "Umar ibn al-Khattab",
+  "role": "Companion, second caliph",
+  "bio": "He embraced Islam in Makkah, according to tradition around the sixth year of the mission, and later became the second caliph."
+ },
+ "uthman": {
+  "name": "Uthman ibn Affan",
+  "role": "Companion, third caliph",
+  "bio": "An early convert. He emigrated to Abyssinia with Ruqayyah, the Prophet's ﷺ daughter, and later became the third caliph."
+ },
+ "zayd": {
+  "name": "Zayd ibn Harithah",
+  "role": "Companion",
+  "bio": "A freed servant of the Prophet's ﷺ household, counted among the first believers. He accompanied him notably to Ta'if."
+ },
+ "jafar": {
+  "name": "Ja'far ibn Abi Talib",
+  "role": "Companion, spokesman in Abyssinia",
+  "bio": "The Prophet's ﷺ cousin. He spoke before the Negus on behalf of the emigrant Muslims."
+ },
+ "najashi": {
+  "name": "An-Najashi (Ashama)",
+  "role": "King of Abyssinia",
+  "bio": "Christian ruler of the Kingdom of Aksum who granted protection to the emigrant Muslims."
+ },
+ "musab": {
+  "name": "Mus'ab ibn Umayr",
+  "role": "Companion, envoy to Yathrib",
+  "bio": "Sent to teach the Quran to the people of Yathrib after the First Pledge of Al-Aqabah. He fell as a martyr at Uhud."
+ },
+ "abu_ayyub": {
+  "name": "Abu Ayyub al-Ansari",
+  "role": "Companion of the Ansar",
+  "bio": "Host of the Prophet ﷺ on his arrival in Madinah."
+ },
+ "abu_lahab": {
+  "name": "Abu Lahab",
+  "role": "Opposing uncle",
+  "bio": "An uncle of the Prophet ﷺ who openly opposed his message. Surah Al-Masad (111) concerns him."
+ },
+ "waraqah": {
+  "name": "Waraqa ibn Nawfal",
+  "role": "Cousin of Khadijah",
+  "bio": "A man versed in the Christian scriptures who, according to the account of the first revelation, confirmed Khadijah's words."
+ },
+ "sumayyah": {
+  "name": "Sumayyah bint Khayyat",
+  "role": "Companion",
+  "bio": "An early Companion, persecuted with her family in Makkah. Tradition counts her among the first martyrs of Islam."
+ },
+ "aisha": {
+  "name": "Aisha bint Abi Bakr",
+  "role": "Wife of the Prophet ﷺ",
+  "bio": "Daughter of Abu Bakr and wife of the Prophet ﷺ. The Prophet ﷺ died in her home."
+ }
+}

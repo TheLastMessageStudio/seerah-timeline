@@ -1,0 +1,54 @@
+{
+ "makkah": {
+  "name": "Makkah",
+  "description": "Birthplace of the Prophet ﷺ, a religious and commercial centre guarded by Quraysh."
+ },
+ "jabal_al_nur": {
+  "name": "Jabal al-Nur (Cave of Hira)",
+  "description": "Mountain near Makkah housing the Cave of Hira, the site of his retreats and of the first revelation."
+ },
+ "thawr": {
+  "name": "Cave of Thawr",
+  "description": "Cave south of Makkah where the Prophet ﷺ and Abu Bakr hid during the Hijrah."
+ },
+ "mina": {
+  "name": "Mina and Al-Aqabah",
+  "description": "Site of the meetings and pledges with the people of Yathrib during the pilgrimage season."
+ },
+ "taif": {
+  "name": "Ta'if",
+  "description": "Town of the Thaqif, east of Makkah, where the Prophet ﷺ went to seek support."
+ },
+ "hudaybiyyah": {
+  "name": "Al-Hudaybiyyah",
+  "description": "Place near Makkah where the treaty of the same name was concluded."
+ },
+ "quba": {
+  "name": "Quba",
+  "description": "Village on the outskirts of Madinah, the Prophet's ﷺ first stop on arrival."
+ },
+ "madinah": {
+  "name": "Madinah (Yathrib)",
+  "description": "City of the Hijrah, called Yathrib before the Prophet's ﷺ arrival."
+ },
+ "uhud": {
+  "name": "Uhud",
+  "description": "Mountain north of Madinah, site of the battle of year 3 AH."
+ },
+ "badr": {
+  "name": "Badr",
+  "description": "Locality on the caravan route between Madinah and Syria, site of the first major battle."
+ },
+ "abyssinia": {
+  "name": "Abyssinia (Aksum)",
+  "description": "Christian kingdom in the Horn of Africa, a land of refuge for the emigrant Muslims. Approximate position."
+ },
+ "khaybar": {
+  "name": "Khaybar",
+  "description": "Oasis north of Madinah, site of the expedition of year 7 AH. Approximate position."
+ },
+ "hunayn": {
+  "name": "Hunayn",
+  "description": "Valley near Makkah, site of the battle of year 8 AH. Approximate position."
+ }
+}

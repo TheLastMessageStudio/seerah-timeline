@@ -1,0 +1,93 @@
+[
+ {
+  "id": "makkah",
+  "nameAr": "مكة المكرمة",
+  "lat": 21.4225,
+  "lon": 39.8262,
+  "free": true
+ },
+ {
+  "id": "jabal_al_nur",
+  "nameAr": "جبل النور (غار حراء)",
+  "lat": 21.4572,
+  "lon": 39.8586,
+  "free": true
+ },
+ {
+  "id": "thawr",
+  "nameAr": "غار ثور",
+  "lat": 21.3775,
+  "lon": 39.8581,
+  "free": false
+ },
+ {
+  "id": "mina",
+  "nameAr": "منى والعقبة",
+  "lat": 21.4133,
+  "lon": 39.8933,
+  "free": false
+ },
+ {
+  "id": "taif",
+  "nameAr": "الطائف",
+  "lat": 21.2703,
+  "lon": 40.4158,
+  "free": false
+ },
+ {
+  "id": "hudaybiyyah",
+  "nameAr": "الحديبية",
+  "lat": 21.43,
+  "lon": 39.63,
+  "free": false
+ },
+ {
+  "id": "quba",
+  "nameAr": "قباء",
+  "lat": 24.4394,
+  "lon": 39.6175,
+  "free": false
+ },
+ {
+  "id": "madinah",
+  "nameAr": "المدينة المنورة",
+  "lat": 24.4672,
+  "lon": 39.6111,
+  "free": false
+ },
+ {
+  "id": "uhud",
+  "nameAr": "أحد",
+  "lat": 24.503,
+  "lon": 39.612,
+  "free": false
+ },
+ {
+  "id": "badr",
+  "nameAr": "بدر",
+  "lat": 23.744,
+  "lon": 38.79,
+  "free": false
+ },
+ {
+  "id": "abyssinia",
+  "nameAr": "الحبشة (أكسوم)",
+  "lat": 14.1305,
+  "lon": 38.7167,
+  "free": false
+ },
+ {
+  "id": "khaybar",
+  "nameAr": "خيبر",
+  "lat": 25.7,
+  "lon": 39.3,
+  "free": false
+ },
+ {
+  "id": "hunayn",
+  "nameAr": "حنين",
+  "lat": 21.55,
+  "lon": 40.05,
+  "free": false
+ }
+]

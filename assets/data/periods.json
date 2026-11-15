@@ -1,0 +1,50 @@
+[
+ {
+  "id": "birth",
+  "free": true
+ },
+ {
+  "id": "youth",
+  "free": true
+ },
+ {
+  "id": "revelation",
+  "free": true
+ },
+ {
+  "id": "preaching",
+  "free": false
+ },
+ {
+  "id": "persecution",
+  "free": false
+ },
+ {
+  "id": "abyssinia",
+  "free": false
+ },
+ {
+  "id": "hard_years",
+  "free": false
+ },
+ {
+  "id": "taif",
+  "free": false
+ },
+ {
+  "id": "isra",
+  "free": false
+ },
+ {
+  "id": "aqabah",
+  "free": false
+ },
+ {
+  "id": "hijrah",
+  "free": false
+ },
+ {
+  "id": "madinah",
+  "free": false
+ }
+]

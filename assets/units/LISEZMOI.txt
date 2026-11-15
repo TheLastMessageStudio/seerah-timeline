@@ -1,0 +1,8 @@
+Images des heros (PNG carre, fond transparent, ex. 512x512), nom = id du heros :
+khalid ali umar salahuddin fatih hamza abubakr uthman saad zubayr talha abuubayda baybars jafar
+amr tariq musab abudujana zayd khawla uqba safiyya barra bilal salman miqdad nusayba rufayda
+(unites generiques : spearmen swordsman archer skirmisher guard scout rider camel standard healer messenger)
+Si une image manque, le jeu affiche l'icone par defaut.
+Dans pubspec.yaml, ajoute sous "flutter:" :
+  assets:
+    - assets/units/

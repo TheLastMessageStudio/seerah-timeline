@@ -1,0 +1,12 @@
+THE LAST MESSAGE — V8.1 MENU CINÉMATIQUE
+
+- Remplacement du menu principal superposé par la maquette cinématique approuvée.
+- Ajout d'une illustration de fond originale intégrée aux assets Flutter.
+- Zones tactiles transparentes, distinctes et adaptées à la taille de l'écran.
+- Navigation reliée aux écrans existants : histoire, duel local, jouer, bibliothèque,
+  boutique, collection et paramètres.
+- Transitions d'écran et léger effet lumineux animé sur le bouton central.
+- Accès plein écran depuis la barre inférieure.
+- Les systèmes de jeu, les sons existants et les chapitres ne sont pas modifiés.
+
+Validation : archive ZIP contrôlée. Compilation Flutter non exécutée dans cet environnement.

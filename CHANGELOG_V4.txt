@@ -1,0 +1,18 @@
+V4.4 INSTALL (no plugin needed)
+1. DELETE old lib/ and test/ in your project, copy lib/, test/, assets/ from this zip.
+2. flutter pub remove shared_preferences   (if still there)
+3. flutter run
+
+NEW in V4.4
+- Badr map now uses your historical map picture under the grid (embedded in the code: nothing to add in pubspec.yaml).
+  Terrain read from the picture: dark massifs = mountains, slopes = hills, highest peaks = blocked cliffs, the road along the wadi = road (cost 1).
+  Muslims deploy in the northern valley, Quraysh in front of their camp; the key well is at the Quraysh side of the road.
+
+IN V4.3
+- STORY MODE (main menu > Story). Chapter 1: The Battle of Badr.
+  Map based on the real site (wells of Badr, al-Aqanqal sand hill, ridges, Red Sea coast, muddy ground after the rain).
+  Scripted battle: dialogue before the battle, tips, council, the duels of the Quraysh champions, morale, Quraysh reinforcements,
+  death of Abu Jahl = victory. Objectives button (flag) in the battle screen.
+  Reward on first victory: 200 gold + the hero Abu Dujana.
+- Earlier: 28 historical heroes, shop, collection, custom decks, territory, troop bonus.
+Save file: %APPDATA%\TheLastMessage\save.json (Windows).
