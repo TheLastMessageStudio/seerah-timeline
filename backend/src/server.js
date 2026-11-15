@@ -87,13 +87,12 @@ async function loadMembership(accessToken) {
   const memberStatus = selected?.attributes?.patron_status || null;
   const chargeStatus = selected?.attributes?.last_charge_status || null;
   const active = memberStatus === 'active_patron' && Boolean(chosen);
-const premium = active && chosen.rule.premium === true;
   const entitlements = active ? (chosen.rule.entitlements || []) : [];
   return {
     userId: user?.id, memberId: selected?.id || null,
     tierId: chosen?.id || null, tierCode: chosen?.rule.code || null,
     tierName: chosen?.rule.label || chosen?.title || null,
-    entitlements: [...new Set(entitlements)], premium,
+    entitlements: [...new Set(entitlements)], premium: active,
     patronStatus: memberStatus, lastChargeStatus: chargeStatus, validUntil: null,
   };
 }
@@ -106,15 +105,7 @@ async function syncLink(installationId) {
 }
 
 app.get('/health', (_req, res) => res.json({ ok: true, service: 'seerah-patreon-api' }));
-app.get('/v1/patreon/tiers', (_req, res) => res.json({
-  tiers: Object.entries(allowedTiers).map(([name, t]) => ({
-    name,
-    amount_cents: t.amount_cents,
-    code: t.code,
-    label: t.label,
-    premium: t.premium === true
-  }))
-}));
+app.get('/v1/patreon/tiers', (_req, res) => res.json({ tiers: Object.entries(allowedTiers).map(([name, t]) => ({ name, amount_cents: t.amount_cents, code: t.code, label: t.label, premium: true })) }));
 app.post('/v1/patreon/oauth/start', async (req, res) => {
   try {
     const { installation_id: installationId } = req.body || {};
@@ -124,7 +115,10 @@ app.post('/v1/patreon/oauth/start', async (req, res) => {
     const url = new URL('https://www.patreon.com/oauth2/authorize');
     url.search = new URLSearchParams({ response_type: 'code', client_id: required('PATREON_CLIENT_ID'), redirect_uri: required('PATREON_REDIRECT_URI'), scope: 'identity identity.memberships campaigns', state }).toString();
     res.json({ authorization_url: url.toString() });
-  } catch (e) { res.status(500).json({ error: 'oauth_start_failed' }); }
+  } catch (e) {
+  console.error('OAuth start failed:', e);
+  res.status(500).json({ error: 'oauth_start_failed' });
+}
 });
 app.get('/v1/patreon/oauth/callback', async (req, res) => {
   try {
