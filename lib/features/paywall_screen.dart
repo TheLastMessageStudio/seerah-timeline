@@ -30,6 +30,37 @@ class PaywallScreen extends StatelessWidget {
               ]),
             ));
           }
+          if (patreon.awaitingAuthorization) {
+            return Center(child: Padding(
+              padding: const EdgeInsets.all(24),
+              child: Column(mainAxisSize: MainAxisSize.min, children: [
+                const SizedBox(width: 44, height: 44, child: CircularProgressIndicator(strokeWidth: 3)),
+                const SizedBox(height: 20),
+                Text('En attente de Patreon…', style: theme.textTheme.headlineSmall, textAlign: TextAlign.center),
+                const SizedBox(height: 8),
+                const Text(
+                  'Valide l’accès sur la page Patreon (un seul clic sur « Autoriser » suffit), puis reviens ici : ta connexion sera détectée automatiquement.',
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(height: 20),
+                FilledButton.icon(
+                  onPressed: patreon.busy ? null : patreon.checkPendingNow,
+                  icon: const Icon(Icons.check_circle_outline),
+                  label: const Text('J’ai autorisé, vérifier'),
+                ),
+                const SizedBox(height: 8),
+                TextButton(
+                  onPressed: patreon.busy ? null : patreon.connect,
+                  child: const Text('Rouvrir la page Patreon'),
+                ),
+                TextButton(onPressed: patreon.cancelPending, child: const Text('Annuler')),
+                if (patreon.error != null) ...[
+                  const SizedBox(height: 8),
+                  Text(patreon.error!, style: TextStyle(color: theme.colorScheme.error), textAlign: TextAlign.center),
+                ],
+              ]),
+            ));
+          }
           if (patreon.connected && !patreon.premium) {
             return Center(child: Padding(
               padding: const EdgeInsets.all(24),
@@ -56,19 +87,19 @@ class PaywallScreen extends StatelessWidget {
             const ListTile(
               contentPadding: EdgeInsets.zero,
               leading: Icon(Icons.favorite_border),
-              title: Text('Traveller — 2 $ / mois'),
+              title: Text('Traveller — 2 \$ / mois'),
               subtitle: Text('Merci pour ton soutien. L’accès à l’application reste gratuit.'),
             ),
             const ListTile(
               contentPadding: EdgeInsets.zero,
               leading: Icon(Icons.workspace_premium),
-              title: Text('Explorer — 5 $ / mois'),
+              title: Text('Explorer — 5 \$ / mois'),
               subtitle: Text('Accès Premium complet : événements, biographies, carte, arbre familial et bibliothèque.'),
             ),
             const ListTile(
               contentPadding: EdgeInsets.zero,
               leading: Icon(Icons.verified),
-              title: Text('Companion — 10 $ / mois'),
+              title: Text('Companion — 10 \$ / mois'),
               subtitle: Text('Les mêmes avantages Premium complets que le niveau Explorer.'),
             ),
             const SizedBox(height: 12),

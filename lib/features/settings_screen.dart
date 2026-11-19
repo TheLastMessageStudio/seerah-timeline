@@ -117,7 +117,7 @@ class SettingsScreen extends StatelessWidget {
           const SizedBox(height: 8),
           Text(tr('principles_text')),
           const SizedBox(height: 16),
-          Center(child: Text('${tr('app_name')} · ${tr('version', {'v': '0.9.5'})}', style: tt.bodySmall)),
+          Center(child: Text('${tr('app_name')} · ${tr('version', {'v': '0.9.6'})}', style: tt.bodySmall)),
         ]),
       ),
     );

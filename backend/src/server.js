@@ -108,37 +108,107 @@ app.get('/health', (_req, res) => res.json({ ok: true, service: 'seerah-patreon-
 app.get('/v1/patreon/tiers', (_req, res) => res.json({ tiers: Object.entries(allowedTiers).map(([name, t]) => ({ name, amount_cents: t.amount_cents, code: t.code, label: t.label, premium: true })) }));
 app.post('/v1/patreon/oauth/start', async (req, res) => {
   try {
-    const { installation_id: installationId } = req.body || {};
+    const { installation_id: installationId, poll_secret: pollSecret } = req.body || {};
     if (!/^[0-9a-f-]{36}$/i.test(installationId || '')) return res.status(400).json({ error: 'invalid_installation_id' });
+    if (pollSecret !== undefined && (typeof pollSecret !== 'string' || pollSecret.length < 32 || pollSecret.length > 128)) {
+      return res.status(400).json({ error: 'invalid_poll_secret' });
+    }
+    // Nettoyage opportuniste des anciennes tentatives.
+    await pool.query("DELETE FROM oauth_states WHERE expires_at < NOW() - INTERVAL '1 day'");
     const state = crypto.randomBytes(32).toString('base64url');
-    await pool.query('INSERT INTO oauth_states(state_hash,installation_id,expires_at) VALUES($1,$2,NOW()+INTERVAL \'10 minutes\')', [hash(state), installationId]);
+    await pool.query('INSERT INTO oauth_states(state_hash,installation_id,poll_hash,expires_at) VALUES($1,$2,$3,NOW()+INTERVAL \'20 minutes\')', [hash(state), installationId, pollSecret ? hash(pollSecret) : null]);
     const url = new URL('https://www.patreon.com/oauth2/authorize');
     url.search = new URLSearchParams({ response_type: 'code', client_id: required('PATREON_CLIENT_ID'), redirect_uri: required('PATREON_REDIRECT_URI'), scope: 'identity identity.memberships campaigns', state }).toString();
     res.json({ authorization_url: url.toString() });
-  } catch (e) {
-  console.error('OAuth start failed:', e);
-  res.status(500).json({ error: 'oauth_start_failed' });
-}
+  } catch (e) { console.error('OAuth start failed', e); res.status(500).json({ error: 'oauth_start_failed' }); }
 });
+// Page affichée dans le navigateur à la fin de l'autorisation.
+// On n'utilise plus une redirection 302 directe vers seerahtimeline:// : les navigateurs
+// (Chrome Android notamment) la bloquent souvent sans rien afficher, l'utilisateur reste
+// sur la page Patreon, reclique sur « Autoriser » et tombe sur « Session expirée ».
+function resultPage(res, status, { title, message, appUrl = null }) {
+  const button = appUrl
+    ? `<a class="btn" href="${appUrl}">Retourner dans Seerah Timeline</a>`
+    : '';
+  const refresh = appUrl ? `<meta http-equiv="refresh" content="0;url=${appUrl}">` : '';
+  res.status(status).set('Cache-Control', 'no-store').type('html').send(`<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">${refresh}
+<title>${title}</title>
+<style>
+body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#F4EBD8;font-family:system-ui,-apple-system,sans-serif;color:#1d2a24}
+.card{max-width:420px;margin:24px;padding:32px 28px;background:#FBF7ED;border:1px solid #d9c9a3;border-radius:20px;text-align:center;box-shadow:0 10px 30px rgba(18,75,54,.12)}
+h1{font-family:Georgia,serif;color:#124B36;font-size:22px;margin:0 0 12px}
+p{line-height:1.55;margin:0 0 22px}
+.btn{display:inline-block;background:#124B36;color:#fff;text-decoration:none;font-weight:700;padding:14px 22px;border-radius:14px}
+small{display:block;margin-top:18px;color:#6b6252}
+</style></head><body><div class="card"><h1>${title}</h1><p>${message}</p>${button}
+<small>Tu peux aussi simplement revenir dans l’application : la connexion y sera détectée automatiquement.</small></div></body></html>`);
+}
+
 app.get('/v1/patreon/oauth/callback', async (req, res) => {
+  let stateHash = null;
   try {
     const { code, state, error: oauthError } = req.query;
-    if (oauthError) return res.status(400).send('Autorisation Patreon refusée. Tu peux revenir dans l’application et réessayer.');
-    if (!code || !state) return res.status(400).send('Connexion Patreon invalide. Tu peux fermer cette page.');
-    const stateResult = await pool.query('DELETE FROM oauth_states WHERE state_hash=$1 AND expires_at>NOW() RETURNING installation_id', [hash(String(state))]);
-    if (!stateResult.rowCount) return res.status(400).send('Session expirée. Retourne dans Seerah Timeline et recommence.');
+    if (oauthError) return resultPage(res, 400, { title: 'Autorisation refusée', message: 'Tu as refusé l’accès sur Patreon. Reviens dans l’application pour réessayer.' });
+    if (!code || !state) return resultPage(res, 400, { title: 'Lien invalide', message: 'Cette page de connexion est incomplète. Relance la connexion depuis l’application.' });
+    stateHash = hash(String(state));
+    // On marque l'état comme utilisé au lieu de le supprimer : un deuxième clic sur
+    // « Autoriser » doit afficher un message clair, pas « Session expirée ».
+    const stateResult = await pool.query('UPDATE oauth_states SET consumed_at=NOW() WHERE state_hash=$1 AND expires_at>NOW() AND consumed_at IS NULL RETURNING installation_id', [stateHash]);
+    if (!stateResult.rowCount) {
+      const existing = await pool.query('SELECT completed_at, failed_at FROM oauth_states WHERE state_hash=$1', [stateHash]);
+      const row = existing.rows[0];
+      if (row?.completed_at) return resultPage(res, 200, { title: 'Compte Patreon connecté', message: 'La connexion a déjà été validée. Retourne dans Seerah Timeline.', appUrl: 'seerahtimeline://patreon/callback?status=done' });
+      if (row && !row.failed_at) return resultPage(res, 200, { title: 'Connexion en cours…', message: 'Ta première autorisation est en cours de traitement. Retourne dans l’application, ton accès va s’afficher.' , appUrl: 'seerahtimeline://patreon/callback?status=pending' });
+      return resultPage(res, 400, { title: 'Session expirée', message: 'Cette tentative de connexion n’est plus valable. Retourne dans Seerah Timeline et relance la connexion.' });
+    }
     const installationId = stateResult.rows[0].installation_id;
     const tokens = await tokenRequest({ grant_type: 'authorization_code', code: String(code), client_id: required('PATREON_CLIENT_ID'), client_secret: required('PATREON_CLIENT_SECRET'), redirect_uri: required('PATREON_REDIRECT_URI') });
     const membership = await loadMembership(tokens.access_token);
-    if (!membership.userId) return res.status(400).send('Patreon n’a pas retourné de profil valide.');
+    if (!membership.userId) throw new Error('Patreon returned no user profile');
     const expiresAt = new Date(Date.now() + Number(tokens.expires_in || 0) * 1000);
     await pool.query(`INSERT INTO patreon_links(installation_id,patreon_user_id,patreon_member_id,access_token_enc,refresh_token_enc,token_expires_at,is_connected,is_premium,tier_id,tier_code,tier_name,entitlements,patron_status,last_charge_status,last_verified_at)
       VALUES($1,$2,$3,$4,$5,$6,TRUE,$7,$8,$9,$10,$11,$12,$13,NOW())
       ON CONFLICT(installation_id) DO UPDATE SET patreon_user_id=EXCLUDED.patreon_user_id,patreon_member_id=EXCLUDED.patreon_member_id,access_token_enc=EXCLUDED.access_token_enc,refresh_token_enc=EXCLUDED.refresh_token_enc,token_expires_at=EXCLUDED.token_expires_at,is_connected=TRUE,is_premium=EXCLUDED.is_premium,tier_id=EXCLUDED.tier_id,tier_code=EXCLUDED.tier_code,tier_name=EXCLUDED.tier_name,entitlements=EXCLUDED.entitlements,patron_status=EXCLUDED.patron_status,last_charge_status=EXCLUDED.last_charge_status,last_verified_at=NOW(),updated_at=NOW()`, [installationId, membership.userId, membership.memberId, encrypt(tokens.access_token), tokens.refresh_token ? encrypt(tokens.refresh_token) : null, expiresAt, membership.premium, membership.tierId, membership.tierCode, membership.tierName, JSON.stringify(membership.entitlements), membership.patronStatus, membership.lastChargeStatus]);
     const oneTime = crypto.randomBytes(32).toString('base64url');
-    await pool.query('INSERT INTO app_sessions(code_hash,installation_id,expires_at) VALUES($1,$2,NOW()+INTERVAL \'2 minutes\')', [hash(oneTime), installationId]);
-    res.redirect(`seerahtimeline://patreon/callback?code=${encodeURIComponent(oneTime)}`);
-  } catch (e) { console.error('OAuth callback failed', e); res.status(500).send('La connexion Patreon a échoué. Retourne dans l’application et réessaie.'); }
+    await pool.query('INSERT INTO app_sessions(code_hash,installation_id,expires_at) VALUES($1,$2,NOW()+INTERVAL \'10 minutes\')', [hash(oneTime), installationId]);
+    await pool.query('UPDATE oauth_states SET completed_at=NOW() WHERE state_hash=$1', [stateHash]);
+    return resultPage(res, 200, {
+      title: 'Compte Patreon connecté ✓',
+      message: membership.premium ? 'Ton soutien a bien été vérifié. Retourne dans Seerah Timeline pour profiter de ton accès.' : 'Ton compte est relié. Aucun niveau Premium n’a été détecté pour l’instant ; tu pourras vérifier ton abonnement dans l’application.',
+      appUrl: `seerahtimeline://patreon/callback?code=${encodeURIComponent(oneTime)}`,
+    });
+  } catch (e) {
+    console.error('OAuth callback failed', e);
+    if (stateHash) await pool.query('UPDATE oauth_states SET failed_at=NOW() WHERE state_hash=$1', [stateHash]).catch(() => {});
+    return resultPage(res, 500, { title: 'La connexion a échoué', message: 'Patreon n’a pas pu confirmer ton compte. Retourne dans l’application et réessaie.' });
+  }
+});
+
+// Solution de secours sans deep link : l'app interroge le serveur avec un secret
+// qu'elle seule connaît (envoyé haché au démarrage du flux).
+app.post('/v1/patreon/oauth/poll', async (req, res) => {
+  try {
+    const { installation_id: installationId, poll_secret: pollSecret } = req.body || {};
+    if (typeof installationId !== 'string' || !/^[0-9a-f-]{36}$/i.test(installationId) ||
+        typeof pollSecret !== 'string' || pollSecret.length < 32 || pollSecret.length > 128) {
+      return res.status(400).json({ error: 'invalid_poll_request' });
+    }
+    const result = await pool.query('SELECT state_hash, completed_at, failed_at, delivered_at, expires_at FROM oauth_states WHERE poll_hash=$1 AND installation_id=$2', [hash(pollSecret), installationId]);
+    const row = result.rows[0];
+    if (!row) return res.status(404).json({ status: 'unknown' });
+    if (row.failed_at) return res.json({ status: 'failed' });
+    if (!row.completed_at) {
+      // 30 min de marge : la connexion à Patreon (mot de passe, 2FA…) peut être longue.
+      return res.json({ status: new Date(row.expires_at).getTime() + 10 * 60_000 < Date.now() ? 'expired' : 'pending' });
+    }
+    const delivered = await pool.query('UPDATE oauth_states SET delivered_at=NOW() WHERE state_hash=$1 AND delivered_at IS NULL RETURNING state_hash', [row.state_hash]);
+    if (!delivered.rowCount) return res.json({ status: 'already_delivered' });
+    return res.json({ status: 'done', session_token: issueSession(installationId) });
+  } catch (e) {
+    console.error('OAuth poll failed', e);
+    return res.status(500).json({ error: 'oauth_poll_failed' });
+  }
 });
 app.post('/v1/patreon/oauth/exchange', async (req, res) => {
   try {

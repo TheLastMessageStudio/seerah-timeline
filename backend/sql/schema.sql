@@ -1,9 +1,15 @@
 CREATE TABLE IF NOT EXISTS oauth_states (
   state_hash TEXT PRIMARY KEY,
   installation_id UUID NOT NULL,
+  poll_hash TEXT,
   expires_at TIMESTAMPTZ NOT NULL,
+  consumed_at TIMESTAMPTZ,
+  completed_at TIMESTAMPTZ,
+  failed_at TIMESTAMPTZ,
+  delivered_at TIMESTAMPTZ,
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
+CREATE UNIQUE INDEX IF NOT EXISTS oauth_states_poll_idx ON oauth_states(poll_hash) WHERE poll_hash IS NOT NULL;
 CREATE TABLE IF NOT EXISTS app_sessions (
   code_hash TEXT PRIMARY KEY,
   installation_id UUID NOT NULL,

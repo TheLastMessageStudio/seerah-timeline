@@ -31,6 +31,8 @@ Dans le dictionnaire principal, ajoutez `CFBundleURLTypes` (fusionnez avec une e
 </array>
 ```
 
+> Raccourci Android : après `flutter create . --platforms=android`, lance `python tools/add_patreon_deep_link.py`.
+
 ## Build Flutter
 
 Fournir l'URL publique du backend au build :
