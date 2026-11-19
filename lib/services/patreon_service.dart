@@ -272,6 +272,26 @@ class PatreonService extends ChangeNotifier with WidgetsBindingObserver {
   // Statut
   // ---------------------------------------------------------------------------
 
+  /// Vérification déclenchée par un bouton : indicateur de chargement + message de résultat.
+  Future<String> checkSubscription() async {
+    if (awaitingAuthorization) {
+      await checkPendingNow();
+      return premium ? 'Accès Premium activé ✓' : (error ?? 'En attente de la validation Patreon.');
+    }
+    if (_sessionToken == null) return 'Aucun compte Patreon connecté. Appuie sur « Connecter mon compte Patreon ».';
+    busy = true;
+    notifyListeners();
+    try {
+      await refreshStatus();
+    } finally {
+      busy = false;
+      notifyListeners();
+    }
+    if (error != null) return error!;
+    if (premium) return 'Accès Premium actif${tierName != null ? ' : $tierName' : ''} ✓';
+    return 'Vérifié : aucun niveau Premium (Explorer ou Companion) actif sur ce compte Patreon.';
+  }
+
   Future<void> refreshStatus() async {
     if (_sessionToken == null || !configured) return;
     try {

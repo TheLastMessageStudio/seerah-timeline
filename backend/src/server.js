@@ -11,6 +11,10 @@ const pool = new Pool({ connectionString: process.env.DATABASE_URL, ssl: process
 const PORT = Number(process.env.PORT || 8080);
 const API = 'https://www.patreon.com/api/oauth2/v2';
 const allowedTiers = JSON.parse(process.env.PATREON_ALLOWED_TIERS || '{}');
+// Le créateur ne peut pas être membre de sa propre campagne : il reçoit donc tous les droits
+// configurés. PATREON_ADMIN_USER_IDS (IDs Patreon séparés par des virgules) permet d'ajouter des testeurs.
+const adminUserIds = new Set((process.env.PATREON_ADMIN_USER_IDS || '').split(',').map(x => x.trim()).filter(Boolean));
+const allEntitlements = [...new Set(Object.values(allowedTiers).flatMap(t => t.entitlements || []))];
 app.use(helmet());
 app.use('/v1', (req, res, next) => {
   // Basic per-process throttling; put a shared proxy/WAF rate limit in front in production.
@@ -63,7 +67,7 @@ async function freshTokens(link) {
 async function loadMembership(accessToken) {
   // Patreon API v2 requires nested includes and explicit fields for related resources.
   const query = new URLSearchParams({
-    include: 'memberships.campaign,memberships.currently_entitled_tiers',
+    include: 'memberships.campaign,memberships.currently_entitled_tiers,campaign',
     'fields[user]': 'full_name',
     'fields[member]': 'patron_status,last_charge_status,last_charge_date,currently_entitled_amount_cents',
     'fields[tier]': 'title,amount_cents',
@@ -72,7 +76,7 @@ async function loadMembership(accessToken) {
   const user = identity.data;
   const included = identity.included || [];
   const members = included.filter(x => x.type === 'member');
-  const selected = members.find(m => m.relationships?.campaign?.data?.id === required('PATREON_CAMPAIGN_ID')) || null;
+  const selected = members.find(m => String(m.relationships?.campaign?.data?.id) === String(required('PATREON_CAMPAIGN_ID'))) || null;
   const entitled = selected?.relationships?.currently_entitled_tiers?.data || [];
   const tiersById = new Map(included.filter(x => x.type === 'tier').map(x => [String(x.id), x]));
   const eligible = entitled.map(ref => {
@@ -84,6 +88,24 @@ async function loadMembership(accessToken) {
     return rule && amount === Number(rule.amount_cents) ? { id: String(ref.id), title, rule } : null;
   }).filter(Boolean).sort((a, b) => Number(b.rule.rank || 0) - Number(a.rule.rank || 0));
   const chosen = eligible[0] || null;
+  const campaignId = required('PATREON_CAMPAIGN_ID');
+  const ownedCampaignId = user?.relationships?.campaign?.data?.id ? String(user.relationships.campaign.data.id) : null;
+  const isCreator = ownedCampaignId === String(campaignId);
+  const isAdmin = isCreator || adminUserIds.has(String(user?.id));
+  if (ownedCampaignId && !isCreator) {
+    // Aide au diagnostic : si c'est ton propre compte, cette valeur est ton PATREON_CAMPAIGN_ID.
+    console.warn(`Patreon user ${user?.id} owns campaign ${ownedCampaignId}, configured PATREON_CAMPAIGN_ID is ${campaignId}`);
+  }
+  if (isAdmin) {
+    return {
+      userId: user?.id, memberId: selected?.id || null,
+      tierId: null, tierCode: isCreator ? 'creator' : 'admin',
+      tierName: isCreator ? 'Créateur (accès complet)' : 'Testeur (accès complet)',
+      entitlements: allEntitlements, premium: true,
+      patronStatus: selected?.attributes?.patron_status || null,
+      lastChargeStatus: selected?.attributes?.last_charge_status || null, validUntil: null,
+    };
+  }
   const memberStatus = selected?.attributes?.patron_status || null;
   const chargeStatus = selected?.attributes?.last_charge_status || null;
   const active = memberStatus === 'active_patron' && Boolean(chosen);

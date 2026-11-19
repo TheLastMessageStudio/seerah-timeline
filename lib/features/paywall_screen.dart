@@ -1,6 +1,18 @@
 import 'package:flutter/material.dart';
 import '../state/app_state.dart';
 
+Future<void> _check(BuildContext context, AppState state) async {
+  final message = await state.patreon.checkSubscription();
+  if (!context.mounted) return;
+  ScaffoldMessenger.of(context)
+    ..hideCurrentSnackBar()
+    ..showSnackBar(SnackBar(content: Text(message)));
+}
+
+Widget _busyIcon(bool busy, IconData icon) => busy
+    ? const SizedBox(width: 18, height: 18, child: CircularProgressIndicator(strokeWidth: 2))
+    : Icon(icon);
+
 class PaywallScreen extends StatelessWidget {
   final AppState state;
   const PaywallScreen({super.key, required this.state});
@@ -25,7 +37,7 @@ class PaywallScreen extends StatelessWidget {
                 const SizedBox(height: 8),
                 const Text('Ce niveau ne comprend pas nécessairement tous les contenus. Pour changer de niveau, rends-toi sur ta page Patreon depuis ton navigateur.', textAlign: TextAlign.center),
                 const SizedBox(height: 16),
-                TextButton(onPressed: patreon.refreshStatus, child: const Text('Actualiser mes droits')),
+                TextButton.icon(onPressed: patreon.busy ? null : () => _check(context, state), icon: _busyIcon(patreon.busy, Icons.refresh), label: const Text('Actualiser mes droits')),
                 TextButton(onPressed: () => Navigator.pop(context), child: const Text('Retour')),
               ]),
             ));
@@ -44,7 +56,7 @@ class PaywallScreen extends StatelessWidget {
                 ),
                 const SizedBox(height: 20),
                 FilledButton.icon(
-                  onPressed: patreon.busy ? null : patreon.checkPendingNow,
+                  onPressed: patreon.busy ? null : () => _check(context, state),
                   icon: const Icon(Icons.check_circle_outline),
                   label: const Text('J’ai autorisé, vérifier'),
                 ),
@@ -71,7 +83,20 @@ class PaywallScreen extends StatelessWidget {
                 const SizedBox(height: 8),
                 const Text('Aucun niveau payant éligible n’a été détecté pour cette campagne. Vérifie ton abonnement ou consulte les niveaux disponibles.', textAlign: TextAlign.center),
                 const SizedBox(height: 16),
-                FilledButton(onPressed: patreon.refreshStatus, child: const Text('Vérifier mon abonnement')),
+                FilledButton.icon(
+                  onPressed: patreon.busy ? null : () => _check(context, state),
+                  icon: _busyIcon(patreon.busy, Icons.refresh),
+                  label: const Text('Vérifier mon abonnement'),
+                ),
+                const SizedBox(height: 8),
+                TextButton(
+                  onPressed: patreon.busy ? null : patreon.disconnect,
+                  child: const Text('Utiliser un autre compte Patreon'),
+                ),
+                if (patreon.error != null) ...[
+                  const SizedBox(height: 8),
+                  Text(patreon.error!, style: TextStyle(color: theme.colorScheme.error), textAlign: TextAlign.center),
+                ],
               ]),
             ));
           }
@@ -114,7 +139,7 @@ class PaywallScreen extends StatelessWidget {
             ),
             const SizedBox(height: 12),
             OutlinedButton.icon(
-              onPressed: patreon.busy ? null : patreon.refreshStatus,
+              onPressed: patreon.busy ? null : () => _check(context, state),
               icon: const Icon(Icons.refresh),
               label: const Text('Vérifier mon abonnement'),
             ),
