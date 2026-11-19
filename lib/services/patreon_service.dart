@@ -327,6 +327,18 @@ class PatreonService extends ChangeNotifier with WidgetsBindingObserver {
     notifyListeners();
   }
 
+  /// Ouvre patreon.com dans le navigateur (pour s'y déconnecter avant de changer de compte).
+  Future<void> openPatreonWebsite() async {
+    await launchUrl(Uri.parse('https://www.patreon.com/home'), mode: LaunchMode.externalApplication);
+  }
+
+  /// Délie le compte actuel puis relance la connexion. Patreon utilise le compte ouvert
+  /// dans le navigateur : l'utilisateur doit s'y être déconnecté pour en choisir un autre.
+  Future<void> switchAccount() async {
+    await disconnect();
+    await connect();
+  }
+
   Future<void> disconnect() async {
     try {
       if (_sessionToken != null && configured) {

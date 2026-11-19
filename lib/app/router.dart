@@ -22,6 +22,17 @@ GoRouter buildRouter(AppState s) {
       );
 
   return GoRouter(
+    // Le lien seerahtimeline://patreon/callback est traité par PatreonService (app_links).
+    // Si Flutter le transmet quand même au routeur, on reste sur l'accueil au lieu
+    // d'afficher « Page Not Found ».
+    redirect: (c, st) {
+      final uri = st.uri;
+      if (uri.scheme == 'seerahtimeline' || uri.host == 'patreon' || uri.path.startsWith('/callback')) {
+        return '/';
+      }
+      return null;
+    },
+    errorBuilder: (c, st) => missing(),
     routes: [
       GoRoute(
         path: '/',

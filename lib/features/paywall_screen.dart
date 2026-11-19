@@ -9,6 +9,36 @@ Future<void> _check(BuildContext context, AppState state) async {
     ..showSnackBar(SnackBar(content: Text(message)));
 }
 
+Future<void> _connect(BuildContext context, AppState state) async {
+  await state.patreon.connect();
+  final error = state.patreon.error;
+  if (error == null || !context.mounted) return;
+  ScaffoldMessenger.of(context)
+    ..hideCurrentSnackBar()
+    ..showSnackBar(SnackBar(content: Text(error), duration: const Duration(seconds: 6)));
+}
+
+Future<void> _switchAccount(BuildContext context, AppState state) async {
+  final ok = await showDialog<bool>(
+    context: context,
+    builder: (c) => AlertDialog(
+      title: const Text('Changer de compte Patreon'),
+      content: const Text(
+        'Patreon utilise automatiquement le compte déjà ouvert dans ton navigateur.\n\n'
+        '1. Appuie sur « Ouvrir Patreon » et déconnecte-toi (photo de profil → Se déconnecter).\n'
+        '2. Reviens ici et appuie sur « Continuer » : Patreon te demandera alors avec quel compte te connecter.',
+      ),
+      actions: [
+        TextButton(onPressed: () => Navigator.pop(c, false), child: const Text('Annuler')),
+        TextButton(onPressed: state.patreon.openPatreonWebsite, child: const Text('Ouvrir Patreon')),
+        FilledButton(onPressed: () => Navigator.pop(c, true), child: const Text('Continuer')),
+      ],
+    ),
+  );
+  if (ok != true || !context.mounted) return;
+  await state.patreon.switchAccount();
+}
+
 Widget _busyIcon(bool busy, IconData icon) => busy
     ? const SizedBox(width: 18, height: 18, child: CircularProgressIndicator(strokeWidth: 2))
     : Icon(icon);
@@ -38,7 +68,17 @@ class PaywallScreen extends StatelessWidget {
                 const Text('Ce niveau ne comprend pas nécessairement tous les contenus. Pour changer de niveau, rends-toi sur ta page Patreon depuis ton navigateur.', textAlign: TextAlign.center),
                 const SizedBox(height: 16),
                 TextButton.icon(onPressed: patreon.busy ? null : () => _check(context, state), icon: _busyIcon(patreon.busy, Icons.refresh), label: const Text('Actualiser mes droits')),
-                TextButton(onPressed: () => Navigator.pop(context), child: const Text('Retour')),
+                TextButton.icon(
+                  onPressed: patreon.busy ? null : () => _switchAccount(context, state),
+                  icon: const Icon(Icons.swap_horiz),
+                  label: const Text('Changer de compte Patreon'),
+                ),
+                TextButton.icon(
+                  onPressed: patreon.busy ? null : patreon.disconnect,
+                  icon: const Icon(Icons.logout),
+                  label: const Text('Se déconnecter de Patreon'),
+                ),
+                TextButton(onPressed: () => Navigator.maybePop(context), child: const Text('Retour')),
               ]),
             ));
           }
@@ -62,7 +102,7 @@ class PaywallScreen extends StatelessWidget {
                 ),
                 const SizedBox(height: 8),
                 TextButton(
-                  onPressed: patreon.busy ? null : patreon.connect,
+                  onPressed: patreon.busy ? null : () => _connect(context, state),
                   child: const Text('Rouvrir la page Patreon'),
                 ),
                 TextButton(onPressed: patreon.cancelPending, child: const Text('Annuler')),
@@ -89,9 +129,15 @@ class PaywallScreen extends StatelessWidget {
                   label: const Text('Vérifier mon abonnement'),
                 ),
                 const SizedBox(height: 8),
-                TextButton(
+                TextButton.icon(
+                  onPressed: patreon.busy ? null : () => _switchAccount(context, state),
+                  icon: const Icon(Icons.swap_horiz),
+                  label: const Text('Changer de compte Patreon'),
+                ),
+                TextButton.icon(
                   onPressed: patreon.busy ? null : patreon.disconnect,
-                  child: const Text('Utiliser un autre compte Patreon'),
+                  icon: const Icon(Icons.logout),
+                  label: const Text('Se déconnecter de Patreon'),
                 ),
                 if (patreon.error != null) ...[
                   const SizedBox(height: 8),
@@ -131,7 +177,7 @@ class PaywallScreen extends StatelessWidget {
             Text('Connecte le compte Patreon qui soutient Seerah Timeline. Le paiement et la gestion de l’abonnement se font sur Patreon, pas dans l’application.', style: theme.textTheme.bodySmall),
             const SizedBox(height: 16),
             FilledButton.icon(
-              onPressed: patreon.busy ? null : patreon.connect,
+              onPressed: patreon.busy ? null : () => _connect(context, state),
               icon: patreon.busy
                   ? const SizedBox(width: 18, height: 18, child: CircularProgressIndicator(strokeWidth: 2))
                   : const Icon(Icons.favorite),

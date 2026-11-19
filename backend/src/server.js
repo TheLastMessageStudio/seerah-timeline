@@ -14,7 +14,10 @@ const allowedTiers = JSON.parse(process.env.PATREON_ALLOWED_TIERS || '{}');
 // Le créateur ne peut pas être membre de sa propre campagne : il reçoit donc tous les droits
 // configurés. PATREON_ADMIN_USER_IDS (IDs Patreon séparés par des virgules) permet d'ajouter des testeurs.
 const adminUserIds = new Set((process.env.PATREON_ADMIN_USER_IDS || '').split(',').map(x => x.trim()).filter(Boolean));
-const allEntitlements = [...new Set(Object.values(allowedTiers).flatMap(t => t.entitlements || []))];
+// Tous les droits connus de l'app, même si PATREON_ALLOWED_TIERS est vide ou incomplet.
+const APP_ENTITLEMENTS = ['events', 'biographies', 'map', 'family_tree', 'library'];
+const allEntitlements = [...new Set([...APP_ENTITLEMENTS, ...Object.values(allowedTiers).flatMap(t => t.entitlements || [])])];
+if (!Object.keys(allowedTiers).length) console.warn('PATREON_ALLOWED_TIERS est vide : aucun membre payant ne recevra de droits Premium.');
 app.use(helmet());
 app.use('/v1', (req, res, next) => {
   // Basic per-process throttling; put a shared proxy/WAF rate limit in front in production.

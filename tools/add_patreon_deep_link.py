@@ -53,6 +53,16 @@ def main() -> int:
         changed = True
         print("✓ Déclaration <queries> https ajoutée (url_launcher, Android 11+).")
 
+    # Le deep link doit être lu par app_links uniquement, pas par le routeur Flutter
+    # (sinon : « GoException: no routes for location: seerahtimeline://patreon/callback »).
+    if "flutter_deeplinking_enabled" not in text:
+        start = text.find('android:name=".MainActivity"')
+        end = text.find("</activity>", start)
+        meta = '<meta-data android:name="flutter_deeplinking_enabled" android:value="false" />\n'
+        text = text[:end] + "    " + meta + "        " + text[end:]
+        changed = True
+        print("✓ Routage Flutter des deep links désactivé (app_links s'en charge).")
+
     if changed:
         MANIFEST.write_text(text, encoding="utf-8")
     return 0
